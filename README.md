@@ -92,6 +92,11 @@ This is very clear when the cutoff is moved to an unreasonable ±5.
 
 Therefore, ref2015 is indeed the better scorefunction for Venus.
 
+These problematic outliers are not only proline mutations, so nothing needs to be altered to address this.
+
+![not pro](images/discr_lollypop_ref2015.png)
+
+
 ## Summary
 
 Setting the C&beta; neighbourhood to a 12 Å (default was 8 Å and before that via PyMOL neighbourhood, which was a bad idea in hindsight)
