@@ -242,6 +242,7 @@ from michelanglo_protein import Structure
 import time, pymol2
 
 def check_sequence(protein):
+    # The residue numbers are PDB residue numbers, but one can never be too careful.
     with pymol2.PyMOL() as pymol:
         pymol.cmd.read_pdbstr(protein.pdbblock, 'xxx')
         atom = pymol.cmd.get_model(f'resi {protein.mutation.residue_index} and name CA').atom
@@ -301,18 +302,6 @@ def analyse_row(row):
                                 **analyse(protein, radius = radius, scorefxn_name = scorefxn_name)}
     except Exception as error:
         print(error.__class__.__name__, str(error))
-```
-
-
-```python
-import logging, sys
-
-log = logging.getLogger()
-handler = logging.StreamHandler(sys.stdout)
-handler.setLevel(logging.INFO)
-handler.set_name('stdout')
-handler.setFormatter(logging.Formatter('[%(asctime)s] %(levelname)s - %(message)s'))
-log.addHandler(handler)
 ```
 
 
