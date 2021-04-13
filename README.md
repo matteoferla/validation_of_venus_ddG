@@ -90,4 +90,14 @@ This is very clear when the cutoff is moved to an unreasonable ±5.
 |  2 | beta_nov16      |    0.4 |   2.7 |      0.6 |   3.6 |   -0.5 |        0.1 |
 |  3 | beta_nov16_cart |   -0.3 |   3   |      0.1 |   4.2 |   -0.4 |       -0.3 |
 
-Therefore, ref2015 is indeed the better scorefunction.
+Therefore, ref2015 is indeed the better scorefunction for Venus.
+
+## Summary
+
+Setting the C&beta; neighbourhood to a 12 Å (default was 8 Å and before that via PyMOL neighbourhood, which was a bad idea in hindsight)
+takes on average 21.1 s with the default scorefunction (ref2015) and encompasses on average 26.6 neighbouring residues.
+
+The ref2015 scorefunction gives on average scores +0.6 kcal/mol that the empirical values, 
+but this is driven by strongly destabilitizing and stabilising mutations and their exclusion removes this.
+The cartesian modality, seems better with the beta_nov16 weight set, and better addresses the scores in the highly disruptive variants,
+ but is very much slower.
