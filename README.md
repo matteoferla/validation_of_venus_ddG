@@ -23,7 +23,7 @@ In the Rosetta database folder there are two scorefunction derived from this pap
 where `beta_nov15`, became `ref2015` and is further described in [Alford et al. 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5717763/).
 However, there is also `beta_nov16`, which is labelled as "parameter refitting (Frank DiMaio and Hahnbeom Park), November 2016".
 This appears to the last one added. But I cannot figure out if it is better as a general scorefunction.
-Hence it's addition to the tests.
+Hence it's addition to the tests. For more about scorefunction choice see [scorefunction notes](scorefunction.md).
 
 ## Time
 
