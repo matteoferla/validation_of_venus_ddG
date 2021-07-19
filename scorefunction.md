@@ -76,7 +76,7 @@ I get the following:
 * `hydrate_score12` To use this energy function with the defaults for which it was optimized, the option -restore_pre_talaris_2013_behavior must be passed. -  - Reoptimized for the Hydrate/SPaDES protocol which introduces new scoring terms
 * `interchain_cen` 
 * `interface` 
-* `latest_greatest` 
+* `latest_greatest` This is actually a Talaris13 derived scorefunction... so defo not latest
 * `ligand` 
 * `ligand_gen_born` 
 * `ligand_soft_rep` 
