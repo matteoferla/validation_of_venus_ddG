@@ -242,3 +242,102 @@ print(ww.compare(['score12', 'talaris2013', 'talaris2014', 'ref2015', 'correctio
 | beta_nov16             |      1   |     0.55 |   1      |          0     |        1.25 |      0    |         1     |          1    |          1    |        1   |             0 |             0 |             0 |             0 |   0    |   0.48  |     0    |      0.61 |     1 |  2.3386   |  -1.281   | -0.873554 |  -2.2837  |  3.2718   |  -1.0644  |  -2.5358  |  1.2108   |  0.134426 |  1.0317   |  0.729516 | -1.6738   |  1.2334   |   1.4028  | -5.1227   | -1.1772   |  -1.425   |   3.035   |  0.964136 |  2.085    |     1     |        1.25 |           0     |                1      |             0 |          0.5  |                     1 |                  0.55 |        0.69  |         0.76 |          0.78 |      0.92 |         -0.38 |            -0.33 |                  -0.33 |               1 |          1 |
 
 Regarding `beta_nov16`, it seems to be a progression of the `beta` series. So is intriguing.
+
+For the full list of weights in tabular format see [weights.csv](data/weights.csv), which was generated via:
+
+```python
+import re
+from pyrosetta_help import WeightWatcher
+ww = WeightWatcher()
+
+data = []
+residue_order = ['ref_ALA',  # single letter alphabetical
+                 'ref_CYS',
+                 'ref_ASP',
+                 'ref_GLU',
+                 'ref_PHE',
+                 'ref_GLY',
+                 'ref_HIS',
+                 'ref_ILE',
+                 'ref_LYS',
+                 'ref_LEU',
+                 'ref_MET',
+                 'ref_ASN',
+                 'ref_PRO',
+                 'ref_GLN',
+                 'ref_ARG',
+                 'ref_SER',
+                 'ref_THR',
+                 'ref_VAL',
+                 'ref_TRP',
+                 'ref_TYR']
+for name in ww.possible_scorefxn_names:
+    block = ww.get_scorefxn_block(name)
+    years_mentioned = sorted(set(re.findall(r'(?<=\D)20\d\d(?=\D)', block)))
+    datum = dict(name=name,
+                 comments = '',
+                 max_year_mentioned = max(years_mentioned) if len(years_mentioned) else float('nan')
+                )
+    for line in block.split('\n'):
+        line = line.strip()
+        rex1 = re.match(r'(\w+)\s+([\.\d]+)', line)
+        rex2 = re.match(r'(\w+)\s+(.*)', line)
+        if not line:
+            continue
+        elif line[0] == '#':
+            datum['comments'] += line.replace('#', '').strip()+'\n'
+        elif 'METHOD_WEIGHTS ref ' in line:
+            datum = {**datum, **dict( zip(residue_order, line.split()[2:]) )}
+        elif rex1:
+            datum[rex1.group(1)] = float(rex1.group(2))
+        elif rex2:
+            datum[rex2.group(1)] = rex2.group(2)
+        elif ' ' in line:
+            print(line)
+            raise Exception
+        else:
+            datum[line] = True
+    # end loop per line
+    data.append(datum)
+# end loop per name
+
+import pandas as pd
+weights = pd.DataFrame(data)
+
+def get_derivation(row):
+    if str(row['fa_sol']) == 'nan':
+        return 'rosetta++'
+    elif row['fa_sol'] == 0.6500:
+        return 'score12'
+    elif row['fa_sol'] == 0.7500:
+        return 'talaris2013'
+    elif row['fa_sol'] == 0.9375:
+        return 'talaris2014'
+    elif row['fa_sol'] != 1.0000:
+        print(row['name'], row['fa_sol'], row['fa_atr'], row['fa_rep'])
+        return 'unknown'
+    elif row['fa_sol'] == 1.16497:
+        return 'mm_std'
+    elif row['fa_sol'] == 0.583958:
+        return 'orbitals'
+    else:
+        return 'ref2015'
+    
+weights['suspected_derivation'] = weights.apply(get_derivation, 1)
+
+def w2(name):
+    if 'fa_' in name:
+        return 0
+    elif 'ref_' in name:
+        return 1
+    elif '_constraint' in name:
+        return 0.5
+    elif name.upper() == name:
+        return 20
+    else:
+        return 10
+
+nice = sorted(weights.columns.values, key=w2)
+    
+weights[nice].to_csv('/Users/matteo/Coding/weights.csv')
+```
