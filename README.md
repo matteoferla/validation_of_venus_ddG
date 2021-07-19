@@ -6,18 +6,30 @@ Venus does not do a full minimisation but cheats by only minimising the neighbou
 First, the data was scored via the protein module of Michelanglo —see [scoring Jupyter notebook](scoring.md)—.
 Then it was analysed —see [analyse Jupyter notebook](analyse.md).
 
-Three axes were tested, what is the effect of:
+The dataset used the less-biased ProTherm dataset from [Frenz et al. 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7579412/).
+This provides empirical kcal/mol and residue indices as PDB residue indices —the code nevertheless checked
+that the starting residue was consistent.
+
+Three axes were tested, at first, to assess the effect of:
 
 * neighbourhood radius
 * scorefunction
 * cartesian or dihedral
 
-The dataset used the ProTherm dataset from [Frenz et al. 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7579412/).
-This provides empirical kcal/mol and residue indices as PDB residue indices —the code nevertheless checked
-that the starting residue was consistent.
+NB. that neighbourhood is written accidentally in British English in the code
+
+Additionally, silent mutation for the dataset were tasted with x3 cycles, 12 Å neighbourhood and ref2015 scorefunction.
+
+Subsequently:
+
+* scoring globally or only neighbourhood
+* constraining the boundary of the neighbourhood
+* preventing relax from outputting a worse value
+
+## Scorefunctions, radius and cartersian
 
 In [Park et al. 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5515585/) cartesian FastRelax is suggested to be better,
-LocalRelax mover (for complexes) uses cartesian space to start with. So it was tested.
+LocalRelax mover (for complexes) uses cartesian space to start with. So cartesian space was tested.
 
 In the Rosetta database folder there are two scorefunction derived from this paper and another paper, 
 where `beta_nov15`, became `ref2015` and is further described in [Alford et al. 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5717763/).
@@ -25,20 +37,20 @@ However, there is also `beta_nov16`, which is labelled as "parameter refitting (
 This appears to the last one added. But I cannot figure out if it is better as a general scorefunction.
 Hence it's addition to the tests. For more about scorefunction choice see [scorefunction notes](scorefunction.md).
 
-## Time
+### Time
 
 Time cost is an important factor for Venus.
 
 ![time_distro_full.png](images/time_distro_full.png)
 
-### Cartesian
+#### Cartesian
 
 The cartesian scorefunctions perform extremely poorly in terms of consistency.
 
 A 12 Å neighbourhood takes on average 21.1 s and has a standard deviation of 7.8 s with the ref2015 scorefunction,
 but takes 104.7 s and 118 s. This is most likely an unacceptable timeframe for user facing calculations.
 
-### Radius
+#### Radius
 
 ![time](images/time_distro_cut.png)
 
@@ -48,7 +60,7 @@ The ref2015 scorefunction takes on average 14.7 s, 17.4 s, 21.1 s for 8, 10, 12 
 
 A seven second difference is nothing to worry about.
 
-## Accuracy
+### Accuracy
 
 The ProTerm dataset contains empirical ∆∆G. So how off is the dataset?
 
@@ -97,7 +109,7 @@ These problematic outliers are not only proline mutations, so nothing needs to b
 ![not pro](images/discr_lollypop_ref2015.png)
 
 
-## Summary
+### Summary
 
 Setting the C&beta; neighbourhood to a 12 Å (default was 8 Å and before that via PyMOL neighbourhood, which was a bad idea in hindsight)
 takes on average 21.1 s with the default scorefunction (ref2015) and encompasses on average 26.6 neighbouring residues.
