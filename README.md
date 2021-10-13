@@ -3,12 +3,15 @@ Tests to assess the accuracy of Venus ddG calculations.
 
 Venus does not do a full minimisation but cheats by only minimising the neighbourhood before and after introducing the variant.
 
-First, the data was scored via the protein module of Michelanglo —see [scoring Jupyter notebook](scoring.md)—.
+The analyses were done on the cluster and not via the production webserver.
+Namely, the data was scored via the protein module of Michelanglo —see [scoring Jupyter notebook](scoring.md)—.
 Then it was analysed —see [analyse Jupyter notebook](analyse.md).
 
 The dataset used the less-biased ProTherm dataset from [Frenz et al. 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7579412/).
 This provides empirical kcal/mol and residue indices as PDB residue indices —the code nevertheless checked
 that the starting residue was consistent.
+
+THE O2567 dataset was also tested, but featured a more limited amount of structures.
 
 Three axes were tested, at first, to assess the effect of:
 
