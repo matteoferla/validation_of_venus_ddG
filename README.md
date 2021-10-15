@@ -100,7 +100,9 @@ but is tailored to use a specific scorefunction and is not suitable for ∆∆G 
 
 ## Results
 > For the analyses on the ProTherm&lowast; dataset see [O2567_analyses](O2567_analyses.md)
+
 > For the initial analyses on the ProTherm&lowast; dataset see [ProTherm-star_initial_analyses](ProTherm-star_initial_analyses.md)
+
 > For the second analyses on the ProTherm&lowast; dataset see [ProTherm-star_second_analyses](ProTherm-star_analyses.md)
 
 
