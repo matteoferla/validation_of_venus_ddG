@@ -38,6 +38,20 @@ ratios = pd.pivot_table(cleanscores, values=['ratio'], index=['condition'], aggf
 display(ratios)
 scores['MSE'] = (scores['ddG'] * scores['condition'].map(ratios.ratio.to_dict()) - scores['flipped_experimental_ddG']).astype(float)
 scores['MAE'] = scores['MSE'].apply(abs).astype(float)
+
+def allocate_row(row):
+    weight = ratios.ratio.to_dict()[row.condition]
+    ddG = row.ddG  * weight
+    if abs(row.flipped_experimental_ddG - ddG) < 0: #0.5:
+        return True
+    elif row.flipped_experimental_ddG > 2 and ddG > 2:
+        return True
+    elif row.flipped_experimental_ddG < 2 and ddG < 2:
+        return True
+    else:
+        return False
+scores['allocation'] = scores.apply(allocate_row, 1)
+
 cleanscores = scores.loc[~keys.isin(bad_keys.values)]
 ```
 
@@ -100,17 +114,6 @@ print(scores.sample(n=10).to_markdown())
 
 ```python
 print(len(scores), len(cleanscores))
-def allocate_row(row):
-    if abs(row.flipped_experimental_ddG - row.ddG) < 0: #0.5:
-        return True
-    elif row.flipped_experimental_ddG > 2 and row.ddG > 2:
-        return True
-    elif row.flipped_experimental_ddG < 2 and row.ddG < 2:
-        return True
-    else:
-        return False
-
-cleanscores['correct_allocation'] = cleanscores.apply(allocate_row, 1)
 mae_summary = pd.pivot_table(cleanscores, values=['MAE', 'MSE', 'time'], index=['condition'], aggfunc='median')
 mae_summary.columns = mae_summary.columns.to_series().map({'MAE': 'MdAE', 'MSE': 'MdSE', 'time': 'time'})
 mean_summary = pd.pivot_table(cleanscores, values=['MAE'], index=['condition'], aggfunc='mean')
@@ -120,7 +123,7 @@ mad = lambda x: (x - x.median()).abs().median()
 mad_summary = pd.pivot_table(cleanscores, values=['MAE', 'time'], index=['condition'], aggfunc=mad)
 mad_summary.columns = mad_summary.columns.to_series().map({'MAE': 'MdAE_MAD', 'time': 'time_MAD'})
 allocation_summary = pd.pivot_table(cleanscores, 
-                                    values=['correct_allocation'], 
+                                    values=['allocation'], 
                                     index=['condition'], aggfunc=lambda x: sum(x)/len(x)*100)
 def offcutt(value, threshold=10):
     if value < -threshold:
@@ -142,7 +145,7 @@ maxed_summary = pd.pivot_table(cleanscores,
 summary = pd.concat([mae_summary, mad_summary, mean_summary, allocation_summary, maxed_summary, length_summary], axis=1)
 summary['MdAE_se'] = summary.MdAE_MAD/(summary.samples**0.5)
 summary['time_se'] = summary.time_MAD/(summary.samples**0.5)
-summary = summary.sort_values('correct_allocation', ascending=False)
+summary = summary.sort_values('allocation', ascending=False)
 cleaner_names = {'full_12x3': 'full_12x3',
                  'cart_extra': 'cart_extra',
                  'radius12x3': '12x3',
@@ -162,44 +165,62 @@ cleaner_names = {'full_12x3': 'full_12x3',
                  'radius12x1': '12x1',
                  'radius15x1': '15x1'}
 summary.index = summary.index.to_series().replace(cleaner_names)
+
+# Add settings
+summary['condition'] = summary.index
+summary = summary.drop_duplicates('condition')
+neosettings = pd.read_csv('settings.csv').set_index('condition').transpose().to_dict()
+flipped_clear = dict(zip(cleaner_names.values(), cleaner_names.keys()))
+
+expanded = {}
+for i in summary.index:
+    if i in flipped_clear:
+        condition = flipped_clear[i]
+    else:
+        condition = i
+    expanded[i] = neosettings[condition]
+expanded = pd.DataFrame(expanded).transpose()
+
+summary = pd.concat([expanded, summary], axis=1)
+
 summary.to_csv('summary.csv')
-print(summary[['correct_allocation', 'time', 'time_MAD', 'time_se','MdAE','MdSE', 'MAE', 'cutoff10_MAE', 'cutoff5_MAE', 'MdAE_MAD','MdAE_se','samples']].round(2).to_markdown())
+summary[['allocation', 'time', 'time_MAD', 'time_se','MdAE','MdSE', 'MAE', 'cutoff10_MAE', 'cutoff5_MAE', 'MdAE_MAD','MdAE_se','samples']]
+print(summary[['correct_allocation', 'time', 'time_MAD', 'time_se','MdAE','MdSE', 'MAE', 'cutoff10_MAE', 'cutoff5_MAE', 'MdAE_MAD','samples']].round(2).to_markdown())
 ```
 
-| condition        |   correct_allocation |   time |   time_MAD |   time_se |   MdAE |   MdSE |   MAE |   cutoff10_MAE |   cutoff5_MAE |   MdAE_MAD |   MdAE_se |   samples |
-|:-----------------|---------------------:|-------:|-----------:|----------:|-------:|-------:|------:|---------------:|--------------:|-----------:|----------:|----------:|
-| talaris2014_12x1 |                69.54 |  19.26 |       4.9  |      0.1  |   0.87 |  -0.44 |  1.36 |           2.44 |          2.04 |       0.58 |      0.01 |      2262 |
-| talaris2014_12x3 |                67.77 |  34.59 |      11.99 |      0.25 |   0.82 |  -0.3  |  1.3  |           2.25 |          1.91 |       0.52 |      0.01 |      2262 |
-| full_score       |                67.11 |  23.68 |       6.35 |      0.13 |   0.9  |  -0.42 |  1.4  |           2.7  |          2.19 |       0.62 |      0.01 |      2262 |
-| talaris2014_9x1  |                66.74 |  15.3  |       2.98 |      0.06 |   0.83 |  -0.21 |  1.33 |           2.42 |          1.95 |       0.54 |      0.01 |      2261 |
-| talaris2014_9x3  |                66.22 |  24.44 |       6.79 |      0.14 |   0.8  |  -0.15 |  1.27 |           2.35 |          1.91 |       0.52 |      0.01 |      2262 |
-| incr_12x2        |                66.03 |  32.78 |      10.49 |      0.22 |   0.87 |  -0.23 |  1.35 |           2.46 |          2.02 |       0.58 |      0.01 |      2261 |
-| full_12x2        |                66    |  34.75 |      11.07 |      0.23 |   0.88 |  -0.2  |  1.33 |           2.49 |          2.04 |       0.58 |      0.01 |      2262 |
-| full_20x5        |                65.83 | 133.33 |      60.36 |      1.27 |   0.89 |  -0.32 |  1.39 |           2.53 |          2.11 |       0.59 |      0.01 |      2262 |
-| full_12x4        |                65.74 |  54.9  |      20.07 |      0.42 |   0.86 |  -0.17 |  1.34 |           2.47 |          2.02 |       0.55 |      0.01 |      2262 |
-| incr_12x3        |                65.69 |  43.93 |      15.86 |      0.33 |   0.85 |  -0.16 |  1.35 |           2.45 |          2.01 |       0.57 |      0.01 |      2262 |
-| full_11x1        |                65.52 |  22.59 |       5.4  |      0.11 |   0.91 |  -0.33 |  1.4  |           2.7  |          2.18 |       0.6  |      0.01 |      2262 |
-| full_12x3        |                65.47 |  38.72 |      13.36 |      0.28 |   0.86 |  -0.13 |  1.32 |           2.48 |          2.02 |       0.56 |      0.01 |      2262 |
-| cartesian        |                65.34 |  59.88 |      22.29 |      0.47 |   0.91 |  -0.4  |  1.46 |           2.69 |          2.23 |       0.59 |      0.01 |      2262 |
-| radius15x1       |                65.34 |  29.29 |       9.36 |      0.2  |   0.91 |  -0.5  |  1.43 |           2.95 |          2.41 |       0.64 |      0.01 |      2262 |
-| cartesian_12x3   |                64.99 | 130.47 |      53.06 |      1.12 |   0.87 |  -0.3  |  1.44 |           2.56 |          2.13 |       0.56 |      0.01 |      2262 |
-| incrementor      |                64.63 |  23.88 |       6.52 |      0.14 |   0.88 |  -0.36 |  1.38 |           2.74 |          2.23 |       0.61 |      0.01 |      2262 |
-| outer_con        |                64.54 |  27.05 |       8.11 |      0.17 |   0.84 |  -0.18 |  1.37 |           2.74 |          2.13 |       0.57 |      0.01 |      2262 |
-| radius12x1       |                64.46 |  21.39 |       5.41 |      0.11 |   0.88 |  -0.35 |  1.38 |           2.77 |          2.24 |       0.6  |      0.01 |      2262 |
-| default          |                64.46 |  23.43 |       6.36 |      0.13 |   0.88 |  -0.35 |  1.38 |           2.77 |          2.24 |       0.6  |      0.01 |      2262 |
-| radius12x2       |                63.79 |  30.26 |       9.46 |      0.2  |   0.86 |  -0.22 |  1.33 |           2.59 |          2.11 |       0.58 |      0.01 |      2262 |
-| full_con_12x3    |                63.4  |  47.39 |      18.97 |      0.4  |   0.81 |  -0.11 |  1.33 |           2.63 |          2.08 |       0.56 |      0.01 |      2262 |
-| radius12x3       |                63.35 |  43.58 |      15.51 |      0.33 |   0.87 |  -0.19 |  1.33 |           2.56 |          2.09 |       0.56 |      0.01 |      2262 |
-| full_10x1        |                63.31 |  20.91 |       4.51 |      0.09 |   0.87 |  -0.23 |  1.37 |           2.76 |          2.18 |       0.6  |      0.01 |      2262 |
-| con_12x3         |                63.17 |  47.53 |      19.07 |      0.4  |   0.82 |  -0.09 |  1.34 |           2.66 |          2.08 |       0.56 |      0.01 |      2262 |
-| cart_extra       |                63.13 | 139.98 |      66.3  |      1.39 |   0.83 |  -0.15 |  1.27 |           2.48 |          2.04 |       0.54 |      0.01 |      2262 |
-| radius15x3       |                62.6  |  59.16 |      23.48 |      0.49 |   0.9  |  -0.26 |  1.39 |           2.67 |          2.19 |       0.61 |      0.01 |      2262 |
-| radius20x3       |                62.6  |  59.15 |      23.36 |      0.49 |   0.9  |  -0.26 |  1.39 |           2.67 |          2.19 |       0.61 |      0.01 |      2262 |
-| radius9x3        |                62.11 |  29.94 |       9.13 |      0.19 |   0.81 |  -0.09 |  1.3  |           2.62 |          2.09 |       0.54 |      0.01 |      2262 |
-| radius9x1        |                61.72 |  18.41 |       3.84 |      0.08 |   0.86 |  -0.17 |  1.34 |           2.7  |          2.14 |       0.56 |      0.01 |      2262 |
-| beta_12x2        |                60.61 |  34.27 |      11.36 |      0.24 |   0.82 |  -0.18 |  1.29 |           2.82 |          2.22 |       0.53 |      0.01 |      2262 |
-| beta_9x3         |                58.76 |  29.46 |       8.88 |      0.19 |   0.8  |  -0.09 |  1.28 |           3.01 |          2.29 |       0.53 |      0.01 |      2260 |
-
+| condition        |   allocation |   time |   time_MAD |   time_se |   MdAE |   MdSE |   MAE |   cutoff10_MAE |   cutoff5_MAE |   MdAE_MAD |   samples |
+|:-----------------|-------------:|-------:|-----------:|----------:|-------:|-------:|------:|---------------:|--------------:|-----------:|----------:|
+| talaris2014_9x3  |        77.14 |  24.44 |       6.79 |      0.14 |   0.8  |  -0.15 |  1.27 |           2.35 |          1.91 |       0.52 |      2262 |
+| cart_extra       |        76.97 | 139.98 |      66.3  |      1.39 |   0.83 |  -0.15 |  1.27 |           2.48 |          2.04 |       0.54 |      2262 |
+| talaris2014_12x3 |        76.75 |  34.59 |      11.99 |      0.25 |   0.82 |  -0.3  |  1.3  |           2.25 |          1.91 |       0.52 |      2262 |
+| beta_9x3         |        76.73 |  29.46 |       8.88 |      0.19 |   0.8  |  -0.09 |  1.28 |           3.01 |          2.29 |       0.53 |      2260 |
+| talaris2014_9x1  |        76.51 |  15.3  |       2.98 |      0.06 |   0.83 |  -0.21 |  1.33 |           2.42 |          1.95 |       0.54 |      2261 |
+| 9x3              |        75.99 |  29.94 |       9.13 |      0.19 |   0.81 |  -0.09 |  1.3  |           2.62 |          2.09 |       0.54 |      2262 |
+| full_12x3        |        75.95 |  38.72 |      13.36 |      0.28 |   0.86 |  -0.13 |  1.32 |           2.48 |          2.02 |       0.56 |      2262 |
+| beta_12x2        |        75.91 |  34.27 |      11.36 |      0.24 |   0.82 |  -0.18 |  1.29 |           2.82 |          2.22 |       0.53 |      2262 |
+| incr_12x3        |        75.86 |  43.93 |      15.86 |      0.33 |   0.85 |  -0.16 |  1.35 |           2.45 |          2.01 |       0.57 |      2262 |
+| full_12x4        |        75.82 |  54.9  |      20.07 |      0.42 |   0.86 |  -0.17 |  1.34 |           2.47 |          2.02 |       0.55 |      2262 |
+| full_con_12x3    |        75.82 |  47.39 |      18.97 |      0.4  |   0.81 |  -0.11 |  1.33 |           2.63 |          2.08 |       0.56 |      2262 |
+| con_12x1         |        75.69 |  27.05 |       8.11 |      0.17 |   0.84 |  -0.18 |  1.37 |           2.74 |          2.13 |       0.57 |      2262 |
+| talaris2014_12x1 |        75.55 |  19.26 |       4.9  |      0.1  |   0.87 |  -0.44 |  1.36 |           2.44 |          2.04 |       0.58 |      2262 |
+| con_12x3         |        75.55 |  47.53 |      19.07 |      0.4  |   0.82 |  -0.09 |  1.34 |           2.66 |          2.08 |       0.56 |      2262 |
+| 12x3             |        75.51 |  43.58 |      15.51 |      0.33 |   0.87 |  -0.19 |  1.33 |           2.56 |          2.09 |       0.56 |      2262 |
+| incr_12x2        |        75.45 |  32.78 |      10.49 |      0.22 |   0.87 |  -0.23 |  1.35 |           2.46 |          2.02 |       0.58 |      2261 |
+| 9x1              |        75.42 |  18.41 |       3.84 |      0.08 |   0.86 |  -0.17 |  1.34 |           2.7  |          2.14 |       0.56 |      2262 |
+| 12x2             |        75.38 |  30.26 |       9.46 |      0.2  |   0.86 |  -0.22 |  1.33 |           2.59 |          2.11 |       0.58 |      2262 |
+| cart_12x3        |        75.38 | 130.47 |      53.06 |      1.12 |   0.87 |  -0.3  |  1.44 |           2.56 |          2.13 |       0.56 |      2262 |
+| full_12x2        |        75.29 |  34.75 |      11.07 |      0.23 |   0.88 |  -0.2  |  1.33 |           2.49 |          2.04 |       0.58 |      2262 |
+| full_11x1        |        75.15 |  22.59 |       5.4  |      0.11 |   0.91 |  -0.33 |  1.4  |           2.7  |          2.18 |       0.6  |      2262 |
+| full_10x1        |        75.15 |  20.91 |       4.51 |      0.09 |   0.87 |  -0.23 |  1.37 |           2.76 |          2.18 |       0.6  |      2262 |
+| 15x3             |        74.85 |  59.16 |      23.48 |      0.49 |   0.9  |  -0.26 |  1.39 |           2.67 |          2.19 |       0.61 |      2262 |
+| 20x3             |        74.85 |  59.15 |      23.36 |      0.49 |   0.9  |  -0.26 |  1.39 |           2.67 |          2.19 |       0.61 |      2262 |
+| 12x1             |        74.85 |  21.39 |       5.41 |      0.11 |   0.88 |  -0.35 |  1.38 |           2.77 |          2.24 |       0.6  |      2262 |
+| 12x1             |        74.8  |  23.43 |       6.36 |      0.13 |   0.88 |  -0.35 |  1.38 |           2.77 |          2.24 |       0.6  |      2262 |
+| incrementor      |        74.76 |  23.88 |       6.52 |      0.14 |   0.88 |  -0.36 |  1.38 |           2.74 |          2.23 |       0.61 |      2262 |
+| full_20x5        |        74.71 | 133.33 |      60.36 |      1.27 |   0.89 |  -0.32 |  1.39 |           2.53 |          2.11 |       0.59 |      2262 |
+| full_12x1        |        74.67 |  23.68 |       6.35 |      0.13 |   0.9  |  -0.42 |  1.4  |           2.7  |          2.19 |       0.62 |      2262 |
+| 15x1             |        74.62 |  29.29 |       9.36 |      0.2  |   0.91 |  -0.5  |  1.43 |           2.95 |          2.41 |       0.64 |      2262 |
+| cart_12x1        |        74.58 |  59.88 |      22.29 |      0.47 |   0.91 |  -0.4  |  1.46 |           2.69 |          2.23 |       0.59 |      2262 |
 ### Plot
 
 ```python
@@ -265,3 +286,143 @@ fig.show()
 ```
 
 ![O_conditions](images/O_conditions.png)
+
+The problem here is that its a photofinish: they are all within margin of each other.
+Time is the biggest difference.
+
+```python
+import plotly.express as px
+cleanscores['clean_condition'] = cleanscores.condition.replace(cleaner_names)
+fig = px.violin(cleanscores, y='time', x='clean_condition',box=True, title='Distribution of times per setting - O2567 dataset')
+fig.show()
+```
+
+![O_time](images/O_time.png)
+
+
+```python
+print(cleanscores[['clean_condition','time']].groupby('clean_condition').describe().round(2).to_markdown())
+```
+
+| clean_condition   |   ('time', 'count') |   ('time', 'mean') |   ('time', 'std') |   ('time', 'min') |   ('time', '25%') |   ('time', '50%') |   ('time', '75%') |   ('time', 'max') |
+|:------------------|--------------------:|-------------------:|------------------:|------------------:|------------------:|------------------:|------------------:|------------------:|
+| 12x1              |                4524 |              25.07 |             11.29 |             10.11 |             17.19 |             22.4  |             29.48 |            102.33 |
+| 12x2              |                2262 |              34.86 |             18.33 |             10.24 |             22.04 |             30.26 |             41.78 |            159.52 |
+| 12x3              |                2262 |              51.89 |             30.9  |             11.71 |             30.18 |             43.58 |             63.24 |            257.49 |
+| 15x1              |                2262 |              33.46 |             17.93 |             10.64 |             20.8  |             29.29 |             40.16 |            146.86 |
+| 15x3              |                2262 |              71.21 |             46.9  |             13.27 |             38.32 |             59.16 |             89.45 |            376.23 |
+| 20x3              |                2262 |              71.07 |             46.82 |             12.6  |             38.15 |             59.15 |             88.83 |            367.95 |
+| 9x1               |                2262 |              20.06 |              7.67 |             10.4  |             14.87 |             18.41 |             22.77 |             77.42 |
+| 9x3               |                2262 |              34.4  |             18.26 |             11.03 |             22.11 |             29.94 |             41.21 |            158.37 |
+| beta_12x2         |                2262 |              40.55 |             24.98 |             10.2  |             24.38 |             34.27 |             48.61 |            299.66 |
+| beta_9x3          |                2260 |              34.04 |             19.11 |             12.01 |             21.6  |             29.46 |             40.51 |            246.16 |
+| cart_12x1         |                2262 |             101.9  |            122.08 |             12.13 |             41.46 |             59.88 |             92.01 |            920.43 |
+| cart_12x3         |                2262 |             240.86 |            312.85 |             11.8  |             84.11 |            130.47 |            214.58 |           2002.14 |
+| cart_extra        |                2262 |             307.25 |            417.14 |             13.37 |             84.4  |            139.98 |            268.46 |           2930.09 |
+| con_12x1          |                2262 |              31.99 |             17.36 |             10.8  |             20.51 |             27.05 |             38.43 |            160.37 |
+| con_12x3          |                2262 |              59.98 |             43.38 |             10.67 |             32.09 |             47.53 |             73.29 |            474.15 |
+| full_10x1         |                2262 |              22.56 |              8.43 |             11.26 |             16.65 |             20.91 |             25.76 |             83.01 |
+| full_11x1         |                2262 |              24.75 |              9.92 |             10.95 |             17.81 |             22.59 |             29.01 |             92.98 |
+| full_12x1         |                2262 |              26.42 |             12.16 |             10.82 |             17.94 |             23.68 |             31.03 |            111.66 |
+| full_12x2         |                2262 |              40.09 |             21.2  |             11.4  |             25.39 |             34.75 |             48.24 |            185.93 |
+| full_12x3         |                2262 |              45.81 |             26.41 |             10.81 |             27.51 |             38.72 |             56.15 |            236.09 |
+| full_12x4         |                2262 |              65.55 |             40.21 |             13.44 |             37.73 |             54.9  |             79.82 |            345.51 |
+| full_20x5         |                2262 |             161.26 |            128.62 |             20.73 |             73.88 |            133.33 |            200.37 |           1102.87 |
+| full_con_12x3     |                2262 |              59.95 |             43.48 |             10.63 |             32.3  |             47.39 |             73.13 |            475.5  |
+| incr_12x2         |                2261 |              39.27 |             23.84 |             11.18 |             23.6  |             32.78 |             46.25 |            283.28 |
+| incr_12x3         |                2262 |              52.57 |             34.4  |             11.83 |             29.85 |             43.93 |             62.89 |            412.57 |
+| incrementor       |                2262 |              27.04 |             13.03 |             10.55 |             18.07 |             23.88 |             31.51 |            119.67 |
+| talaris2014_12x1  |                2262 |              21.92 |             11.12 |              9.26 |             14.91 |             19.26 |             25.29 |            193.55 |
+| talaris2014_12x3  |                2262 |              41.68 |             26.76 |             10.47 |             24.1  |             34.59 |             49.74 |            283.72 |
+| talaris2014_9x1   |                2261 |              16.56 |              6.77 |              8.68 |             12.33 |             15.3  |             18.31 |             93.94 |
+| talaris2014_9x3   |                2262 |              27.73 |             15.14 |             10.01 |             18.24 |             24.44 |             32.3  |            181.34 |
+
+
+However, some categories may fare worse than others.
+Keeping in mind that there are unequal number of different types of residues:
+
+    buryshape
+    (buried, bigger)                  64
+    (buried, differently shaped)      30
+    (buried, equally sized)           10
+    (buried, proline involved)         3
+    (buried, smaller)                136
+    (surface, bigger)                379
+    (surface, differently shaped)    533
+    (surface, equally sized)          80
+    (surface, proline involved)      112
+    (surface, smaller)               913
+    Name: counts, dtype: int64
+    
+```python
+from michelanglo_protein.apriori_effect import Changedex
+cd = Changedex().fill()
+
+def beshapen(w, m):
+    if 'P' in w+m:
+        return 'proline involved'
+    x = cd[w, m]
+    for xx in x:
+        if xx in 'SBDE':
+            return cd.full[xx]
+    else:
+        raise ValueError(f'What is {cd[w, m]}, {w}, {m}')
+
+cleanscores['buriedness'] = (cleanscores.RSA <= 0.2).map({True: 'buried', False: 'surface'})
+cleanscores['shape'] = [beshapen(w, m) for w, m in zip(cleanscores.Wild, cleanscores.Mutated)]
+cleanscores['buryshape'] = list(zip(cleanscores['buriedness'], cleanscores['shape']))
+        
+def split_condition(condition):
+    condscores = cleanscores.loc[cleanscores.clean_condition == condition]
+    index = 'buryshape'
+    mae_summary = pd.pivot_table(condscores, values=['MSE', 'MAE'], index=[index], aggfunc='median')
+    mae_summary.columns = mae_summary.columns.to_series().map({'MAE':'MdAE', 'MSE':'MdSE'})
+
+    r_summary = pd.pivot_table(condscores, values=['allocation'], index=[index], aggfunc='mean')
+    count_summary = pd.pivot_table(condscores, values=['MSE'], index=[index], aggfunc=len)
+    count_summary.columns = count_summary.columns.to_series().map({'MSE': 'counts'})
+
+    mad = lambda x: (x - x.median()).abs().median()
+    mad_summary = pd.pivot_table(condscores, values=['MAE'], index=[index], aggfunc=mad)
+    mad_summary.columns = mad_summary.columns.to_series().map({'MAE':'MdAE_MAD'})
+
+    return pd.concat([count_summary, mae_summary, mad_summary, r_summary], axis=1)
+
+# assigned
+conditioned = pd.DataFrame({condition: split_condition(condition).allocation for condition in summary.condition}).transpose()
+conditioned['ranked'] = conditioned.sum(axis=1).rank(ascending=False)
+print(conditioned.sort_values('ranked').round(2).to_markdown())
+```
+
+|                  |   ('buried', 'bigger') |   ('buried', 'differently shaped') |   ('buried', 'equally sized') |   ('buried', 'proline involved') |   ('buried', 'smaller') |   ('surface', 'bigger') |   ('surface', 'differently shaped') |   ('surface', 'equally sized') |   ('surface', 'proline involved') |   ('surface', 'smaller') |   ranked |
+|:-----------------|-----------------------:|-----------------------------------:|------------------------------:|---------------------------------:|------------------------:|------------------------:|------------------------------------:|-------------------------------:|----------------------------------:|-------------------------:|---------:|
+| talaris2014_9x3  |                   0.7  |                               0.63 |                           0.5 |                             0.67 |                    0.57 |                    0.83 |                                0.87 |                           0.79 |                              0.79 |                     0.73 |      1   |
+| cart_extra       |                   0.67 |                               0.6  |                           0.5 |                             0.67 |                    0.57 |                    0.83 |                                0.87 |                           0.79 |                              0.79 |                     0.73 |      2   |
+| talaris2014_12x3 |                   0.69 |                               0.6  |                           0.5 |                             0.67 |                    0.52 |                    0.84 |                                0.88 |                           0.8  |                              0.79 |                     0.72 |      3   |
+| full_con_12x3    |                   0.73 |                               0.57 |                           0.5 |                             0.67 |                    0.51 |                    0.81 |                                0.86 |                           0.8  |                              0.79 |                     0.72 |      4   |
+| incr_12x3        |                   0.72 |                               0.6  |                           0.5 |                             0.67 |                    0.48 |                    0.82 |                                0.86 |                           0.8  |                              0.79 |                     0.72 |      5   |
+| 9x3              |                   0.72 |                               0.53 |                           0.5 |                             0.67 |                    0.55 |                    0.81 |                                0.86 |                           0.78 |                              0.81 |                     0.72 |      6   |
+| con_12x3         |                   0.7  |                               0.57 |                           0.5 |                             0.67 |                    0.51 |                    0.81 |                                0.86 |                           0.8  |                              0.79 |                     0.72 |      7   |
+| beta_9x3         |                   0.69 |                               0.5  |                           0.5 |                             0.67 |                    0.52 |                    0.84 |                                0.87 |                           0.8  |                              0.8  |                     0.72 |      8   |
+| talaris2014_9x1  |                   0.69 |                               0.53 |                           0.5 |                             0.67 |                    0.53 |                    0.84 |                                0.87 |                           0.78 |                              0.79 |                     0.72 |      9   |
+| full_12x3        |                   0.69 |                               0.53 |                           0.5 |                             0.67 |                    0.52 |                    0.82 |                                0.86 |                           0.79 |                              0.79 |                     0.72 |     10   |
+| full_12x4        |                   0.66 |                               0.57 |                           0.5 |                             0.67 |                    0.49 |                    0.83 |                                0.86 |                           0.8  |                              0.8  |                     0.72 |     11   |
+| con_12x1         |                   0.7  |                               0.53 |                           0.5 |                             0.67 |                    0.53 |                    0.8  |                                0.86 |                           0.79 |                              0.78 |                     0.72 |     12   |
+| incr_12x2        |                   0.7  |                               0.57 |                           0.5 |                             0.67 |                    0.47 |                    0.83 |                                0.86 |                           0.79 |                              0.77 |                     0.71 |     13   |
+| 9x1              |                   0.7  |                               0.5  |                           0.5 |                             0.67 |                    0.53 |                    0.82 |                                0.84 |                           0.79 |                              0.8  |                     0.72 |     14   |
+| talaris2014_12x1 |                   0.69 |                               0.53 |                           0.5 |                             0.67 |                    0.47 |                    0.84 |                                0.87 |                           0.79 |                              0.79 |                     0.7  |     15   |
+| beta_12x2        |                   0.67 |                               0.5  |                           0.5 |                             0.67 |                    0.55 |                    0.82 |                                0.86 |                           0.8  |                              0.77 |                     0.72 |     16   |
+| 12x2             |                   0.67 |                               0.53 |                           0.5 |                             0.67 |                    0.5  |                    0.84 |                                0.86 |                           0.79 |                              0.79 |                     0.7  |     17   |
+| full_10x1        |                   0.69 |                               0.47 |                           0.5 |                             0.67 |                    0.5  |                    0.81 |                                0.86 |                           0.81 |                              0.79 |                     0.71 |     18   |
+| 12x3             |                   0.64 |                               0.47 |                           0.5 |                             0.67 |                    0.53 |                    0.84 |                                0.86 |                           0.79 |                              0.8  |                     0.71 |     19   |
+| full_12x2        |                   0.66 |                               0.53 |                           0.5 |                             0.67 |                    0.47 |                    0.83 |                                0.86 |                           0.79 |                              0.77 |                     0.71 |     20   |
+| cart_12x3        |                   0.69 |                               0.47 |                           0.5 |                             0.67 |                    0.49 |                    0.83 |                                0.87 |                           0.79 |                              0.76 |                     0.71 |     21   |
+| 15x3             |                   0.64 |                               0.5  |                           0.5 |                             0.67 |                    0.47 |                    0.83 |                                0.86 |                           0.79 |                              0.79 |                     0.7  |     22.5 |
+| 20x3             |                   0.64 |                               0.5  |                           0.5 |                             0.67 |                    0.47 |                    0.83 |                                0.86 |                           0.79 |                              0.79 |                     0.7  |     22.5 |
+| full_20x5        |                   0.67 |                               0.43 |                           0.5 |                             0.67 |                    0.46 |                    0.83 |                                0.87 |                           0.81 |                              0.78 |                     0.69 |     24   |
+| full_11x1        |                   0.67 |                               0.4  |                           0.5 |                             0.67 |                    0.46 |                    0.83 |                                0.86 |                           0.8  |                              0.8  |                     0.71 |     25   |
+| 12x1             |                   0.62 |                               0.43 |                           0.5 |                             0.67 |                    0.5  |                    0.84 |                                0.86 |                           0.79 |                              0.79 |                     0.7  |     26   |
+| incrementor      |                   0.62 |                               0.43 |                           0.5 |                             0.67 |                    0.49 |                    0.83 |                                0.86 |                           0.79 |                              0.8  |                     0.7  |     27   |
+| cart_12x1        |                   0.67 |                               0.43 |                           0.5 |                             0.67 |                    0.47 |                    0.83 |                                0.87 |                           0.78 |                              0.79 |                     0.69 |     28   |
+| full_12x1        |                   0.62 |                               0.4  |                           0.5 |                             0.67 |                    0.46 |                    0.84 |                                0.86 |                           0.79 |                              0.78 |                     0.7  |     29   |
+| 15x1             |                   0.67 |                               0.33 |                           0.5 |                             0.67 |                    0.42 |                    0.84 |                                0.87 |                           0.79 |                              0.79 |                     0.7  |     30   |

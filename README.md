@@ -71,6 +71,8 @@ as stated in the supplementary information in [Park et al. 2016](https://dx.doi.
 As a result a scaling factor used was the median of the ratio of the experimental values over the calculated values.
 The scaling factor obtained was 4.2&times;. This is a very similar value to the conversion factor from kJ to kcal, 
 but I have checked in Rosetta Commons where it was confirmed it is coincidental.
+The ratio was used as opposed to the value where the median/mean absolute error is minimum, because that would be
+biasing the dataset.
 
 The different scorefunctions beyond ref2015 were used with the appropriate corrections flag. Example:
 
@@ -129,6 +131,15 @@ MAD in a normal distribution does not match the deviation, as it is ~0.67 the si
 —median and mean differ depending on skewness (positive skew => lower median than mean), which likewise affect MAD.
 
 Pearson &rho; is the ratio of covariance over the product of deviations and
-[cannot be converted to median form rigorously](median_Pearson.md). 
+I cannot manage to rigorously/justifiably [convert it to a median form](median_Pearson.md). 
 
 ![O_conditions](images/O_conditions.png)
+
+The percentage of samples correctly allocated to the >2 kcal/mol bin is roughly 75% for all settings used,
+The median absolute error is around 0.9 kcal/mol and the mean absolute error is 1.3 kcal/mol.
+The major discriminant is time.
+
+![O_tine](images/O_time.png)
+
+This utterly eliminates cartesian scorefunction and the best scorefunction appears to the ref2015 series.
+Based on the split of different conditions, ref2015 12 Å x2 appears ideal.
