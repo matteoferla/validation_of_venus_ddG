@@ -139,7 +139,7 @@ The percentage of samples correctly allocated to the >2 kcal/mol bin is roughly 
 The median absolute error is around 0.9 kcal/mol and the mean absolute error is 1.3 kcal/mol.
 The major discriminant is time.
 
-![O_tine](images/O_time.png)
+![O_time](images/O_time.png)
 
 This utterly eliminates cartesian scorefunction and the best scorefunction appears to the ref2015 series.
 Based on the split of different conditions, ref2015 12 Å x2 appears ideal.
