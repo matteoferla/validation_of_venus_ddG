@@ -1,6 +1,6 @@
 Time cost is an important factor for Venus.
 
-![time_distro_full.png](images/time_distro_full.png)
+![time_distro_full.png](../images/time_distro_full.png)
 
 #### Cartesian
 
@@ -11,7 +11,7 @@ but takes 104.7 s and 118 s. This is most likely an unacceptable timeframe for u
 
 #### Radius
 
-![time](images/time_distro_cut.png)
+![time](../images/time_distro_cut.png)
 
 A radius of 8 Å from the C&beta; atom encompasses on average 10.2 Å, 10 Å encompasses 16.9 and 12 Å encompasses 26.6.
 
@@ -23,7 +23,7 @@ A seven second difference is nothing to worry about.
 
 The ProTerm dataset contains empirical ∆∆G. So how off is the dataset?
 
-![discrepancy](images/discrepancy.png)
+![discrepancy](../images/discrepancy.png)
 
 At 12 Å, the ref2015 is off on average by +0.6 kcal/mol, while the beta_nov16 is off by +1.1 kcal/mol, 
 while their cartesian versions are off by -1.1 kcal/mol and -0.3 kcal/mol.
@@ -65,7 +65,7 @@ Therefore, ref2015 is indeed the better scorefunction for Venus.
 
 These problematic outliers are not only proline mutations, so nothing needs to be altered to address this.
 
-![not pro](images/discr_lollypop_ref2015.png)
+![not pro](../images/discr_lollypop_ref2015.png)
 
 
 ### Summary

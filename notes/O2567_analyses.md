@@ -231,7 +231,7 @@ fig.update_layout(yaxis=dict(title='Error', range=[-5, 5]))
 fig.show()
 ```
 
-![errors](images/O_distro_errors.png)
+![errors](../images/O_distro_errors.png)
 
 ```python
 print(cleanscores[['clean_condition','MAE']].groupby('clean_condition').describe().round(2).to_markdown())
@@ -285,7 +285,7 @@ fig.update_traces(textposition="bottom right")
 fig.show()
 ```
 
-![O_conditions](images/O_conditions.png)
+![O_conditions](../images/O_conditions.png)
 
 The problem here is that its a photofinish: they are all within margin of each other.
 Time is the biggest difference.
@@ -297,7 +297,7 @@ fig = px.violin(cleanscores, y='time', x='clean_condition',box=True, title='Dist
 fig.show()
 ```
 
-![O_time](images/O_time.png)
+![O_time](../images/O_time.png)
 
 
 ```python

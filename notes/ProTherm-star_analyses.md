@@ -89,7 +89,7 @@ scores.loc[(scores['settings'] == 'ref2015 @ 12Å x3')
       .describe()
 ```
 
-![dataset_ddG.png](images/dataset_ddG.png)
+![dataset_ddG.png](../images/dataset_ddG.png)
 
 count    758.000000
 mean       0.970692
@@ -120,7 +120,7 @@ fig.update_layout({'xaxis': {'anchor': 'y', 'title': {'text': 'Using constraints
 fig.show()
 ```
 
-![images/contime.png](images/contime.png)
+![images/contime.png](../images/contime.png)
 
 ## Silent
 
@@ -141,8 +141,8 @@ fig = px.violin(silent,
 fig.show()
 ```
 
-![silent](images/silent.png)
-![silent](images/silent_zoom.png)
+![silent](../images/silent.png)
+![silent](../images/silent_zoom.png)
 
 ## Error distribution
 
@@ -186,7 +186,7 @@ fig.update_layout({'xaxis': {'anchor': 'y', 'title': {'text': 'Using constraints
                'yaxis': {'anchor': 'x', 'title': {'text': 'signed error [kcal/mol]'}}})
 fig.show()
 ```
-![images/missenseMSE.png](images/missenseMSE.png)
+![images/missenseMSE.png](../images/missenseMSE.png)
 
 ```python
 fig = px.scatter(subscores,
@@ -216,7 +216,7 @@ fig = px.scatter(subscores,
 fig.show()
 ```
 
-![images/maxxedMSE.png](images/maxxedMSE.png)
+![images/maxxedMSE.png](../images/maxxedMSE.png)
 
 | modality                         |    time |         MSE |     MSE_max |      MAE |   MAE_max |
 |:---------------------------------|--------:|------------:|------------:|---------:|----------:|
@@ -264,8 +264,8 @@ fig.update_layout(yaxis=dict(range=[0, 4]))
 fig.show()
 ```
 
-![images/dense_mse.png](images/dense_mse.png)
-![images/dense_zoomed.png](images/dense_zoomed.png)
+![images/dense_mse.png](../images/dense_mse.png)
+![images/dense_zoomed.png](../images/dense_zoomed.png)
 
 The distribution of MAE is very non-normal as expected.
 The constraints seem to improve the median, but not the mean, but the latter is what is reported in the litterature

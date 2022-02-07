@@ -243,7 +243,7 @@ print(ww.compare(['score12', 'talaris2013', 'talaris2014', 'ref2015', 'correctio
 
 Regarding `beta_nov16`, it seems to be a progression of the `beta` series. So is intriguing.
 
-For the full list of weights in tabular format see [weights.csv](data/weights.csv), which was generated via:
+For the full list of weights in tabular format see [weights.csv](../data/weights.csv), which was generated via:
 
 ```python
 import re

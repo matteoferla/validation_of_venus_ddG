@@ -2,7 +2,7 @@
 
 > ¡ Data here is unscaled !
 
-> This is a modified Markdown-exported version of the notebook (see [data](data) for actual notebook)
+> This is a modified Markdown-exported version of the notebook (see [data](../data) for actual notebook)
 
 ## IO
 
@@ -211,7 +211,7 @@ fig.update_layout({'xaxis': {'anchor': 'y', 'title': {'text': 'Model'}},
 fig.show()
 ```
 
-![time](images/time_distro_full.png)
+![time](../images/time_distro_full.png)
 
 ```python
 # time violins
@@ -237,7 +237,7 @@ fig.show()
 ```
 
 
-![time](images/time_distro_cut.png)
+![time](../images/time_distro_cut.png)
 
 ## Discrepancy
 
@@ -281,7 +281,7 @@ fig.update_layout({'xaxis': {'anchor': 'y', 'title': {'text': 'Model'}},
 fig.show()
 ```
 
-![discrepancy](images/discrepancy.png)
+![discrepancy](../images/discrepancy.png)
 
 ```python
 scores.loc[(scores.scorefxn_name == 'ref2015') & (scores.radius == 12)].deviation.describe()
@@ -371,7 +371,7 @@ fig.update_layout(shapes=shapes)
 fig.show()
 ```
 
-![scatter](images/discr_scatter.png)
+![scatter](../images/discr_scatter.png)
 
 ```python
 # categorise 0-1, 1-2 2-5 5+
@@ -422,7 +422,7 @@ fig = px.bar(pivoted,
 fig.update_layout(barmode='group')
 fig.show()
 ```
-![agreement](images/agreement.png)
+![agreement](../images/agreement.png)
 
 ```python
 scores['dev_bin'] = scores.deviation < 1
@@ -452,7 +452,7 @@ fig = px.bar(pivoted,
 fig.update_layout(barmode='group')
 fig.show()
 ```
-![agreement](images/agreement_alt.png)
+![agreement](../images/agreement_alt.png)
 
 
 ```python
