@@ -5,8 +5,9 @@ In this version the major differences are:
 
 * the reference tables are made consistent as opposed to the analyses changing the names for them
 * More distributed runs
+* extra dataset
 
-
+The previous dataset were re-run as the codebase had changed a bit.
 
 ## Rectification
 
@@ -20,12 +21,12 @@ Scoring was done via the script `score_dataset.py`, which can be called with the
 arguments `dataset_name`, `dataset_filename`, `protein_filename`, `settings_filename`, `max_workers`
 e.g.
 
-    >>> python3 analyse.py test test.csv O2567_protein.p settings.json 10    
+    >>> python3 score_dataset.py test test.csv O2567_protein.p settings.json 10    
 
 Or imported as a module. Example:
 
 ```python
-from analyse import TableScorer
+from score_dataset import TableScorer
 dataset_name = 'star'
 TableScorer.test_one(dataset_name,
                      dataset_filename=f'{dataset_name}.standarised.csv',

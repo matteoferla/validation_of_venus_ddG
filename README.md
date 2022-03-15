@@ -16,5 +16,17 @@ For previous iterations and other files, see:
 * For past summary see [preliminary results](notes/preliminary_results.md)
 * Other files within [notes folder](notes).
 
+The dataset run were:
+
+* O2567
+* ProTherm-star
+* S1342
+
+These are subsets of the ProTherm database and are aimed at being more balanced in terms of various factors.
+These factors differ, so refer to the original papers for details.
+For [example](notes/residue_distro.md), O2567 is balanced in the number of mutants of a given residues mutating to another, 
+whereas S1342 is dominated by alanine scanning mutants. Etc. etc. etc.
+
+
 Do note that the code presented in the markdown was originally on Jupyter notebooks.
 So there may be leftover lines that should not worry the reader (see [note on extra fluff](notes/extra_fluff.md))
