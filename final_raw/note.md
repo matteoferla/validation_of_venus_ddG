@@ -1,0 +1,1 @@
+These SQLite files are meant to be read via the `SqliteDict` class. See [scoring.md](../scoring.md).
