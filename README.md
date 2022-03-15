@@ -15,3 +15,6 @@ For previous iterations and other files, see:
 * For the code used for the ProTherm-star dataset see [scoring](notes/ProTherm-star_scoring.md).
 * For past summary see [preliminary results](notes/preliminary_results.md)
 * Other files within [notes folder](notes).
+
+Do note that the code presented in the markdown was originally on Jupyter notebooks.
+So there may be leftover lines that should not worry the reader (see [note on extra fluff](notes/extra_fluff.md))

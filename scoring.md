@@ -12,30 +12,61 @@ In this version the major differences are:
 
 The standaridised datasets end in `.standarised.csv` (NB :uk: not :us:) and are in [standardised_inputs folder](standardised_inputs).
 
+Code for the process is in [dataset rectification notes](standardised_inputs/dataset_rectification.md).
 
-### Init michelanglo data
+## Scoring
 
-Adapted from `prepare.ipynb`.
+Scoring was done via the script `score_dataset.py`, which can be called with the
+arguments `dataset_name`, `dataset_filename`, `protein_filename`, `settings_filename`, `max_workers`
+e.g.
 
-```python3
-from michelanglo_protein import ProteinCore, global_settings, Structure, ProteinAnalyser, Mutation
-from michelanglo_protein.generate import ProteinGatherer
-global_settings.startup('/users/brc/matteo/michelanglo/protein-data')
+    >>> python3 analyse.py test test.csv O2567_protein.p settings.json 10    
 
-```
-### Download safeguard function
+Or imported as a module. Example:
 
-The safeguard decorator-class from [this gist](https://gist.github.com/matteoferla/24d9a319d05773ae219dd678a3aa11be)
-was used initially.
-
-```
-def retrieve_from_gist(gist_sha: str, gist_filename: str, wanted_variable: str):
-    import requests, importlib
-    codeblock = requests.get(f'https://api.github.com/gists/{gist_sha}').json()['files'][gist_filename]['content']
-    faux_global = {**globals(),  'Any': importlib.import_module('typing').Any,   'defaultdict': importlib.import_module('collections').defaultdict   }
-    exec(codeblock, faux_global)
-    return faux_global[wanted_variable]
-
-Safeguard = retrieve_from_gist(gist_sha = '24d9a319d05773ae219dd678a3aa11be', gist_filename = 'safeguard.py', wanted_variable='Safeguard')
+```python
+from analyse import TableScorer
+dataset_name = 'star'
+TableScorer.test_one(dataset_name,
+                     dataset_filename=f'{dataset_name}.standarised.csv',
+                     database_filename=f'{dataset_name}-test.db',
+                     protein_filename=f'{dataset_name}_protein.p',
+                     settings_filename='debug_settings.json')
 ```
 
+The majority of the calculations were done via the former. Dask stopped working on the SGE cluster for MF, 
+so the submission were done crudely via [wrapped SGE qsub calls](notes/SGE.md).
+
+The settings (in [settings](settings)) are as follows:
+
+
+|               |   radius |   cycles | scorefxn_name   | prevent_acceptance_of_incrementor   | neighbour_only_score   | outer_constrained   | single_chain   | remove_ligand   | use_pymol_for_neighbours   |
+|:--------------|---------:|---------:|:----------------|:------------------------------------|:-----------------------|:--------------------|:---------------|:----------------|:---------------------------|
+| 8x1_reg       |        8 |        1 | ref2015         | True                                | False                  | False               | True           | True            | False                      |
+| 12x1_reg      |       12 |        1 | ref2015         | True                                | False                  | False               | True           | True            | False                      |
+| 12x2_reg      |       12 |        2 | ref2015         | True                                | False                  | False               | True           | True            | False                      |
+| 12x3_reg      |       12 |        3 | ref2015         | True                                | False                  | False               | True           | True            | False                      |
+| 15x3_reg      |       15 |        3 | ref2015         | True                                | False                  | False               | True           | True            | False                      |
+| 12x2_con      |       12 |        2 | ref2015         | False                               | False                  | False               | True           | True            | False                      |
+| 12x2_neigh    |       12 |        2 | ref2015         | True                                | True                   | False               | True           | True            | False                      |
+| 12x2_cart     |       12 |        2 | ref2015_cart    | True                                | False                  | False               | True           | True            | False                      |
+| 12x2_beta     |       12 |        2 | beta_nov16      | True                                | False                  | False               | True           | True            | False                      |
+| 12x2_betacart |       12 |        2 | beta_nov16_cart | True                                | False                  | False               | True           | True            | False                      |
+
+The results were stored using the `SqliteDict`, a pseudo-dictionary which stores data as an SQLite database.
+
+```python
+from sqlitedict import SqliteDict
+import json
+import pandas as pd
+
+db_scores = SqliteDict('S1342-scores.db', encode=json.dumps, decode=json.loads, autocommit=True)
+# there are some `None` values:
+dict_scores = {k: v for k, v in db_scores.items() if isinstance(v, dict)}
+# pandas dataframe
+scores = pd.DataFrame.from_dict(dict_scores, orient='index')
+```
+
+## Distribution of experimental values
+
+![dataset_distribution](images/dataset_distribution.png)
