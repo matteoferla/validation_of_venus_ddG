@@ -1,0 +1,1 @@
+{"12x2_reg": {"radius": 12, "cycles": 2, "scorefxn_name": "ref2015", "prevent_acceptance_of_incrementor": true, "neighbour_only_score": false, "outer_constrained": false, "single_chain": true, "remove_ligand": true, "use_pymol_for_neighbours": false}}
