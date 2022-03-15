@@ -2,7 +2,7 @@
 
 > ¡ Data here is unscaled !
 
-> This is a modified Markdown-exported version of the notebook (see [data](../data) for actual notebook)
+> This is a modified Markdown-exported version of the notebook (see [first_data](../first_data) for actual notebook)
 
 ## IO
 
