@@ -1,0 +1,134 @@
+,group,Genetic evidence,Functional studies,Response to sulphonylureas,Mutation previously reported,SIFT_tolerance,PolyPhen_damaging,protein,lof,gof,uniprot,mutation
+0,ABCC8-Gain-of-function mutations,de_novo,False,True,Stanik et al. (2007),True,False,ABCC8,False,True,Q09428,V86A
+1,ABCC8-Gain-of-function mutations,de_novo,False,True,Ellard et al. (2007),True,True,ABCC8,False,True,Q09428,V86G
+2,ABCC8-Gain-of-function mutations,de_novo,True,False,Proks et al. (2006),True,True,ABCC8,False,True,Q09428,F132L
+3,ABCC8-Gain-of-function mutations,de_novo,False,False,Ellard et al. (2007),True,True,ABCC8,False,True,Q09428,F132V
+4,ABCC8-Gain-of-function mutations,-,False,True,Ellard et al. (2007),True,False,ABCC8,False,True,Q09428,E208K
+5,ABCC8-Gain-of-function mutations,de_novo,False,True,Ellard et al. (2007),True,True,ABCC8,False,True,Q09428,D209E
+6,ABCC8-Gain-of-function mutations,de_novo,False,True,Codner et al. (2007),True,False,ABCC8,False,True,Q09428,Q211K
+7,ABCC8-Gain-of-function mutations,de_novo,False,True,Flanagan et al. (2007),True,True,ABCC8,False,True,Q09428,D212I
+8,ABCC8-Gain-of-function mutations,de_novo,False,False,Babenko et al. (2006),True,False,ABCC8,False,True,Q09428,L213R
+9,ABCC8-Gain-of-function mutations,de_novo,True,True,Masia et al. (2007a),True,False,ABCC8,False,True,Q09428,L225P
+10,ABCC8-Gain-of-function mutations,-,False,True,Ellard et al. (2007),True,True,ABCC8,False,True,Q09428,T229I
+11,ABCC8-Gain-of-function mutations,de_novo,False,False,Flanagan et al. (2007),True,False,ABCC8,False,True,Q09428,V324M
+12,ABCC8-Gain-of-function mutations,de_novo,False,False,Flanagan et al. (2007),True,True,ABCC8,False,True,Q09428,L451P
+13,ABCC8-Gain-of-function mutations,de_novo,False,False,Babenko et al. (2006),False,False,ABCC8,False,True,Q09428,L582V
+14,ABCC8-Gain-of-function mutations,de_novo,True,True,"Flanagan et al. (2007), de Wet et al. (2008)",False,True,ABCC8,False,True,Q09428,R826W
+15,ABCC8-Gain-of-function mutations,de_novo,True,False,Babenko et al. (2006),True,False,ABCC8,False,True,Q09428,H1024Y
+16,ABCC8-Gain-of-function mutations,de_novo,False,False,Suzuki et al. (2007),False,True,ABCC8,False,True,Q09428,N1123D
+17,ABCC8-Gain-of-function mutations,de_novo,False,True,Patch et al. (2007),False,True,ABCC8,False,True,Q09428,R1183W
+18,ABCC8-Gain-of-function mutations,de_novo,False,False,Babenko et al. (2006),True,True,ABCC8,False,True,Q09428,R1183Q
+19,ABCC8-Gain-of-function mutations,-,False,True,Patch et al. (2007),False,True,ABCC8,False,True,Q09428,R1314H
+20,ABCC8-Gain-of-function mutations,-,True,False,"Babenko et al. (2006), de Wet et al. (2007)",False,True,ABCC8,False,True,Q09428,R1380C
+21,ABCC8-Gain-of-function mutations,de_novo,False,True,Flanagan et al. (2007),False,True,ABCC8,False,True,Q09428,R1380H
+22,ABCC8-Gain-of-function mutations,de_novo,True,True,"de Wet et al. (2007), Patch et al. (2007)",False,True,ABCC8,False,True,Q09428,R1380L
+23,ABCC8-Gain-of-function mutations,de_novo,True,False,Babenko et al. (2006),True,False,ABCC8,False,True,Q09428,I1425V
+24,KCNJ11-Gain-of-function mutations,-,True,True,-,False,False,KCNJ11,False,True,Q14654,S3C
+25,KCNJ11-Gain-of-function mutations,de_novo,True,True,Flanagan et al. (2006),True,False,KCNJ11,False,True,Q14654,H46Y
+26,KCNJ11-Gain-of-function mutations,de_novo,True,False,Massa et al. (2005),True,False,KCNJ11,False,True,Q14654,R50P
+27,KCNJ11-Gain-of-function mutations,de_novo,True,True,Flanagan et al. (2006),True,False,KCNJ11,False,True,Q14654,R50Q
+28,KCNJ11-Gain-of-function mutations,de_novo,False,True,Unpublished data,True,False,KCNJ11,False,True,Q14654,E51A
+29,KCNJ11-Gain-of-function mutations,de_novo,True,False,Gloyn et al. (2004),True,False,KCNJ11,False,True,Q14654,Q52R
+30,KCNJ11-Gain-of-function mutations,-,True,True,Flanagan et al. (2006),True,False,KCNJ11,False,True,Q14654,G53D
+31,KCNJ11-Gain-of-function mutations,de_novo,True,True,Gloyn et al. (2005),True,False,KCNJ11,False,True,Q14654,G53R
+32,KCNJ11-Gain-of-function mutations,-,True,True,Gloyn et al. (2005),True,False,KCNJ11,False,True,Q14654,G53S
+33,KCNJ11-Gain-of-function mutations,de_novo,True,False,Gloyn et al. (2004),False,True,KCNJ11,False,True,Q14654,V59G
+34,KCNJ11-Gain-of-function mutations,de_novo,True,True,Gloyn et al. (2004),False,False,KCNJ11,False,True,Q14654,V59M
+35,KCNJ11-Gain-of-function mutations,de_novo,True,False,"Flanagan et al. (2006), Tammaro et al. (2008)",False,True,KCNJ11,False,True,Q14654,L164P
+36,KCNJ11-Gain-of-function mutations,de_novo,False,False,Gloyn et al. (2006),False,False,KCNJ11,False,True,Q14654,C166F
+37,KCNJ11-Gain-of-function mutations,de_novo,False,False,Flanagan et al. (2006),False,True,KCNJ11,False,True,Q14654,C166Y
+38,KCNJ11-Gain-of-function mutations,de_novo,True,True,Shimomura et al. (2007),False,True,KCNJ11,False,True,Q14654,I167L
+39,KCNJ11-Gain-of-function mutations,de_novo,False,True,Massa et al. (2005),False,True,KCNJ11,False,True,Q14654,K170N
+40,KCNJ11-Gain-of-function mutations,de_novo,False,True,Massa et al. (2005),False,True,KCNJ11,False,True,Q14654,K170R
+41,KCNJ11-Gain-of-function mutations,-,True,True,Flanagan et al. (2006),False,True,KCNJ11,False,True,Q14654,K170T
+42,KCNJ11-Gain-of-function mutations,de_novo,False,False,Flanagan et al. (2007),False,False,KCNJ11,False,True,Q14654,E179A
+43,KCNJ11-Gain-of-function mutations,de_novo,True,False,Gloyn et al. (2005),False,False,KCNJ11,False,True,Q14654,I182V
+44,KCNJ11-Gain-of-function mutations,de_novo,True,True,Gloyn et al. (2004),False,True,KCNJ11,False,True,Q14654,R201C
+45,KCNJ11-Gain-of-function mutations,de_novo,True,True,Gloyn et al. (2004),False,True,KCNJ11,False,True,Q14654,R201H
+46,KCNJ11-Gain-of-function mutations,de_novo,False,True,Codner et al. (2005),False,True,KCNJ11,False,True,Q14654,R201L
+47,KCNJ11-Gain-of-function mutations,de_novo,False,True,Unpublished data,False,True,KCNJ11,False,True,Q14654,R201S
+48,KCNJ11-Gain-of-function mutations,de_novo,True,True,Edghill et al. (2007),False,True,KCNJ11,False,True,Q14654,E227K
+49,KCNJ11-Gain-of-function mutations,de_novo,True,True,Flanagan et al. (2007),False,True,KCNJ11,False,True,Q14654,E229K
+50,KCNJ11-Gain-of-function mutations,de_novo,False,False,Unpublished data,True,False,KCNJ11,False,True,Q14654,L233F
+51,KCNJ11-Gain-of-function mutations,de_novo,False,False,Unpublished data,False,True,KCNJ11,False,True,Q14654,V252G
+52,KCNJ11-Gain-of-function mutations,-,False,True,Unpublished data,False,False,KCNJ11,False,True,Q14654,V252M
+53,KCNJ11-Gain-of-function mutations,-,True,False,Shimomura et al. (2009),False,False,KCNJ11,False,True,Q14654,T293N
+54,KCNJ11-Gain-of-function mutations,de_novo,True,False,Gloyn et al. (2004),True,False,KCNJ11,False,True,Q14654,I296L
+55,KCNJ11-Gain-of-function mutations,-,True,True,Vaxillaire et al. (2004),False,False,KCNJ11,False,True,Q14654,E322K
+56,KCNJ11-Gain-of-function mutations,-,False,True,Flanagan et al. (2006),False,True,KCNJ11,False,True,Q14654,Y330S
+57,KCNJ11-Gain-of-function mutations,-,True,False,Masia et al. (2007b),True,False,KCNJ11,False,True,Q14654,G334D
+58,GCK-Gain-of-function mutations,de_novo,True,,Christesen et al. (2008),False,True,GCK,False,True,P35557,S64Y
+59,GCK-Gain-of-function mutations,de_novo,True,,Gloyn et al. (2003),False,False,GCK,False,True,P35557,T65I
+60,GCK-Gain-of-function mutations,-,True,,Wabitsch et al. (2007),False,True,GCK,False,True,P35557,G68V
+61,GCK-Gain-of-function mutations,de_novo,True,,Gloyn et al. (2003),True,False,GCK,False,True,P35557,W99R
+62,GCK-Gain-of-function mutations,de_novo,True,,Cuesta-Munoz et al. (2004),True,True,GCK,False,True,P35557,Y214C
+63,GCK-Gain-of-function mutations,de_novo,True,,Meissner et al. (2009),False,False,GCK,False,True,P35557,V452L
+64,GCK-Gain-of-function mutations,-,True,,Glaser et al. (1998),False,False,GCK,False,True,P35557,V455M
+65,GCK-Gain-of-function mutations,-,True,,Christesen et al. (2002),False,False,GCK,False,True,P35557,A456V
+66,ABCC8-Loss-of-function mutations,Yes,False,,Greer et al. (2007),False,True,ABCC8,True,False,Q09428,M1V
+67,ABCC8-Loss-of-function mutations,Yes,True,,Suchi et al. (2006),False,True,ABCC8,True,False,Q09428,G7R
+68,ABCC8-Loss-of-function mutations,Yes,False,,Suchi et al. (2006),True,True,ABCC8,True,False,Q09428,V21D
+69,ABCC8-Loss-of-function mutations,Yes,True,,Peranteau et al. (2007),True,True,ABCC8,True,False,Q09428,N24K
+70,ABCC8-Loss-of-function mutations,Yes,True,,Suchi et al. (2003),False,True,ABCC8,True,False,Q09428,R74W
+71,ABCC8-Loss-of-function mutations,Yes,True,,Fernandez-Marmiesse et al. (2006),True,True,ABCC8,True,False,Q09428,G111R
+72,ABCC8-Loss-of-function mutations,-,True,,Nestorowicz et al. (1998),True,True,ABCC8,True,False,Q09428,H125Q
+73,ABCC8-Loss-of-function mutations,Yes,True,,Otonkoski et al. (1999),True,True,ABCC8,True,False,Q09428,V187D
+74,ABCC8-Loss-of-function mutations,-,True,,Muzyamba et al. (2007),False,False,ABCC8,True,False,Q09428,G228D
+75,ABCC8-Loss-of-function mutations,Yes,True,,Fernandez-Marmiesse et al. (2006),True,True,ABCC8,True,False,Q09428,D310N
+76,ABCC8-Loss-of-function mutations,Yes,True,,Pinney et al. (2008),True,True,ABCC8,True,False,Q09428,R370G
+77,ABCC8-Loss-of-function mutations,Yes,True,,Abdulhadi-Atwan et al. (2008),True,True,ABCC8,True,False,Q09428,R370S
+78,ABCC8-Loss-of-function mutations,-,True,,Stanley et al. (2004),False,True,ABCC8,True,False,Q09428,R495Q
+79,ABCC8-Loss-of-function mutations,Yes,False,,Peranteau et al. (2007),False,True,ABCC8,True,False,Q09428,R1215W
+80,ABCC8-Loss-of-function mutations,Yes,True,,Magge et al. (2004),False,True,ABCC8,True,False,Q09428,R1353H
+81,ABCC8-Loss-of-function mutations,Yes,True,,Pinney et al. (2008),True,True,ABCC8,True,False,Q09428,K1374R
+82,ABCC8-Loss-of-function mutations,Yes,True,,Pinney et al. (2008),False,True,ABCC8,True,False,Q09428,S1386P
+83,ABCC8-Loss-of-function mutations,Yes,True,,Pinney et al. (2008),False,True,ABCC8,True,False,Q09428,G1478V
+84,ABCC8-Loss-of-function mutations,Yes,True,,Nichols et al. (1996),False,True,ABCC8,True,False,Q09428,G1479R
+85,ABCC8-Loss-of-function mutations,Yes,False,,Glaser et al. (1999),False,True,ABCC8,True,False,Q09428,R1494Q
+86,ABCC8-Loss-of-function mutations,-,True,,Verkarre et al. (1998),False,True,ABCC8,True,False,Q09428,R1494W
+87,ABCC8-Loss-of-function mutations,Yes,True,,Huopio et al. (2000),False,True,ABCC8,True,False,Q09428,E1507K
+88,ABCC8-Loss-of-function mutations,Yes,True,,Pinney et al. (2008),False,True,ABCC8,True,False,Q09428,I1512T
+89,ABCC8-Loss-of-function mutations,Yes,True,,Pinney et al. (2008),False,True,ABCC8,True,False,Q09428,R1539Q
+90,ABCC8-Loss-of-function mutations,-,True,,Aguilar-Bryan and Bryan (1999),False,True,ABCC8,True,False,Q09428,L1544P
+91,KCNJ11-Loss-of-function mutations,Yes,False,,Ohkubo et al. (2005),False,True,KCNJ11,True,False,Q14654,R34H
+92,KCNJ11-Loss-of-function mutations,Yes,False,,Suchi et al. (2006),False,True,KCNJ11,True,False,Q14654,G40D
+93,KCNJ11-Loss-of-function mutations,Yes,True,,Lin et al. (2006),False,True,KCNJ11,True,False,Q14654,F55L
+94,KCNJ11-Loss-of-function mutations,Yes,False,,Unpublished data,False,True,KCNJ11,True,False,Q14654,T62M
+95,KCNJ11-Loss-of-function mutations,Yes,True,,Huopio et al. (2002),False,False,KCNJ11,True,False,Q14654,K67N
+96,KCNJ11-Loss-of-function mutations,Yes,True,,Aguilar-Bryan and Bryan (1999),False,True,KCNJ11,True,False,Q14654,W91R
+97,KCNJ11-Loss-of-function mutations,Yes,False,,Stanley et al. (2004),True,False,KCNJ11,True,False,Q14654,A101D
+98,KCNJ11-Loss-of-function mutations,Yes,False,,Suchi et al. (2006),True,True,KCNJ11,True,False,Q14654,S116P
+99,KCNJ11-Loss-of-function mutations,Yes,False,,Suchi et al. (2003),False,True,KCNJ11,True,False,Q14654,G134A
+100,KCNJ11-Loss-of-function mutations,Yes,False,,Stanley et al. (2004),False,True,KCNJ11,True,False,Q14654,R136L
+101,KCNJ11-Loss-of-function mutations,Yes,True,,Pinney et al. (2008),False,True,KCNJ11,True,False,Q14654,G156R
+102,KCNJ11-Loss-of-function mutations,Yes,True,,Unpublished data,False,True,KCNJ11,True,False,Q14654,D204E
+103,KCNJ11-Loss-of-function mutations,Yes,False,,Unpublished data,False,True,KCNJ11,True,False,Q14654,A213T
+104,KCNJ11-Loss-of-function mutations,Yes,True,,Unpublished data,False,True,KCNJ11,True,False,Q14654,P254L
+105,KCNJ11-Loss-of-function mutations,Yes,True,,Shimomura et al. (2009),False,True,KCNJ11,True,False,Q14654,T294M
+106,KCNJ11-Loss-of-function mutations,Yes,True,,Marthinet et al. (2005),False,True,KCNJ11,True,False,Q14654,H259R
+107,KCNJ11-Loss-of-function mutations,Yes,False,,Suchi et al. (2003),False,True,KCNJ11,True,False,Q14654,P266L
+108,KCNJ11-Loss-of-function mutations,Yes,False,,Hardy et al. (2007),False,True,KCNJ11,True,False,Q14654,E282K
+109,KCNJ11-Loss-of-function mutations,Yes,True,,Lin et al. (2008),False,True,KCNJ11,True,False,Q14654,R301C
+110,KCNJ11-Loss-of-function mutations,Yes,True,,Lin et al. (2008),False,True,KCNJ11,True,False,Q14654,R301P
+111,KCNJ11-Loss-of-function mutations,Yes,True,,Lin et al. (2008),False,True,KCNJ11,True,False,Q14654,R301G
+112,KCNJ11-Loss-of-function mutations,Yes,True,,Stanley et al. (2004),False,True,KCNJ11,True,False,Q14654,R301H
+113,GCK-Loss-of-function mutations,Yes,True,,Thomson et al. (2003),False,True,GCK,True,False,P35557,G44D
+114,GCK-Loss-of-function mutations,Yes,True,,Thomson et al. (2003),False,True,GCK,True,False,P35557,G44S
+115,GCK-Loss-of-function mutations,Yes,True,,Thomson et al. (2003),False,False,GCK,True,False,P35557,Y108H
+116,GCK-Loss-of-function mutations,Yes,True,,Osbak et al. (2009),False,True,GCK,True,False,P35557,C129Y
+117,GCK-Loss-of-function mutations,Yes,True,,Ellard et al. (2000),False,True,GCK,True,False,P35557,F150S
+118,GCK-Loss-of-function mutations,Yes,True,,Osbak et al. (2009),False,False,GCK,True,False,P35557,D160N
+119,GCK-Loss-of-function mutations,Yes,True,,Ellard et al. (2000),False,True,GCK,True,False,P35557,N180K
+120,GCK-Loss-of-function mutations,Yes,True,,Thomson et al. (2003),False,True,GCK,True,False,P35557,V182M
+121,GCK-Loss-of-function mutations,Yes,True,,Thomson et al. (2003),False,True,GCK,True,False,P35557,A188T
+122,GCK-Loss-of-function mutations,Yes,True,,Ellard et al. (2000),False,True,GCK,True,False,P35557,R191W
+123,GCK-Loss-of-function mutations,Yes,True,,Osbak et al. (2009),False,False,GCK,True,False,P35557,A201S
+124,GCK-Loss-of-function mutations,Yes,True,,Osbak et al. (2009),False,False,GCK,True,False,P35557,V203A
+125,GCK-Loss-of-function mutations,Yes,True,,Thomson et al. (2003),False,False,GCK,True,False,P35557,G223S
+126,GCK-Loss-of-function mutations,Yes,True,,Thomson et al. (2003),False,True,GCK,True,False,P35557,G261R
+127,GCK-Loss-of-function mutations,Yes,True,,Osbak et al. (2009),True,False,GCK,True,False,P35557,E265K
+128,GCK-Loss-of-function mutations,Yes,True,,Osbak et al. (2009),False,True,GCK,True,False,P35557,D278E
+129,GCK-Loss-of-function mutations,Yes,True,,Osbak et al. (2009),False,False,GCK,True,False,P35557,S340I
+130,GCK-Loss-of-function mutations,Yes,True,,Osbak et al. (2009),False,True,GCK,True,False,P35557,M381T
+131,GCK-Loss-of-function mutations,Yes,True,,Thomson et al. (2003),False,True,GCK,True,False,P35557,R392C
+132,GCK-Loss-of-function mutations,Yes,True,,Garcia-Herrero et al. (2007),False,True,GCK,True,False,P35557,R397L
