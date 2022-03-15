@@ -1,0 +1,769 @@
+,PDB_code,Protherm ID,resi,chain,from_resn,to_resn,SASA,experimental_ddG,Classifiers,PDB_chain,mutation,uniprot,dataset,protein_id
+0,1STN,2199,122,A,E,F,0.2248996737218838,0.8,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1STN_A,E122F,P00644,Protherm*,1STN_A
+1,1STN,1711,139,A,I,A,0.3267407295318805,3.5,'hydrophobic to hydrophobic' 'buried',1STN_A,I139A,P00644,Protherm*,1STN_A
+2,1AAR,3,45,A,F,W,0.1500261467316511,-0.6,'hydrophobic to hydrophobic' 'buried',1AAR_A,F45W,P0CH28,Protherm*,1AAR_A
+3,1TUP,2256,273,A,R,H,0.4685247074545766,0.35,'positive to non-charged polar' 'buried',1TUP_A,R273H,P04637,Protherm*,1TUP_A
+4,1LZ1,1076,110,A,V,L,0.429976845773619,-0.0717017208413002,'hydrophobic to hydrophobic' 'buried',1LZ1_A,V110L,P61626,Protherm*,1LZ1_A
+5,1STN,1909,129,A,E,F,0.157148838752741,4.0,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1STN_A,E129F,P00644,Protherm*,1STN_A
+6,1CYC,521,73,A,K,Y,0.9795610600202348,1.05,'positive to non-charged polar' 'surface',1CYC_A,K73Y,P00025,Protherm*,1CYC_A
+7,1PIN,1226,16,A,S,A,0.224398487800727,0.442160611854685,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1PIN_A,S16A,Q13526,Protherm*,1PIN_A
+8,1LZ1,1075,32,A,A,L,0.0,0.0956022944550669,'hydrophobic to hydrophobic' 'buried',1LZ1_A,A32L,P61626,Protherm*,1LZ1_A
+9,1L63,876,144,A,N,E,0.7631355231688133,-0.5,'non-charged polar to negative' 'surface',1L63_A,N144E,P404,Protherm*,1L63_A
+10,1BVC,372,135,A,L,A,0.0,1.7,'hydrophobic to hydrophobic' 'buried',1BVC_A,L135A,P02185,Protherm*,1BVC_A
+11,1STN,1720,62,A,T,S,0.0,2.1,'non-charged polar to non-charged polar' 'buried',1STN_A,T62S,P00644,Protherm*,1STN_A
+12,1A2P,124,53,A,G,A,0.242165344540375,3.4,'hydrophobic to hydrophobic' 'buried',1A2P_A,G53A,P00648,Protherm*,1A2P_A
+13,2LZM,2715,3,A,I,V,0.0653005094701614,0.4,'hydrophobic to hydrophobic' 'buried',2LZM_A,I3V,P404,Protherm*,2LZM_A
+14,2BQA,2502,99,A,V,A,0.0,0.884321223709,'hydrophobic to hydrophobic' 'buried',2BQA_A,V99A,P61626,Protherm*,2BQA_A
+15,5AZU,2970,33,A,L,A,0.0,1.67304015296367,'hydrophobic to hydrophobic' 'buried',5AZU_A,L33A,P00282,Protherm*,5AZU_A
+16,4LYZ,2915,12,A,M,F,0.0,-0.28,'hydrophobic to hydrophobic' 'buried',4LYZ_A,M12F,P404,Protherm*,4LYZ_A
+17,1QLP,1309,331,A,K,T,0.2433503307945416,-0.43,'large to small' 'positive to non-charged polar' 'buried',1QLP_A,K331T,P01009,Protherm*,1QLP_A
+18,1DYJ,1567,59,A,N,T,0.0399882034799733,0.32,'non-charged polar to non-charged polar' 'buried',1DYJ_A,N59T,P0ABQ4,Protherm*,1DYJ_A
+19,4LYZ,2897,40,A,T,S,0.0,0.27,'non-charged polar to non-charged polar' 'buried',4LYZ_A,T40S,P404,Protherm*,4LYZ_A
+20,1DYJ,1526,31,A,F,V,0.202768915650299,1.5,'large to small' 'hydrophobic to hydrophobic' 'buried',1DYJ_A,F31V,P0ABQ4,Protherm*,1DYJ_A
+21,1PIN,1221,15,A,M,A,0.6520354483701287,0.590344168260038,'hydrophobic to hydrophobic' 'surface',1PIN_A,M15A,Q13526,Protherm*,1PIN_A
+22,1L63,800,66,A,L,M,0.0027408150597805,1.0,'hydrophobic to hydrophobic' 'buried',1L63_A,L66M,P404,Protherm*,1L63_A
+23,1STN,1938,79,A,G,V,0.2431613888911096,2.4,'hydrophobic to hydrophobic' 'buried',1STN_A,G79V,P00644,Protherm*,1STN_A
+24,1FXA,621,48,A,T,A,0.1891019802651,-0.1,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1FXA_A,T48A,P0A3C7,Protherm*,1FXA_A
+25,1VQB,2359,45,A,V,L,0.2132674420587864,3.0,'hydrophobic to hydrophobic' 'buried',1VQB_A,V45L,P69543,Protherm*,1VQB_A
+26,1PGA,1172,53,A,T,N,0.3158169288339977,-0.52,'non-charged polar to non-charged polar' 'buried',1PGA_A,T53N,P06654,Protherm*,1PGA_A
+27,1VQB,2324,47,A,I,V,0.0,2.0,'hydrophobic to hydrophobic' 'buried',1VQB_A,I47V,P69543,Protherm*,1VQB_A
+28,1STN,1755,54,A,Y,L,0.2742418526862935,3.4,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1STN_A,Y54L,P00644,Protherm*,1STN_A
+29,1QLP,1306,364,A,V,I,0.0063644491998932,-0.4,'hydrophobic to hydrophobic' 'buried',1QLP_A,V364I,P01009,Protherm*,1QLP_A
+30,1LZ1,1006,96,A,A,S,0.0,1.0038240917782,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1LZ1_A,A96S,P61626,Protherm*,1LZ1_A
+31,1FTG,604,50,A,L,A,0.0,-0.05,'hydrophobic to hydrophobic' 'buried',1FTG_A,L50A,P0A3E0,Protherm*,1FTG_A
+32,1BVC,356,135,A,L,I,0.0,1.54,'hydrophobic to hydrophobic' 'buried',1BVC_A,L135I,P02185,Protherm*,1BVC_A
+33,1VQB,2288,78,A,I,T,0.2247727260932925,6.6,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1VQB_A,I78T,P69543,Protherm*,1VQB_A
+34,5AZU,2972,48,A,W,A,0.0,3.34608030592734,'large to small' 'hydrophobic to hydrophobic' 'buried',5AZU_A,W48A,P00282,Protherm*,5AZU_A
+35,1RN1,1392,16,B,V,T,0.0,3.2,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1RN1_B,V16T,P404,Protherm*,1RN1_B
+36,1VQB,2348,73,A,F,W,0.753872549034302,-0.76,'hydrophobic to hydrophobic' 'surface',1VQB_A,F73W,P69543,Protherm*,1VQB_A
+37,1L63,815,44,A,S,D,0.5008821743281026,0.11,'non-charged polar to negative' 'surface',1L63_A,S44D,P404,Protherm*,1L63_A
+38,1L63,891,44,A,S,Y,0.5008821743281026,-0.19,'small to large' 'non-charged polar to non-charged polar' 'surface',1L63_A,S44Y,P404,Protherm*,1L63_A
+39,1STN,2103,92,A,I,A,0.0,4.0,'hydrophobic to hydrophobic' 'buried',1STN_A,I92A,P00644,Protherm*,1STN_A
+40,1PIN,1259,25,A,F,A,0.1827629563837443,2.13671128107075,'large to small' 'hydrophobic to hydrophobic' 'buried',1PIN_A,F25A,Q13526,Protherm*,1PIN_A
+41,1STN,1741,51,A,V,I,0.5841138052052057,-0.1,'hydrophobic to hydrophobic' 'surface',1STN_A,V51I,P00644,Protherm*,1STN_A
+42,1STN,1934,73,A,E,G,0.079738325016666,2.7,'large to small' 'polar to hydrophobic' 'negative to hydrophobic' 'buried',1STN_A,E73G,P00644,Protherm*,1STN_A
+43,1OH0,1155,16,A,Y,S,0.0293757699877209,11.9,'large to small' 'non-charged polar to non-charged polar' 'buried',1OH0_A,Y16S,P07445,Protherm*,1OH0_A
+44,2ZTA,2820,28,A,K,A,0.9686778152190104,0.06,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',2ZTA_A,K28A,P03069,Protherm*,2ZTA_A
+45,1VQB,2357,24,A,K,V,0.7891903507201625,-0.8,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1VQB_A,K24V,P69543,Protherm*,1VQB_A
+46,1SHG,1654,18,A,K,F,1.0838236081897363,-2.33,'polar to hydrophobic' 'positive to hydrophobic' 'surface',1SHG_A,K18F,P07751,Protherm*,1SHG_A
+47,2RN2,2781,52,A,A,N,0.0,1.79,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',2RN2_A,A52N,P0A7Y4,Protherm*,2RN2_A
+48,1TEN,2212,882,A,S,A,0.064736290139658,2.82,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1TEN_A,S882A,P24821,Protherm*,1TEN_A
+49,1STN,1672,78,A,K,F,0.7927684997717831,-0.1,'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K78F,P00644,Protherm*,1STN_A
+50,1A2P,66,18,A,H,S,0.6413483160750959,2.1,'large to small' 'non-charged polar to non-charged polar' 'surface',1A2P_A,H18S,P00648,Protherm*,1A2P_A
+51,1STN,1686,96,A,G,F,0.3787777586561648,3.0,'small to large' 'hydrophobic to hydrophobic' 'buried',1STN_A,G96F,P00644,Protherm*,1STN_A
+52,2LZM,2690,3,A,I,D,0.0653005094701614,3.2,'hydrophobic to polar' 'hydrophobic to negative' 'buried',2LZM_A,I3D,P404,Protherm*,2LZM_A
+53,1BPI,296,3,A,D,A,0.6941593133851035,-0.2,'polar to hydrophobic' 'negative to hydrophobic' 'surface',1BPI_A,D3A,P00974,Protherm*,1BPI_A
+54,1ROP,1449,30,A,D,R,0.8978610684043312,-0.8,'negative to positive' 'surface',1ROP_A,D30R,P03051,Protherm*,1ROP_A
+55,1STN,2135,48,A,K,E,1.2537807375608834,0.0,'positive to negative' 'surface',1STN_A,K48E,P00644,Protherm*,1STN_A
+56,2CI2,2520,51,I,L,V,0.2454223960804548,1.02,'hydrophobic to hydrophobic' 'buried',2CI2_I,L51V,P01053,Protherm*,2CI2_I
+57,1STN,1730,48,A,K,G,1.2537807375608834,-0.2,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K48G,P00644,Protherm*,1STN_A
+58,1POH,1273,49,A,K,D,0.8134929855173562,-1.5,'positive to negative' 'surface',1POH_A,K49D,P0AA04,Protherm*,1POH_A
+59,1CSP,512,20,A,V,K,0.0832100493717215,1.95984703632887,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1CSP_A,V20K,P32081,Protherm*,1CSP_A
+60,2IFB,2607,65,A,G,A,0.584248849512392,1.33,'hydrophobic to hydrophobic' 'surface',2IFB_A,G65A,P02693,Protherm*,2IFB_A
+61,1FKJ,547,75,A,T,V,0.3321680107369286,0.81,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1FKJ_A,T75V,P62942,Protherm*,1FKJ_A
+62,1UBQ,2268,33,A,K,Q,0.7363888100246834,0.908221797323136,'positive to non-charged polar' 'surface',1UBQ_A,K33Q,P0CG48,Protherm*,1UBQ_A
+63,1A2P,194,78,A,Y,F,0.0357719019060081,1.14,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1A2P_A,Y78F,P00648,Protherm*,1A2P_A
+64,1STN,1771,70,A,K,F,1.2334607516317415,0.2,'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K70F,P00644,Protherm*,1STN_A
+65,2CI2,2566,49,I,I,T,0.3768474564012934,1.34,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',2CI2_I,I49T,P01053,Protherm*,2CI2_I
+66,1L63,944,44,A,S,W,0.5008821743281026,-0.05,'small to large' 'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',1L63_A,S44W,P404,Protherm*,1L63_A
+67,1FKJ,560,50,A,L,A,0.0,2.57,'hydrophobic to hydrophobic' 'buried',1FKJ_A,L50A,P62942,Protherm*,1FKJ_A
+68,2LZM,2699,117,A,S,I,0.0100371834664122,-1.7,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',2LZM_A,S117I,P404,Protherm*,2LZM_A
+69,3MBP,2848,55,A,D,N,0.2688653503665577,0.0,'negative to non-charged polar' 'buried',3MBP_A,D55N,P0AEX9,Protherm*,3MBP_A
+70,1HFZ,690,103,A,Y,A,0.1707971186585609,2.39005736137667,'large to small' 'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1HFZ_A,Y103A,P00711,Protherm*,1HFZ_A
+71,1RTB,1462,54,A,V,G,0.0,4.86615678776291,'hydrophobic to hydrophobic' 'buried',1RTB_A,V54G,P61823,Protherm*,1RTB_A
+72,1STN,2012,115,A,Y,L,0.6542712250563079,0.3,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',1STN_A,Y115L,P00644,Protherm*,1STN_A
+73,1STN,2015,89,A,L,F,0.0424889201755509,1.2189292543,'hydrophobic to hydrophobic' 'buried',1STN_A,L89F,P00644,Protherm*,1STN_A
+74,1FTG,592,18,A,V,I,0.0031822245999466,-0.27,'hydrophobic to hydrophobic' 'buried',1FTG_A,V18I,P0A3E0,Protherm*,1FTG_A
+75,1BPI,306,36,A,G,A,0.0511020570975103,2.1,'hydrophobic to hydrophobic' 'buried',1BPI_A,G36A,P00974,Protherm*,1BPI_A
+76,1RTB,1471,54,A,V,I,0.0,1.94550669216061,'hydrophobic to hydrophobic' 'buried',1RTB_A,V54I,P61823,Protherm*,1RTB_A
+77,1PIN,1245,29,A,T,A,0.0,1.24521988527725,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1PIN_A,T29A,Q13526,Protherm*,1PIN_A
+78,1L63,947,93,A,A,S,0.5327492285916356,0.2,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'surface',1L63_A,A93S,P404,Protherm*,1L63_A
+79,2TRX,2808,78,A,L,K,0.0027408150597805,3.9,'hydrophobic to polar' 'hydrophobic to positive' 'buried',2TRX_A,L78K,P0AA25,Protherm*,2TRX_A
+80,1STN,1832,49,A,K,G,0.8008969798608041,0.2,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K49G,P00644,Protherm*,1STN_A
+81,2RN2,2759,62,A,H,D,0.5369728576016223,0.17,'non-charged polar to negative' 'surface',2RN2_A,H62D,P0A7Y4,Protherm*,2RN2_A
+82,1PGA,1178,53,A,T,I,0.3158169288339977,-0.1,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1PGA_A,T53I,P06654,Protherm*,1PGA_A
+83,1A2P,81,6,A,T,E,0.3859742714235835,0.27,'small to large' 'non-charged polar to negative' 'buried',1A2P_A,T6E,P00648,Protherm*,1A2P_A
+84,1ONC,1169,28,A,F,A,0.0703407033793058,4.99521988527725,'large to small' 'hydrophobic to hydrophobic' 'buried',1ONC_A,F28A,P22069,Protherm*,1ONC_A
+85,1TEN,2236,835,A,L,A,0.0,4.29,'hydrophobic to hydrophobic' 'buried',1TEN_A,L835A,P24821,Protherm*,1TEN_A
+86,1RN1,1410,76,B,D,N,0.0290424796674603,3.51,'negative to non-charged polar' 'buried',1RN1_B,D76N,P404,Protherm*,1RN1_B
+87,1A2P,75,23,A,N,A,0.0687766090484788,2.2,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1A2P_A,N23A,P00648,Protherm*,1A2P_A
+88,1L63,816,50,A,I,A,0.1053981069150099,2.9,'hydrophobic to hydrophobic' 'buried',1L63_A,I50A,P404,Protherm*,1L63_A
+89,2BQA,2501,93,A,V,A,0.0159257214653237,1.00382409178,'hydrophobic to hydrophobic' 'buried',2BQA_A,V93A,P61626,Protherm*,2BQA_A
+90,2RN2,2769,10,A,D,S,0.1533823769631778,-2.67,'negative to non-charged polar' 'buried',2RN2_A,D10S,P0A7Y4,Protherm*,2RN2_A
+91,1TEN,2223,830,A,I,A,0.0623377093010986,1.38,'hydrophobic to hydrophobic' 'buried',1TEN_A,I830A,P24821,Protherm*,1TEN_A
+92,451C,2880,78,A,V,I,0.0,-0.06,'hydrophobic to hydrophobic' 'buried',451C_A,V78I,P00099,Protherm*,451C_A
+93,1H7M,657,90,A,E,A,0.8075589040661856,0.406309751434034,'large to small' 'polar to hydrophobic' 'negative to hydrophobic' 'surface',1H7M_A,E90A,P29160,Protherm*,1H7M_A
+94,2RN2,2747,52,A,A,T,0.0,0.82,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',2RN2_A,A52T,P0A7Y4,Protherm*,2RN2_A
+95,2CI2,2540,42,I,D,A,0.4315283201521822,1.05,'polar to hydrophobic' 'negative to hydrophobic' 'buried',2CI2_I,D42A,P01053,Protherm*,2CI2_I
+96,1TPK,2250,65,A,V,M,0.0,2.2,'hydrophobic to hydrophobic' 'buried',1TPK_A,V65M,P00750,Protherm*,1TPK_A
+97,1IO2,734,6,A,I,A,0.0,2.91586998087954,'hydrophobic to hydrophobic' 'buried',1IO2_A,I6A,O74035,Protherm*,1IO2_A
+98,2LZM,2717,131,A,V,M,0.431257126387926,-0.12,'hydrophobic to hydrophobic' 'buried',2LZM_A,V131M,P404,Protherm*,2LZM_A
+99,1SHF,1651,124,A,S,H,0.0038364926549366,1.25,'small to large' 'non-charged polar to non-charged polar' 'buried',1SHF_A,S124H,P06241,Protherm*,1SHF_A
+100,1L63,847,26,A,T,S,0.0226822373781752,-0.57,'non-charged polar to non-charged polar' 'buried',1L63_A,T26S,P404,Protherm*,1L63_A
+101,1BVC,370,135,A,L,V,0.0,2.25,'hydrophobic to hydrophobic' 'buried',1BVC_A,L135V,P02185,Protherm*,1BVC_A
+102,1STN,1805,49,A,K,F,0.8008969798608041,0.0,'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K49F,P00644,Protherm*,1STN_A
+103,1IOB,750,7,A,N,D,0.3922705301935929,-0.43,'non-charged polar to negative' 'buried',1IOB_A,N7D,P01584,Protherm*,1IOB_A
+104,1STN,2137,7,A,L,G,0.101665237382246,1.5,'hydrophobic to hydrophobic' 'buried',1STN_A,L7G,P00644,Protherm*,1STN_A
+105,1L63,924,106,A,M,I,0.2650305682495932,-0.2,'hydrophobic to hydrophobic' 'buried',1L63_A,M106I,P404,Protherm*,1L63_A
+106,1QLP,1281,250,A,A,I,0.0044210812662597,0.4,'hydrophobic to hydrophobic' 'buried',1QLP_A,A250I,P01009,Protherm*,1QLP_A
+107,1VQB,2285,49,A,L,A,0.0,6.1,'hydrophobic to hydrophobic' 'buried',1VQB_A,L49A,P69543,Protherm*,1VQB_A
+108,1STN,1827,19,A,D,K,0.110086828168651,0.3,'negative to positive' 'buried',1STN_A,D19K,P00644,Protherm*,1STN_A
+109,1L63,844,104,A,F,A,0.1444240839501184,2.7,'large to small' 'hydrophobic to hydrophobic' 'buried',1L63_A,F104A,P404,Protherm*,1L63_A
+110,1C9O,410,23,A,G,Q,0.5086648537133495,0.0,'small to large' 'hydrophobic to polar' 'hydrophobic to non-charged polar' 'surface',1C9O_A,G23Q,P41016,Protherm*,1C9O_A
+111,1A2P,86,65,A,G,S,0.6750777265514909,-0.98,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'surface',1A2P_A,G65S,P00648,Protherm*,1A2P_A
+112,1RTB,1488,63,A,V,G,0.1728557094406206,3.49665391969407,'hydrophobic to hydrophobic' 'buried',1RTB_A,V63G,P61823,Protherm*,1RTB_A
+113,1FXA,631,42,A,R,H,0.4818963114096742,1.4,'positive to non-charged polar' 'buried',1FXA_A,R42H,P0A3C7,Protherm*,1FXA_A
+114,1LZ1,1058,59,A,I,Y,0.0163220074816305,3.77629063097514,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1LZ1_A,I59Y,P61626,Protherm*,1LZ1_A
+115,1STN,1775,65,A,M,L,0.1212611791154874,0.8,'hydrophobic to hydrophobic' 'buried',1STN_A,M65L,P00644,Protherm*,1STN_A
+116,1HFZ,689,107,A,H,A,0.0977450744310124,0.788718929254302,'large to small' 'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1HFZ_A,H107A,P00711,Protherm*,1HFZ_A
+117,1BPI,311,39,A,R,A,1.040814000155492,0.0,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1BPI_A,R39A,P00974,Protherm*,1BPI_A
+118,1STN,1960,131,A,Q,F,0.4470083606818679,0.7,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1STN_A,Q131F,P00644,Protherm*,1STN_A
+119,1DYJ,1575,59,A,N,E,0.0399882034799733,2.09,'non-charged polar to negative' 'buried',1DYJ_A,N59E,P0ABQ4,Protherm*,1DYJ_A
+120,1STN,2194,81,A,R,A,0.9804545967121164,1.1,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,R81A,P00644,Protherm*,1STN_A
+121,1FKJ,569,27,A,T,V,0.172094975132562,-0.23,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1FKJ_A,T27V,P62942,Protherm*,1FKJ_A
+122,1PIN,1251,18,A,S,G,0.9285696403662062,-0.0215105162523901,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',1PIN_A,S18G,Q13526,Protherm*,1PIN_A
+123,1STN,2029,99,A,V,T,0.0,3.3,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1STN_A,V99T,P00644,Protherm*,1STN_A
+124,1PGA,1183,49,A,T,A,0.6189156190823718,0.860420650095602,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',1PGA_A,T49A,P06654,Protherm*,1PGA_A
+125,1L63,860,40,A,N,A,0.6719107215223361,-0.32,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',1L63_A,N40A,P404,Protherm*,1L63_A
+126,1AMQ,28,294,A,N,R,0.2888516869005125,2.6,'non-charged polar to positive' 'buried',1AMQ_A,N294R,P00509,Protherm*,1AMQ_A
+127,1VQB,2333,41,A,Y,A,0.6393921255596569,0.4,'large to small' 'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',1VQB_A,Y41A,P69543,Protherm*,1VQB_A
+128,1STN,2201,62,A,T,A,0.0,2.4,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1STN_A,T62A,P00644,Protherm*,1STN_A
+129,1STN,1983,141,A,S,A,0.7835025413881346,0.4,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',1STN_A,S141A,P00644,Protherm*,1STN_A
+130,1RN1,1390,21,B,A,H,0.4420946054762797,0.17,'small to large' 'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1RN1_B,A21H,P404,Protherm*,1RN1_B
+131,1HFZ,684,54,A,Q,A,0.013961591815844,0.406309751434034,'large to small' 'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1HFZ_A,Q54A,P00711,Protherm*,1HFZ_A
+132,1RN1,1435,21,B,A,S,0.4420946054762797,0.4,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1RN1_B,A21S,P404,Protherm*,1RN1_B
+133,1BVC,341,77,A,K,A,0.8141919047822098,0.05,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1BVC_A,K77A,P02185,Protherm*,1BVC_A
+134,1MGR,1116,55,A,Y,F,0.0195838466584806,2.1,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1MGR_A,Y55F,P30289,Protherm*,1MGR_A
+135,2LZM,2633,156,A,G,D,0.1552256352665003,4.07,'hydrophobic to polar' 'hydrophobic to negative' 'buried',2LZM_A,G156D,P404,Protherm*,2LZM_A
+136,1MSI,1132,36,A,D,A,0.1031118916272211,-0.95,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1MSI_A,D36A,P19614,Protherm*,1MSI_A
+137,1STN,1906,33,A,T,A,0.3200882302597649,1.4,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1STN_A,T33A,P00644,Protherm*,1STN_A
+138,1STN,1666,82,A,T,A,0.5247417725420136,0.9,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',1STN_A,T82A,P00644,Protherm*,1STN_A
+139,1POH,1272,49,A,K,S,0.8134929855173562,-1.0,'large to small' 'positive to non-charged polar' 'surface',1POH_A,K49S,P0AA04,Protherm*,1POH_A
+140,1A2P,84,55,A,I,T,0.5782300168527382,1.0,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'surface',1A2P_A,I55T,P00648,Protherm*,1A2P_A
+141,1PIN,1238,23,A,Y,L,0.1251292202382055,1.18068833652008,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1PIN_A,Y23L,Q13526,Protherm*,1PIN_A
+142,3BCI,2828,96,A,E,Q,0.4078241404813752,1.06118546845124,'negative to non-charged polar' 'buried',3BCI_A,E96Q,P404,Protherm*,3BCI_A
+143,1RGG,1331,18,A,T,V,0.0038462513987428,1.4,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1RGG_A,T18V,P05798,Protherm*,1RGG_A
+144,1L63,826,22,A,E,K,0.2724063823152908,-0.57,'negative to positive' 'buried',1L63_A,E22K,P404,Protherm*,1L63_A
+145,1H7M,635,12,A,D,A,0.6527945936785535,-0.239005736137667,'polar to hydrophobic' 'negative to hydrophobic' 'surface',1H7M_A,D12A,P29160,Protherm*,1H7M_A
+146,1PIN,1216,14,A,R,A,0.669549132992512,1.63193116634799,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1PIN_A,R14A,Q13526,Protherm*,1PIN_A
+147,1HFZ,677,110,A,L,E,0.5318139789576911,0.191204588910134,'hydrophobic to polar' 'hydrophobic to negative' 'surface',1HFZ_A,L110E,P00711,Protherm*,1HFZ_A
+148,1AMQ,29,15,A,D,A,0.3004090062123834,5.8,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1AMQ_A,D15A,P00509,Protherm*,1AMQ_A
+149,1LZ1,1091,74,A,V,D,0.61989054908828,0.430210325047801,'hydrophobic to polar' 'hydrophobic to negative' 'surface',1LZ1_A,V74D,P61626,Protherm*,1LZ1_A
+150,2RN2,2736,52,A,A,H,0.0,3.59,'small to large' 'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',2RN2_A,A52H,P0A7Y4,Protherm*,2RN2_A
+151,1L63,958,113,A,G,E,0.6045246972461932,-0.3,'small to large' 'hydrophobic to polar' 'hydrophobic to negative' 'surface',1L63_A,G113E,P404,Protherm*,1L63_A
+152,1LZ1,1111,93,A,V,T,0.0111450853326085,0.669216061185468,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1LZ1_A,V93T,P61626,Protherm*,1LZ1_A
+153,1PGA,1171,47,A,D,A,0.4253144581942261,-0.358508604206501,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1PGA_A,D47A,P06654,Protherm*,1PGA_A
+154,1STN,1800,71,A,K,G,0.6364455969230552,1.1,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K71G,P00644,Protherm*,1STN_A
+155,1L63,813,152,A,T,V,0.0032403196254536,-0.2,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1L63_A,T152V,P404,Protherm*,1L63_A
+156,1STN,1713,9,A,K,A,0.5426488101395743,1.4,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K9A,P00644,Protherm*,1STN_A
+157,1L63,787,58,A,I,T,0.0359044295954807,3.4,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1L63_A,I58T,P404,Protherm*,1L63_A
+158,1LZ1,1064,2,A,V,N,0.4329120045928795,1.33843212237094,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1LZ1_A,V2N,P61626,Protherm*,1LZ1_A
+159,1CYO,533,35,A,F,H,0.0064748570210681,2.82026768642,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1CYO_A,F35H,P00171,Protherm*,1CYO_A
+160,1STN,1697,70,A,K,G,1.2334607516317415,0.5,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K70G,P00644,Protherm*,1STN_A
+161,1LZ1,1092,21,A,R,G,0.8540019380455787,-1.1472275334608,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1LZ1_A,R21G,P61626,Protherm*,1LZ1_A
+162,1H7M,636,48,A,D,A,0.2914061689051273,-0.358508604206501,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1H7M_A,D48A,P29160,Protherm*,1H7M_A
+163,1STN,1977,74,A,V,T,0.0075545854936734,3.8,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1STN_A,V74T,P00644,Protherm*,1STN_A
+164,1LZ1,1047,59,A,I,T,0.0163220074816305,2.22275334608031,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1LZ1_A,I59T,P61626,Protherm*,1LZ1_A
+165,1PIN,1257,36,A,R,A,0.6400131117503557,0.291586998087954,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1PIN_A,R36A,Q13526,Protherm*,1PIN_A
+166,1STN,1676,122,A,E,K,0.2248996737218838,2.7,'negative to positive' 'buried',1STN_A,E122K,P00644,Protherm*,1STN_A
+167,1L63,830,59,A,T,D,0.501926731560058,1.2,'non-charged polar to negative' 'surface',1L63_A,T59D,P404,Protherm*,1L63_A
+168,1RTB,1487,123,A,S,A,0.2362455589964792,-0.46,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1RTB_A,S123A,P61823,Protherm*,1RTB_A
+169,1LZ1,1073,56,A,I,T,0.0,6.66826003824092,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1LZ1_A,I56T,P61626,Protherm*,1LZ1_A
+170,1STN,2139,93,A,Y,G,0.0824799541819587,7.5,'large to small' 'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1STN_A,Y93G,P00644,Protherm*,1STN_A
+171,1RN1,1419,81,B,N,A,0.0,2.87,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1RN1_B,N81A,P404,Protherm*,1RN1_B
+172,1BVC,328,123,A,F,K,0.0021582856736893,2.1,'hydrophobic to polar' 'hydrophobic to positive' 'buried',1BVC_A,F123K,P02185,Protherm*,1BVC_A
+173,1STN,2156,21,A,D,G,0.1089825868500913,-0.3,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1STN_A,D21G,P00644,Protherm*,1STN_A
+174,2LZM,2696,154,A,R,E,0.5242708339899717,1.1,'positive to negative' 'surface',2LZM_A,R154E,P404,Protherm*,2LZM_A
+175,1STN,2094,116,A,K,F,1.0706465631363218,0.1,'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K116F,P00644,Protherm*,1STN_A
+176,1L63,827,122,A,Q,A,0.3245579169548113,0.24,'large to small' 'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1L63_A,Q122A,P404,Protherm*,1L63_A
+177,1UBQ,2277,33,A,K,I,0.7363888100246834,-0.597514340344168,'polar to hydrophobic' 'positive to hydrophobic' 'surface',1UBQ_A,K33I,P0CG48,Protherm*,1UBQ_A
+178,1BVC,383,93,A,H,G,0.0712154281933248,-0.05,'large to small' 'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1BVC_A,H93G,P02185,Protherm*,1BVC_A
+179,1L63,790,44,A,S,M,0.5008821743281026,-0.33,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',1L63_A,S44M,P404,Protherm*,1L63_A
+180,1RTB,1483,119,A,H,A,0.3271416488690395,-0.2,'large to small' 'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1RTB_A,H119A,P61823,Protherm*,1RTB_A
+181,1FTG,594,122,A,T,S,0.1462112240582241,0.37,'non-charged polar to non-charged polar' 'buried',1FTG_A,T122S,P0A3E0,Protherm*,1FTG_A
+182,1LVE,987,89,A,Q,H,0.2166583082533974,0.8,'non-charged polar to non-charged polar' 'buried',1LVE_A,Q89H,P06312,Protherm*,1LVE_A
+183,1DYJ,1586,139,A,E,Q,0.3444855604293331,0.42,'negative to non-charged polar' 'buried',1DYJ_A,E139Q,P0ABQ4,Protherm*,1DYJ_A
+184,1STN,2002,19,A,D,A,0.110086828168651,0.1,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1STN_A,D19A,P00644,Protherm*,1STN_A
+185,3CHY,455,13,A,D,A,0.2869886938006479,-2.7,'polar to hydrophobic' 'negative to hydrophobic' 'buried',3CHY_A,D13A,P0AE67,Protherm*,3CHY_A
+186,1A2P,169,15,A,Q,G,0.4201665616681189,1.6,'large to small' 'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1A2P_A,Q15G,P00648,Protherm*,1A2P_A
+187,1DYJ,1592,59,A,N,H,0.0399882034799733,1.75,'non-charged polar to non-charged polar' 'buried',1DYJ_A,N59H,P0ABQ4,Protherm*,1DYJ_A
+188,2LZM,2684,135,A,K,E,0.9297855385033992,1.0,'positive to negative' 'surface',2LZM_A,K135E,P404,Protherm*,2LZM_A
+189,1LVE,994,30,A,K,T,0.4741516397467937,1.3,'large to small' 'positive to non-charged polar' 'buried',1LVE_A,K30T,P06312,Protherm*,1LVE_A
+190,1RN1,1434,45,B,Y,W,0.8678923004032878,-0.740917782026769,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',1RN1_B,Y45W,P404,Protherm*,1RN1_B
+191,1STN,1818,127,A,K,A,0.8433660045202542,-0.2,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K127A,P00644,Protherm*,1STN_A
+192,1CSP,504,25,A,D,Q,0.3815443084285339,0.788718929254302,'negative to non-charged polar' 'buried',1CSP_A,D25Q,P32081,Protherm*,1CSP_A
+193,2AFG,2490,21,A,H,Y,0.0542392496918846,-1.01,'non-charged polar to non-charged polar' 'buried',2AFG_A,H21Y,P05230,Protherm*,2AFG_A
+194,2RN2,2793,124,A,H,A,0.8248887604260975,-0.0478011472275,'large to small' 'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',2RN2_A,H124A,P0A7Y4,Protherm*,2RN2_A
+195,1L63,841,87,A,V,T,0.0031822245999466,1.6,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1L63_A,V87T,P404,Protherm*,1L63_A
+196,1L63,842,11,A,E,N,0.1966965275052211,0.1,'negative to non-charged polar' 'buried',1L63_A,E11N,P404,Protherm*,1L63_A
+197,1HFZ,683,118,A,W,H,0.0896771379661544,0.597514340344168,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1HFZ_A,W118H,P00711,Protherm*,1HFZ_A
+198,1BPI,266,26,A,K,A,1.2818070031009785,0.0,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1BPI_A,K26A,P00974,Protherm*,1BPI_A
+199,1STN,2181,27,A,Y,S,0.1344799970216233,3.0,'large to small' 'non-charged polar to non-charged polar' 'buried',1STN_A,Y27S,P00644,Protherm*,1STN_A
+200,2RN2,2752,68,A,S,L,0.0153459706197467,1.00382409178,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',2RN2_A,S68L,P0A7Y4,Protherm*,2RN2_A
+201,1DYJ,1595,122,A,D,A,0.7148945681258619,1.6,'polar to hydrophobic' 'negative to hydrophobic' 'surface',1DYJ_A,D122A,P0ABQ4,Protherm*,1DYJ_A
+202,2LZM,2647,55,A,N,G,0.5857261922547663,0.6,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',2LZM_A,N55G,P404,Protherm*,2LZM_A
+203,1A2P,185,18,A,H,G,0.6413483160750959,-0.7,'large to small' 'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',1A2P_A,H18G,P00648,Protherm*,1A2P_A
+204,1SHF,1647,124,A,S,N,0.0038364926549366,0.73,'non-charged polar to non-charged polar' 'buried',1SHF_A,S124N,P06241,Protherm*,1SHF_A
+205,1PGA,1190,53,A,T,V,0.3158169288339977,-0.94,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1PGA_A,T53V,P06654,Protherm*,1PGA_A
+206,2LZM,2692,157,A,T,A,0.424571060794664,0.5,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',2LZM_A,T157A,P404,Protherm*,2LZM_A
+207,1DYJ,1556,40,A,V,S,0.0,2.52,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1DYJ_A,V40S,P0ABQ4,Protherm*,1DYJ_A
+208,1C9O,426,11,A,N,S,0.4088804913661581,0.0,'non-charged polar to non-charged polar' 'buried',1C9O_A,N11S,P41016,Protherm*,1C9O_A
+209,2LZM,2686,96,A,R,H,0.508070870691666,2.8,'positive to non-charged polar' 'surface',2LZM_A,R96H,P404,Protherm*,2LZM_A
+210,1STN,2171,120,A,T,I,0.2695914628525459,1.7,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1STN_A,T120I,P00644,Protherm*,1STN_A
+211,1LVE,979,94,A,T,H,0.6059990826886653,-0.7,'small to large' 'non-charged polar to non-charged polar' 'surface',1LVE_A,T94H,P06312,Protherm*,1LVE_A
+212,1ANK,41,88,A,R,G,0.0741335703534359,0.2,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'buried',1ANK_A,R88G,P69441,Protherm*,1ANK_A
+213,1AMQ,27,10,A,T,A,0.7847299207892979,1.3,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',1AMQ_A,T10A,P00509,Protherm*,1AMQ_A
+214,1STN,1743,57,A,E,Q,0.456770370804946,0.2,'negative to non-charged polar' 'buried',1STN_A,E57Q,P00644,Protherm*,1STN_A
+215,1STN,1877,19,A,D,N,0.110086828168651,0.2,'negative to non-charged polar' 'buried',1STN_A,D19N,P00644,Protherm*,1STN_A
+216,1BPI,314,12,A,G,D,0.2763077184601034,4.3,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1BPI_A,G12D,P00974,Protherm*,1BPI_A
+217,1BPI,283,43,A,N,G,0.0,5.7,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1BPI_A,N43G,P00974,Protherm*,1BPI_A
+218,1STN,1911,77,A,D,A,0.0199853454395583,3.1,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1STN_A,D77A,P00644,Protherm*,1STN_A
+219,1L63,878,42,A,A,S,0.0,2.3,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1L63_A,A42S,P404,Protherm*,1L63_A
+220,1BVC,394,117,A,S,A,0.5428381820732303,0.26,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'surface',1BVC_A,S117A,P02185,Protherm*,1BVC_A
+221,1HFZ,676,114,A,K,E,0.965619150229065,0.645315487571702,'positive to negative' 'surface',1HFZ_A,K114E,P00711,Protherm*,1HFZ_A
+222,1STN,1873,13,A,T,V,0.4724027782690527,0.4,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1STN_A,T13V,P00644,Protherm*,1STN_A
+223,2RN2,2749,10,A,D,N,0.1533823769631778,-1.96,'negative to non-charged polar' 'buried',2RN2_A,D10N,P0A7Y4,Protherm*,2RN2_A
+224,1BPI,293,15,A,K,A,1.278101399944862,0.4,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1BPI_A,K15A,P00974,Protherm*,1BPI_A
+225,2CI2,2565,33,I,E,Q,0.7110463572348376,0.4,'negative to non-charged polar' 'surface',2CI2_I,E33Q,P01053,Protherm*,2CI2_I
+226,1STN,2037,63,A,K,G,0.5057192519074567,1.5,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K63G,P00644,Protherm*,1STN_A
+227,1C9O,407,21,A,E,A,0.9792491593427198,0.286806883365201,'large to small' 'polar to hydrophobic' 'negative to hydrophobic' 'surface',1C9O_A,E21A,P41016,Protherm*,1C9O_A
+228,1STN,1888,9,A,K,F,0.5426488101395743,1.2,'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K9F,P00644,Protherm*,1STN_A
+229,1STN,1717,120,A,T,G,0.2695914628525459,2.1,'polar to hydrophobic' 'non-charged polar to hydrophobic' 'buried',1STN_A,T120G,P00644,Protherm*,1STN_A
+230,4LYZ,2903,13,A,K,D,0.516202713955113,6.69216061185468,'positive to negative' 'surface',4LYZ_A,K13D,P404,Protherm*,4LYZ_A
+231,1VQB,2292,32,A,L,H,0.4207196555641712,0.9,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1VQB_A,L32H,P69543,Protherm*,1VQB_A
+232,1L63,770,98,A,A,S,0.0,2.5,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1L63_A,A98S,P404,Protherm*,1L63_A
+233,1A2P,67,6,A,T,Q,0.3859742714235835,1.87,'small to large' 'non-charged polar to non-charged polar' 'buried',1A2P_A,T6Q,P00648,Protherm*,1A2P_A
+234,1A2P,192,26,A,T,D,0.2923354168666857,0.0,'non-charged polar to negative' 'buried',1A2P_A,T26D,P00648,Protherm*,1A2P_A
+235,1A2P,193,16,A,T,S,0.6048677745604125,1.36,'non-charged polar to non-charged polar' 'surface',1A2P_A,T16S,P00648,Protherm*,1A2P_A
+236,2AKY,2497,169,A,N,D,0.3514954292187507,2.15105162523901,'non-charged polar to negative' 'buried',2AKY_A,N169D,P07170,Protherm*,2AKY_A
+237,1A2P,196,34,A,G,K,0.3823274500010729,2.7,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1A2P_A,G34K,P00648,Protherm*,1A2P_A
+238,1ROP,1445,30,A,D,H,0.8978610684043312,-0.9,'negative to non-charged polar' 'surface',1ROP_A,D30H,P03051,Protherm*,1ROP_A
+239,1STN,1753,48,A,K,F,1.2537807375608834,0.5,'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K48F,P00644,Protherm*,1STN_A
+240,1STN,1975,27,A,Y,N,0.1344799970216233,4.0,'non-charged polar to non-charged polar' 'buried',1STN_A,Y27N,P00644,Protherm*,1STN_A
+241,1CYC,523,73,A,K,W,0.9795610600202348,1.43,'polar to hydrophobic' 'positive to hydrophobic' 'surface',1CYC_A,K73W,P00025,Protherm*,1CYC_A
+242,1STN,2141,64,A,K,G,0.8278315956249757,0.4,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K64G,P00644,Protherm*,1STN_A
+243,1L63,883,20,A,D,T,0.2592907384442387,-0.9,'negative to non-charged polar' 'buried',1L63_A,D20T,P404,Protherm*,1L63_A
+244,2AFG,2476,108,A,F,Y,0.0262619526310252,-0.94,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',2AFG_A,F108Y,P05230,Protherm*,2AFG_A
+245,2LZM,2727,98,A,A,T,0.0,3.83,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',2LZM_A,A98T,P404,Protherm*,2LZM_A
+246,1FTG,595,20,A,E,K,0.4305126144308599,-1.6,'negative to positive' 'buried',1FTG_A,E20K,P0A3E0,Protherm*,1FTG_A
+247,2CI2,2535,26,I,E,Q,0.5226470351667419,0.57,'negative to non-charged polar' 'surface',2CI2_I,E26Q,P01053,Protherm*,2CI2_I
+248,2RN2,2788,52,A,A,D,0.0,1.85,'hydrophobic to polar' 'hydrophobic to negative' 'buried',2RN2_A,A52D,P0A7Y4,Protherm*,2RN2_A
+249,2CI2,2593,34,I,E,D,0.4366471055868176,-0.36,'charge to charge' 'buried',2CI2_I,E34D,P01053,Protherm*,2CI2_I
+250,1PGA,1179,50,A,K,A,0.5494584741777473,0.454110898661568,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1PGA_A,K50A,P06654,Protherm*,1PGA_A
+251,1RGG,1343,25,A,D,K,0.8047411867175763,0.9,'negative to positive' 'surface',1RGG_A,D25K,P05798,Protherm*,1RGG_A
+252,1H7M,643,28,A,K,A,0.7213975172089898,1.19502868068834,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1H7M_A,K28A,P29160,Protherm*,1H7M_A
+253,4LYZ,2947,77,A,N,H,0.690310108517987,0.38,'non-charged polar to non-charged polar' 'surface',4LYZ_A,N77H,P404,Protherm*,4LYZ_A
+254,1BPI,270,16,A,A,T,0.429513443436546,1.7,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1BPI_A,A16T,P00974,Protherm*,1BPI_A
+255,1MSI,1133,39,A,R,A,0.6626558771389769,0.63,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1MSI_A,R39A,P19614,Protherm*,1MSI_A
+256,1STN,1882,53,A,K,A,1.0891849471144863,0.2,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1STN_A,K53A,P00644,Protherm*,1STN_A
+257,1DYJ,1594,75,A,V,R,0.0896973569453958,1.2,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1DYJ_A,V75R,P0ABQ4,Protherm*,1DYJ_A
+258,1RN1,1406,58,B,E,A,0.0931173872102382,0.9,'large to small' 'polar to hydrophobic' 'negative to hydrophobic' 'buried',1RN1_B,E58A,P404,Protherm*,1RN1_B
+259,1AMQ,26,294,A,N,D,0.2888516869005125,0.0,'non-charged polar to negative' 'buried',1AMQ_A,N294D,P00509,Protherm*,1AMQ_A
+260,2RN2,2799,48,A,E,D,0.1420083344838883,0.22,'charge to charge' 'buried',2RN2_A,E48D,P0A7Y4,Protherm*,2RN2_A
+261,1DYJ,1520,155,A,I,S,0.1006773385573334,3.93,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1DYJ_A,I155S,P0ABQ4,Protherm*,1DYJ_A
+262,1LZ1,1033,59,A,I,S,0.0163220074816305,3.58508604206501,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1LZ1_A,I59S,P61626,Protherm*,1LZ1_A
+263,1RGG,1349,79,A,D,I,0.050088272007893,-2.9,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1RGG_A,D79I,P05798,Protherm*,1RGG_A
+264,1A2P,138,32,A,A,K,0.8036365600642267,0.102,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'surface',1A2P_A,A32K,P00648,Protherm*,1A2P_A
+265,1C9O,409,3,A,R,E,0.8506248043218346,0.836520076481836,'positive to negative' 'surface',1C9O_A,R3E,P41016,Protherm*,1C9O_A
+266,1RN1,1411,89,B,V,T,0.0138757692740939,3.07,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1RN1_B,V89T,P404,Protherm*,1RN1_B
+267,1SHG,1656,48,A,D,G,0.9928386185395074,-1.05162523900574,'polar to hydrophobic' 'negative to hydrophobic' 'surface',1SHG_A,D48G,P07751,Protherm*,1SHG_A
+268,2RN2,2773,119,A,E,V,0.4822473481176943,-0.74,'large to small' 'polar to hydrophobic' 'negative to hydrophobic' 'buried',2RN2_A,E119V,P0A7Y4,Protherm*,2RN2_A
+269,1BVC,388,56,A,K,A,0.7717733667064754,0.25,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1BVC_A,K56A,P02185,Protherm*,1BVC_A
+270,1A2P,190,32,A,A,S,0.8036365600642267,0.1596,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'surface',1A2P_A,A32S,P00648,Protherm*,1A2P_A
+271,1UBQ,2262,18,A,E,D,0.6355265614135688,-0.08,'charge to charge' 'surface',1UBQ_A,E18D,P0CG48,Protherm*,1UBQ_A
+272,2LZM,2666,144,A,N,D,0.6704200964419198,-0.5,'non-charged polar to negative' 'surface',2LZM_A,N144D,P404,Protherm*,2LZM_A
+273,1CSP,483,43,A,E,K,0.8975432090390794,-0.215105162523901,'negative to positive' 'surface',1CSP_A,E43K,P32081,Protherm*,1CSP_A
+274,2HMB,2604,126,A,R,K,0.050853296883788,4.66061185468451,'charge to charge' 'buried',2HMB_A,R126K,P05413,Protherm*,2HMB_A
+275,1AMQ,22,266,A,R,K,0.8045671546451107,7.6,'charge to charge' 'surface',1AMQ_A,R266K,P00509,Protherm*,1AMQ_A
+276,1QLP,1294,331,A,K,F,0.2433503307945416,1.31,'polar to hydrophobic' 'positive to hydrophobic' 'buried',1QLP_A,K331F,P01009,Protherm*,1QLP_A
+277,1RGG,1335,39,A,N,S,0.0766252196342819,2.3,'non-charged polar to non-charged polar' 'buried',1RGG_A,N39S,P05798,Protherm*,1RGG_A
+278,1RN1,1405,89,B,V,S,0.0138757692740939,4.87,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1RN1_B,V89S,P404,Protherm*,1RN1_B
+279,2TRX,2812,26,A,D,A,0.0239824145274699,-3.7,'polar to hydrophobic' 'negative to hydrophobic' 'buried',2TRX_A,D26A,P0AA25,Protherm*,2TRX_A
+280,219L,2467,163,A,N,D,0.9590249580077576,0.21,'non-charged polar to negative' 'surface',219L_A,N163D,P404,Protherm*,219L_A
+281,451C,2883,70,A,E,Q,0.1362306916544172,0.9,'negative to non-charged polar' 'buried',451C_A,E70Q,P00099,Protherm*,451C_A
+282,4LYZ,2892,101,A,D,G,0.5286268150721317,-0.45,'polar to hydrophobic' 'negative to hydrophobic' 'surface',4LYZ_A,D101G,P404,Protherm*,4LYZ_A
+283,1PGA,1188,53,A,T,E,0.3158169288339977,0.1,'small to large' 'non-charged polar to negative' 'buried',1PGA_A,T53E,P06654,Protherm*,1PGA_A
+284,1L63,934,47,A,D,A,0.2990353705945824,0.95,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1L63_A,D47A,P404,Protherm*,1L63_A
+285,1A2P,203,6,A,T,N,0.3859742714235835,1.27,'non-charged polar to non-charged polar' 'buried',1A2P_A,T6N,P00648,Protherm*,1A2P_A
+286,1L63,918,45,A,E,A,0.3042396411152265,-0.01,'large to small' 'polar to hydrophobic' 'negative to hydrophobic' 'buried',1L63_A,E45A,P404,Protherm*,1L63_A
+287,1BPI,284,1,A,R,A,0.6594763477191368,0.5,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1BPI_A,R1A,P00974,Protherm*,1BPI_A
+288,1ANK,38,84,A,D,H,0.0159882763516466,1.4,'negative to non-charged polar' 'buried',1ANK_A,D84H,P69441,Protherm*,1ANK_A
+289,1RGG,1345,33,A,D,A,0.191448545994743,6.2,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1RGG_A,D33A,P05798,Protherm*,1RGG_A
+290,1BPI,303,53,A,R,A,1.024709293163189,0.1,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1BPI_A,R53A,P00974,Protherm*,1BPI_A
+291,1LZ1,1079,9,A,A,S,0.0,0.0239005736137667,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1LZ1_A,A9S,P61626,Protherm*,1LZ1_A
+292,1CSP,471,55,A,N,K,1.009375937802052,0.215105162523901,'non-charged polar to positive' 'surface',1CSP_A,N55K,P32081,Protherm*,1CSP_A
+293,1DYJ,1607,59,A,N,K,0.0399882034799733,2.22,'non-charged polar to positive' 'buried',1DYJ_A,N59K,P0ABQ4,Protherm*,1DYJ_A
+294,4LYZ,2912,114,A,R,H,0.7745258284672072,-0.68,'positive to non-charged polar' 'surface',4LYZ_A,R114H,P404,Protherm*,4LYZ_A
+295,1FTG,585,150,A,D,K,0.8943849438564744,0.28,'negative to positive' 'surface',1FTG_A,D150K,P0A3E0,Protherm*,1FTG_A
+296,2LZM,2676,123,A,Q,E,0.4247846626663903,-0.4,'non-charged polar to negative' 'buried',2LZM_A,Q123E,P404,Protherm*,2LZM_A
+297,2LZM,2644,126,A,W,R,0.1536441881186375,5.74,'hydrophobic to polar' 'hydrophobic to positive' 'buried',2LZM_A,W126R,P404,Protherm*,2LZM_A
+298,1DYJ,1549,59,A,N,Q,0.0399882034799733,0.92,'non-charged polar to non-charged polar' 'buried',1DYJ_A,N59Q,P0ABQ4,Protherm*,1DYJ_A
+299,1BP2,254,22,A,F,Y,0.0064748570210681,-1.5,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1BP2_A,F22Y,P00593,Protherm*,1BP2_A
+300,1RN1,1400,25,B,Q,K,0.5433409340057574,-0.77,'non-charged polar to positive' 'surface',1RN1_B,Q25K,P404,Protherm*,1RN1_B
+301,1L63,809,59,A,T,S,0.501926731560058,0.2,'non-charged polar to non-charged polar' 'surface',1L63_A,T59S,P404,Protherm*,1L63_A
+302,1A2P,109,10,A,V,T,0.0,1.99,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1A2P_A,V10T,P00648,Protherm*,1A2P_A
+303,3PGK,2857,333,A,W,Y,0.0119252120063886,-1.4,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',3PGK_A,W333Y,P00560,Protherm*,3PGK_A
+304,1BVC,392,97,A,H,Q,0.2438193115321128,-0.02,'non-charged polar to non-charged polar' 'buried',1BVC_A,H97Q,P02185,Protherm*,1BVC_A
+305,1L63,856,41,A,A,S,0.2880185611917032,0.6,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1L63_A,A41S,P404,Protherm*,1L63_A
+306,2CI2,2594,55,I,T,S,0.3246582539402123,0.98,'non-charged polar to non-charged polar' 'buried',2CI2_I,T55S,P01053,Protherm*,2CI2_I
+307,1ROP,1438,30,A,D,L,0.8978610684043312,0.1,'polar to hydrophobic' 'negative to hydrophobic' 'surface',1ROP_A,D30L,P03051,Protherm*,1ROP_A
+308,4LYZ,2935,46,A,N,D,0.284233373377076,0.84,'non-charged polar to negative' 'buried',4LYZ_A,N46D,P404,Protherm*,4LYZ_A
+309,2LZM,2638,11,A,E,F,0.1842964359873287,-1.7,'polar to hydrophobic' 'negative to hydrophobic' 'buried',2LZM_A,E11F,P404,Protherm*,2LZM_A
+310,1TEN,2234,867,A,T,S,0.1266196753518524,1.22,'non-charged polar to non-charged polar' 'buried',1TEN_A,T867S,P24821,Protherm*,1TEN_A
+311,1RGG,1320,2,A,V,T,0.1617914697359355,0.9,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1RGG_A,V2T,P05798,Protherm*,1RGG_A
+312,1L63,919,102,A,M,K,0.0046503721682855,6.9,'hydrophobic to polar' 'hydrophobic to positive' 'buried',1L63_A,M102K,P404,Protherm*,1L63_A
+313,1LZ1,1108,50,A,R,G,0.7637234744457448,-0.525812619502868,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1LZ1_A,R50G,P61626,Protherm*,1LZ1_A
+314,1L63,932,82,A,A,S,0.7591104100937924,0.3,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'surface',1L63_A,A82S,P404,Protherm*,1L63_A
+315,1L63,925,96,A,R,K,0.5050987075960601,0.0,'charge to charge' 'surface',1L63_A,R96K,P404,Protherm*,1L63_A
+316,1L63,904,144,A,N,H,0.7631355231688133,-0.3,'non-charged polar to non-charged polar' 'surface',1L63_A,N144H,P404,Protherm*,1L63_A
+317,1VQB,2304,70,A,V,T,0.5923607819497054,3.5,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'surface',1VQB_A,V70T,P69543,Protherm*,1VQB_A
+318,2AFG,2475,93,A,H,N,0.7339853546011854,-0.286806883365201,'non-charged polar to non-charged polar' 'surface',2AFG_A,H93N,P05230,Protherm*,2AFG_A
+319,1CSP,481,56,A,R,Q,0.9629426704124808,-0.310707456978968,'positive to non-charged polar' 'surface',1CSP_A,R56Q,P32081,Protherm*,1CSP_A
+320,1HFZ,670,104,A,W,Y,0.0452232331239312,2.43785850860421,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1HFZ_A,W104Y,P00711,Protherm*,1HFZ_A
+321,1L63,913,90,A,S,H,0.2315627017565361,1.1,'small to large' 'non-charged polar to non-charged polar' 'buried',1L63_A,S90H,P404,Protherm*,1L63_A
+322,1RN1,1408,59,B,W,Y,0.0082753974388721,0.932122370936902,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1RN1_B,W59Y,P404,Protherm*,1RN1_B
+323,1RN1,1404,78,B,V,T,0.0,4.08,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1RN1_B,V78T,P404,Protherm*,1RN1_B
+324,1LZ1,1072,2,A,V,R,0.4329120045928795,0.382409177820268,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1LZ1_A,V2R,P61626,Protherm*,1LZ1_A
+325,1PIN,1224,7,A,L,N,0.2096691775762163,0.898661567877629,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1PIN_A,L7N,Q13526,Protherm*,1PIN_A
+326,1HFY,661,30,A,A,T,0.0,-1.7,'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1HFY_A,A30T,P00712,Protherm*,1HFY_A
+327,2CRK,2595,122,A,D,N,0.1655854186919673,0.0,'negative to non-charged polar' 'buried',2CRK_A,D122N,P00563,Protherm*,2CRK_A
+328,1L63,780,119,A,R,H,0.5771868939229979,0.29,'positive to non-charged polar' 'surface',1L63_A,R119H,P404,Protherm*,1L63_A
+329,2LZM,2694,147,A,K,E,0.8935190778805293,0.7,'positive to negative' 'surface',2LZM_A,K147E,P404,Protherm*,2LZM_A
+330,1L63,776,96,A,R,V,0.5050987075960601,2.4,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1L63_A,R96V,P404,Protherm*,1L63_A
+331,1LZ1,1007,110,A,V,Y,0.429976845773619,0.1434034416826,'small to large' 'hydrophobic to polar' 'hydrophobic to non-charged polar' 'buried',1LZ1_A,V110Y,P61626,Protherm*,1LZ1_A
+332,4LYZ,2950,101,A,D,F,0.5286268150721317,-0.72,'polar to hydrophobic' 'negative to hydrophobic' 'surface',4LYZ_A,D101F,P404,Protherm*,4LYZ_A
+333,1ROP,1455,30,A,D,A,0.8978610684043312,-0.3,'polar to hydrophobic' 'negative to hydrophobic' 'surface',1ROP_A,D30A,P03051,Protherm*,1ROP_A
+334,1BPI,299,17,A,R,A,1.0194597776745835,0.3,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1BPI_A,R17A,P00974,Protherm*,1BPI_A
+335,1A2P,217,73,A,E,Q,0.0525764839350324,2.7,'negative to non-charged polar' 'buried',1A2P_A,E73Q,P00648,Protherm*,1A2P_A
+336,1L63,936,133,A,L,D,0.0054816301195611,5.7,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1L63_A,L133D,P404,Protherm*,1L63_A
+337,1VQB,2301,32,A,L,R,0.4207196555641712,1.6,'hydrophobic to polar' 'hydrophobic to positive' 'buried',1VQB_A,L32R,P69543,Protherm*,1VQB_A
+338,1LVE,989,97,A,S,T,0.173278032015014,0.3,'non-charged polar to non-charged polar' 'buried',1LVE_A,S97T,P06312,Protherm*,1LVE_A
+339,1QLP,1299,331,A,K,I,0.2433503307945416,0.77,'polar to hydrophobic' 'positive to hydrophobic' 'buried',1QLP_A,K331I,P01009,Protherm*,1QLP_A
+340,451C,2887,37,A,Q,R,0.4584373294351583,-0.5,'non-charged polar to positive' 'buried',451C_A,Q37R,P00099,Protherm*,451C_A
+341,1BVC,366,64,A,H,Q,0.0786527832042417,0.35,'non-charged polar to non-charged polar' 'buried',1BVC_A,H64Q,P02185,Protherm*,1BVC_A
+342,2RN2,2770,134,A,D,I,0.3291658789789445,-1.26673040153,'polar to hydrophobic' 'negative to hydrophobic' 'buried',2RN2_A,D134I,P0A7Y4,Protherm*,2RN2_A
+343,2RN2,2743,134,A,D,Q,0.3291658789789445,-1.31453154876,'negative to non-charged polar' 'buried',2RN2_A,D134Q,P0A7Y4,Protherm*,2RN2_A
+344,2HMB,2600,40,A,T,E,0.0263178280179104,3.27437858508604,'small to large' 'non-charged polar to negative' 'buried',2HMB_A,T40E,P05413,Protherm*,2HMB_A
+345,1FKJ,568,57,A,R,A,0.7544421570090082,0.81,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1FKJ_A,R57A,P62942,Protherm*,1FKJ_A
+346,1H7M,650,42,A,R,A,0.925472840746165,-0.334608030592734,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1H7M_A,R42A,P29160,Protherm*,1H7M_A
+347,1AAR,5,6,A,K,Q,0.6232923707019209,-0.262906309751434,'positive to non-charged polar' 'surface',1AAR_A,K6Q,P0CH28,Protherm*,1AAR_A
+348,1RN1,1414,44,B,N,D,0.1835714019919679,2.0,'non-charged polar to negative' 'buried',1RN1_B,N44D,P404,Protherm*,1RN1_B
+349,1CSP,519,39,A,K,Q,0.3937350586450009,0.0717017208413002,'positive to non-charged polar' 'buried',1CSP_A,K39Q,P32081,Protherm*,1CSP_A
+350,2CI2,2578,33,I,E,N,0.7110463572348376,0.28,'negative to non-charged polar' 'surface',2CI2_I,E33N,P01053,Protherm*,2CI2_I
+351,1BPI,310,35,A,Y,N,0.0517339949228197,3.7,'non-charged polar to non-charged polar' 'buried',1BPI_A,Y35N,P00974,Protherm*,1BPI_A
+352,1L63,895,60,A,K,H,0.878595551977853,0.1,'positive to non-charged polar' 'surface',1L63_A,K60H,P404,Protherm*,1L63_A
+353,1CYO,527,45,A,V,E,0.2568006446065704,2.67686424474187,'small to large' 'hydrophobic to polar' 'hydrophobic to negative' 'buried',1CYO_A,V45E,P00171,Protherm*,1CYO_A
+354,2LZM,2722,128,A,E,A,0.3678941713190691,-0.16,'large to small' 'polar to hydrophobic' 'negative to hydrophobic' 'buried',2LZM_A,E128A,P404,Protherm*,2LZM_A
+355,2RN2,2730,95,A,K,N,1.022119055023791,-0.9,'positive to non-charged polar' 'surface',2RN2_A,K95N,P0A7Y4,Protherm*,2RN2_A
+356,1RTB,1476,121,A,D,A,0.1106585518006898,2.2,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1RTB_A,D121A,P61823,Protherm*,1RTB_A
+357,1FKJ,552,61,A,E,A,0.3197108094768874,0.84,'large to small' 'polar to hydrophobic' 'negative to hydrophobic' 'buried',1FKJ_A,E61A,P62942,Protherm*,1FKJ_A
+358,1ROP,1443,30,A,D,K,0.8978610684043312,-0.9,'negative to positive' 'surface',1ROP_A,D30K,P03051,Protherm*,1ROP_A
+359,1C2R,399,32,A,K,E,0.9684248218573188,-0.4,'positive to negative' 'surface',1C2R_A,K32E,P00094,Protherm*,1C2R_A
+360,1A2P,189,54,A,D,A,0.158249318407951,2.86,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1A2P_A,D54A,P00648,Protherm*,1A2P_A
+361,1CSP,478,21,A,E,Q,0.8595025005002975,0.239005736137667,'negative to non-charged polar' 'surface',1CSP_A,E21Q,P32081,Protherm*,1CSP_A
+362,1BPI,316,20,A,R,A,0.39833626281495,1.8,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'buried',1BPI_A,R20A,P00974,Protherm*,1BPI_A
+363,1DYJ,1570,28,A,L,R,0.5548772183405755,-1.7,'hydrophobic to polar' 'hydrophobic to positive' 'surface',1DYJ_A,L28R,P0ABQ4,Protherm*,1DYJ_A
+364,1HFZ,674,114,A,K,Q,0.965619150229065,0.597514340344168,'positive to non-charged polar' 'surface',1HFZ_A,K114Q,P00711,Protherm*,1HFZ_A
+365,1H7M,639,21,A,R,A,1.1232791265416988,-0.0717017208413002,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1H7M_A,R21A,P29160,Protherm*,1H7M_A
+366,1L63,950,48,A,K,A,0.824754062383577,0.56,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1L63_A,K48A,P404,Protherm*,1L63_A
+367,2CI2,2575,37,I,K,A,1.0033276309803427,0.99,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',2CI2_I,K37A,P01053,Protherm*,2CI2_I
+368,1CSP,517,53,A,E,Q,0.7188671224415664,-0.167304015296367,'negative to non-charged polar' 'surface',1CSP_A,E53Q,P32081,Protherm*,1CSP_A
+369,1RN1,1436,49,B,D,H,0.824902882437429,-1.1,'negative to non-charged polar' 'surface',1RN1_B,D49H,P404,Protherm*,1RN1_B
+370,1RN1,1423,76,B,D,A,0.0290424796674603,3.7,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1RN1_B,D76A,P404,Protherm*,1RN1_B
+371,1PGA,1191,53,A,T,D,0.3158169288339977,0.9,'non-charged polar to negative' 'buried',1PGA_A,T53D,P06654,Protherm*,1PGA_A
+372,1RIS,1368,22,A,E,Q,0.0073710733227647,0.4,'negative to non-charged polar' 'buried',1RIS_A,E22Q,P23370,Protherm*,1RIS_A
+373,1OH0,1156,32,A,Y,S,0.0,13.7,'large to small' 'non-charged polar to non-charged polar' 'buried',1OH0_A,Y32S,P07445,Protherm*,1OH0_A
+374,1A2P,215,83,A,R,Q,0.2537716856934134,2.05,'positive to non-charged polar' 'buried',1A2P_A,R83Q,P00648,Protherm*,1A2P_A
+375,1CSP,487,66,A,E,L,0.4854965435636311,-1.33843212237094,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1CSP_A,E66L,P32081,Protherm*,1CSP_A
+376,1C2R,398,14,A,K,E,0.3406615629291914,0.9,'positive to negative' 'buried',1C2R_A,K14E,P00094,Protherm*,1C2R_A
+377,1H7M,634,92,A,R,A,0.7291109399766202,0.310707456978968,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1H7M_A,R92A,P29160,Protherm*,1H7M_A
+378,4LYZ,2905,102,A,G,R,0.8900294159600203,-0.38,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'surface',4LYZ_A,G102R,P404,Protherm*,4LYZ_A
+379,1PIN,1258,6,A,K,A,1.1765787180414906,-0.15057361376673,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'surface',1PIN_A,K6A,Q13526,Protherm*,1PIN_A
+380,1TEN,2222,887,A,E,A,0.4925000504175774,-1.61,'large to small' 'polar to hydrophobic' 'negative to hydrophobic' 'buried',1TEN_A,E887A,P24821,Protherm*,1TEN_A
+381,1CSP,476,55,A,N,D,1.009375937802052,-0.478011472275335,'non-charged polar to negative' 'surface',1CSP_A,N55D,P32081,Protherm*,1CSP_A
+382,1SHF,1643,124,A,S,R,0.0038364926549366,0.18,'small to large' 'non-charged polar to positive' 'buried',1SHF_A,S124R,P06241,Protherm*,1SHF_A
+383,1BVC,345,36,A,H,Q,0.1439236085420154,1.17,'non-charged polar to non-charged polar' 'buried',1BVC_A,H36Q,P02185,Protherm*,1BVC_A
+384,1LZ1,1062,102,A,D,N,0.2689542137775301,-0.0717017208413002,'negative to non-charged polar' 'buried',1LZ1_A,D102N,P61626,Protherm*,1LZ1_A
+385,5CRO,2985,26,A,Y,D,0.763653298594672,-2.7,'non-charged polar to negative' 'surface',5CRO_A,Y26D,P03040,Protherm*,5CRO_A
+386,1CSP,488,24,A,D,K,0.7777706061657239,0.597514340344168,'negative to positive' 'surface',1CSP_A,D24K,P32081,Protherm*,1CSP_A
+387,1L63,834,96,A,R,Y,0.5050987075960601,4.7,'positive to non-charged polar' 'surface',1L63_A,R96Y,P404,Protherm*,1L63_A
+388,1BOY,252,200,A,R,W,0.6922302022725634,-0.6,'polar to hydrophobic' 'positive to hydrophobic' 'surface',1BOY_A,R200W,P13726,Protherm*,1BOY_A
+389,1BVC,378,44,A,D,A,0.6522729353761619,0.15,'polar to hydrophobic' 'negative to hydrophobic' 'surface',1BVC_A,D44A,P02185,Protherm*,1BVC_A
+390,1BPI,285,49,A,E,A,0.5833556275394768,0.2,'large to small' 'polar to hydrophobic' 'negative to hydrophobic' 'surface',1BPI_A,E49A,P00974,Protherm*,1BPI_A
+391,1BVC,335,130,A,A,K,0.0,3.7,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1BVC_A,A130K,P02185,Protherm*,1BVC_A
+392,1VQB,2336,30,A,E,F,0.1510316470545816,-2.1,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1VQB_A,E30F,P69543,Protherm*,1VQB_A
+393,1PIN,1261,29,A,T,D,0.0,1.33365200764818,'non-charged polar to negative' 'buried',1PIN_A,T29D,Q13526,Protherm*,1PIN_A
+394,1L63,916,42,A,A,K,0.0,3.7,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1L63_A,A42K,P404,Protherm*,1L63_A
+395,1UBQ,2258,27,A,K,A,0.127122462284397,2.7,'large to small' 'polar to hydrophobic' 'positive to hydrophobic' 'buried',1UBQ_A,K27A,P0CG48,Protherm*,1UBQ_A
+396,1A2P,210,16,A,T,R,0.6048677745604125,-0.74,'small to large' 'non-charged polar to positive' 'surface',1A2P_A,T16R,P00648,Protherm*,1A2P_A
+397,1L63,862,20,A,D,N,0.2592907384442387,-1.3,'negative to non-charged polar' 'buried',1L63_A,D20N,P404,Protherm*,1L63_A
+398,1AYF,52,56,A,H,R,0.0123686606222958,1.15917782026769,'non-charged polar to positive' 'buried',1AYF_A,H56R,P00257,Protherm*,1AYF_A
+399,1RGG,1341,85,A,H,Q,0.5312980394199264,0.0,'non-charged polar to non-charged polar' 'surface',1RGG_A,H85Q,P05798,Protherm*,1RGG_A
+400,1IOB,747,9,A,T,Q,0.0,2.8,'small to large' 'non-charged polar to non-charged polar' 'buried',1IOB_A,T9Q,P01584,Protherm*,1IOB_A
+401,2RN2,2778,134,A,D,L,0.3291658789789445,-1.50573613767,'polar to hydrophobic' 'negative to hydrophobic' 'buried',2RN2_A,D134L,P0A7Y4,Protherm*,2RN2_A
+402,4LYZ,2940,73,A,R,K,1.0305327541609843,-0.23,'charge to charge' 'surface',4LYZ_A,R73K,P404,Protherm*,4LYZ_A
+403,1CSP,474,42,A,E,K,0.8441744287406422,0.0,'negative to positive' 'surface',1CSP_A,E42K,P32081,Protherm*,1CSP_A
+404,1CSP,516,10,A,N,D,0.2811281320158701,-0.262906309751434,'non-charged polar to negative' 'buried',1CSP_A,N10D,P32081,Protherm*,1CSP_A
+405,2HPR,2606,46,A,S,D,0.4020257336423096,-0.74,'non-charged polar to negative' 'buried',2HPR_A,S46D,P08877,Protherm*,2HPR_A
+406,1SUP,2209,218,A,N,S,0.4600351692546994,-1.07,'non-charged polar to non-charged polar' 'buried',1SUP_A,N218S,P00782,Protherm*,1SUP_A
+407,1ROP,1437,30,A,D,Q,0.8978610684043312,-1.8,'negative to non-charged polar' 'surface',1ROP_A,D30Q,P03051,Protherm*,1ROP_A
+408,1A2P,64,73,A,E,W,0.0525764839350324,2.2,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1A2P_A,E73W,P00648,Protherm*,1A2P_A
+409,1RGG,1342,79,A,D,Y,0.050088272007893,-2.9,'negative to non-charged polar' 'buried',1RGG_A,D79Y,P05798,Protherm*,1RGG_A
+410,1L63,798,44,A,S,E,0.5008821743281026,0.0,'small to large' 'non-charged polar to negative' 'surface',1L63_A,S44E,P404,Protherm*,1L63_A
+411,1L63,797,151,A,T,S,0.1988899051256353,-0.39,'non-charged polar to non-charged polar' 'buried',1L63_A,T151S,P404,Protherm*,1L63_A
+412,1A2P,60,8,A,D,G,0.4259512361649916,1.3,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1A2P_A,D8G,P00648,Protherm*,1A2P_A
+413,1CSP,499,25,A,D,K,0.3815443084285339,1.45793499043977,'negative to positive' 'buried',1CSP_A,D25K,P32081,Protherm*,1CSP_A
+414,1BVC,396,60,A,D,A,0.205328827249733,0.1,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1BVC_A,D60A,P02185,Protherm*,1BVC_A
+415,1PGA,1193,53,A,T,S,0.3158169288339977,-0.87,'non-charged polar to non-charged polar' 'buried',1PGA_A,T53S,P06654,Protherm*,1PGA_A
+416,1RGG,1332,79,A,D,E,0.050088272007893,0.3,'charge to charge' 'buried',1RGG_A,D79E,P05798,Protherm*,1RGG_A
+417,1PGA,1206,53,A,T,R,0.3158169288339977,0.1,'small to large' 'non-charged polar to positive' 'buried',1PGA_A,T53R,P06654,Protherm*,1PGA_A
+418,2IMM,2625,90,A,N,Q,0.0,-1.05162523900574,'non-charged polar to non-charged polar' 'buried',2IMM_A,N90Q,P404,Protherm*,2IMM_A
+419,1QLP,1305,387,A,K,R,0.0094446340350844,-1.0,'charge to charge' 'buried',1QLP_A,K387R,P01009,Protherm*,1QLP_A
+420,4LYZ,2921,19,A,N,K,0.4670775362008949,1.06,'non-charged polar to positive' 'buried',4LYZ_A,N19K,P404,Protherm*,4LYZ_A
+421,1CYO,535,61,A,V,K,0.4219801146735971,2.39005736137667,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1CYO_A,V61K,P00171,Protherm*,1CYO_A
+422,1L63,805,14,A,R,K,0.8175326935751722,0.03,'charge to charge' 'surface',1L63_A,R14K,P404,Protherm*,1L63_A
+423,2RN2,2764,134,A,D,V,0.3291658789789445,-1.12332695985,'polar to hydrophobic' 'negative to hydrophobic' 'buried',2RN2_A,D134V,P0A7Y4,Protherm*,2RN2_A
+424,1PGA,1180,53,A,T,Q,0.3158169288339977,-0.38,'small to large' 'non-charged polar to non-charged polar' 'buried',1PGA_A,T53Q,P06654,Protherm*,1PGA_A
+425,2RN2,2765,117,A,K,R,0.7739975786055325,-0.03,'charge to charge' 'surface',2RN2_A,K117R,P0A7Y4,Protherm*,2RN2_A
+426,1SHF,1631,124,A,S,T,0.0038364926549366,1.65,'non-charged polar to non-charged polar' 'buried',1SHF_A,S124T,P06241,Protherm*,1SHF_A
+427,1IO2,732,105,A,D,A,0.1012382654922625,-1.5774378585086,'polar to hydrophobic' 'negative to hydrophobic' 'buried',1IO2_A,D105A,O74035,Protherm*,1IO2_A
+428,2LZM,2661,131,A,V,D,0.431257126387926,-0.08,'hydrophobic to polar' 'hydrophobic to negative' 'buried',2LZM_A,V131D,P404,Protherm*,2LZM_A
+429,3CHY,456,57,A,D,A,0.0319765527032932,-3.3,'polar to hydrophobic' 'negative to hydrophobic' 'buried',3CHY_A,D57A,P0AE67,Protherm*,3CHY_A
+430,4LYZ,2907,101,A,D,N,0.5286268150721317,-0.04,'negative to non-charged polar' 'surface',4LYZ_A,D101N,P404,Protherm*,4LYZ_A
+431,1VQB,2298,50,A,D,H,0.2521308354914448,1.5,'negative to non-charged polar' 'buried',1VQB_A,D50H,P69543,Protherm*,1VQB_A
+432,1A2P,191,18,A,H,K,0.6413483160750959,0.92,'non-charged polar to positive' 'surface',1A2P_A,H18K,P00648,Protherm*,1A2P_A
+433,1CSP,472,3,A,E,R,0.7691753560009822,-0.884321223709369,'negative to positive' 'surface',1CSP_A,E3R,P32081,Protherm*,1CSP_A
+434,2RN2,2804,135,A,E,K,0.5740105356518553,0.22,'negative to positive' 'surface',2RN2_A,E135K,P0A7Y4,Protherm*,2RN2_A
+435,1LVE,980,38,A,Q,N,0.212540194835632,1.1,'non-charged polar to non-charged polar' 'buried',1LVE_A,Q38N,P06312,Protherm*,1LVE_A
+436,1FKJ,559,21,A,T,S,0.1176291117666201,1.44,'non-charged polar to non-charged polar' 'buried',1FKJ_A,T21S,P62942,Protherm*,1FKJ_A
+437,1RGG,1352,79,A,D,R,0.050088272007893,-2.7,'negative to positive' 'buried',1RGG_A,D79R,P05798,Protherm*,1RGG_A
+438,1CSP,492,65,A,K,Q,1.0164819313841094,0.956022944550669,'positive to non-charged polar' 'surface',1CSP_A,K65Q,P32081,Protherm*,1CSP_A
+439,1SHF,1639,124,A,S,K,0.0038364926549366,-0.11,'small to large' 'non-charged polar to positive' 'buried',1SHF_A,S124K,P06241,Protherm*,1SHF_A
+440,2CRK,2596,122,A,D,A,0.1655854186919673,0.0,'polar to hydrophobic' 'negative to hydrophobic' 'buried',2CRK_A,D122A,P00563,Protherm*,2CRK_A
+441,3CHY,453,12,A,D,A,0.0214636492057966,-2.5,'polar to hydrophobic' 'negative to hydrophobic' 'buried',3CHY_A,D12A,P0AE67,Protherm*,3CHY_A
+442,1DYJ,1578,139,A,E,K,0.3444855604293331,1.0,'negative to positive' 'buried',1DYJ_A,E139K,P0ABQ4,Protherm*,1DYJ_A
+443,2RN2,2731,70,A,D,N,0.2381539923888462,-1.57,'negative to non-charged polar' 'buried',2RN2_A,D70N,P0A7Y4,Protherm*,2RN2_A
+444,1OIA,1164,13,A,Y,T,0.1726217483717103,1.3,'large to small' 'non-charged polar to non-charged polar' 'buried',1OIA_A,Y13T,P09012,Protherm*,1OIA_A
+445,4LYZ,2895,101,A,D,R,0.5286268150721317,-0.27,'negative to positive' 'surface',4LYZ_A,D101R,P404,Protherm*,4LYZ_A
+446,4LYZ,2923,91,A,S,Y,0.0,3.07,'small to large' 'non-charged polar to non-charged polar' 'buried',4LYZ_A,S91Y,P404,Protherm*,4LYZ_A
+447,1RGG,1329,39,A,N,D,0.0766252196342819,1.5,'non-charged polar to negative' 'buried',1RGG_A,N39D,P05798,Protherm*,1RGG_A
+448,1FXA,623,94,A,E,K,0.3399676283895948,0.4,'negative to positive' 'buried',1FXA_A,E94K,P0A3C7,Protherm*,1FXA_A
+449,1POH,1269,49,A,K,E,0.8134929855173562,-1.9,'positive to negative' 'surface',1POH_A,K49E,P0AA04,Protherm*,1POH_A
+450,1ROP,1457,30,A,D,Y,0.8978610684043312,-0.2,'negative to non-charged polar' 'surface',1ROP_A,D30Y,P03051,Protherm*,1ROP_A
+451,1HFZ,687,107,A,H,Y,0.0977450744310124,0.191204588910134,'non-charged polar to non-charged polar' 'buried',1HFZ_A,H107Y,P00711,Protherm*,1HFZ_A
+452,2LZM,2641,131,A,V,E,0.431257126387926,-0.2,'small to large' 'hydrophobic to polar' 'hydrophobic to negative' 'buried',2LZM_A,V131E,P404,Protherm*,2LZM_A
+453,1IGV,708,19,A,D,N,0.3619111027362998,-0.740917782027,'negative to non-charged polar' 'buried',1IGV_A,D19N,P02633,Protherm*,1IGV_A
+454,1SHF,1637,124,A,S,Y,0.0038364926549366,2.27,'small to large' 'non-charged polar to non-charged polar' 'buried',1SHF_A,S124Y,P06241,Protherm*,1SHF_A
+455,1LZ1,1026,18,A,D,N,0.4252268693588559,1.69694072657744,'negative to non-charged polar' 'buried',1LZ1_A,D18N,P61626,Protherm*,1LZ1_A
+456,1A2P,163,34,A,G,D,0.3823274500010729,3.2,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1A2P_A,G34D,P00648,Protherm*,1A2P_A
+457,1A2P,197,83,A,R,K,0.2537716856934134,4.13,'charge to charge' 'buried',1A2P_A,R83K,P00648,Protherm*,1A2P_A
+458,1C9O,412,56,A,R,E,0.8102351237316379,-0.764818355640535,'positive to negative' 'surface',1C9O_A,R56E,P41016,Protherm*,1C9O_A
+459,2LZM,2642,157,A,T,D,0.424571060794664,2.39,'non-charged polar to negative' 'buried',2LZM_A,T157D,P404,Protherm*,2LZM_A
+460,1DYJ,1550,121,A,G,D,0.5075920610990236,-0.19,'hydrophobic to polar' 'hydrophobic to negative' 'surface',1DYJ_A,G121D,P0ABQ4,Protherm*,1DYJ_A
+461,2HMB,2603,106,A,R,T,0.0985570070468654,3.53728489483748,'large to small' 'positive to non-charged polar' 'buried',2HMB_A,R106T,P05413,Protherm*,2HMB_A
+462,1ROP,1442,30,A,D,T,0.8978610684043312,0.4,'negative to non-charged polar' 'surface',1ROP_A,D30T,P03051,Protherm*,1ROP_A
+463,2CI2,2564,58,I,T,D,0.6208338388488367,0.04,'non-charged polar to negative' 'surface',2CI2_I,T58D,P01053,Protherm*,2CI2_I
+464,2IMM,2623,79,A,Q,E,0.3288763895365352,0.406309751434034,'non-charged polar to negative' 'buried',2IMM_A,Q79E,P404,Protherm*,2IMM_A
+465,3SSI,2869,73,A,M,K,0.9474906223928226,-0.35,'hydrophobic to polar' 'hydrophobic to positive' 'surface',3SSI_A,M73K,P01006,Protherm*,3SSI_A
+466,3SSI,2871,73,A,M,D,0.9474906223928226,-1.6,'hydrophobic to polar' 'hydrophobic to negative' 'surface',3SSI_A,M73D,P01006,Protherm*,3SSI_A
+467,1CLW,464,382,A,R,S,0.2927980104039498,17.4,'large to small' 'positive to non-charged polar' 'buried',1CLW_A,R382S,P12528,Protherm*,1CLW_A
+468,1VQB,2280,36,A,D,N,0.3093356748816633,1.0,'negative to non-charged polar' 'buried',1VQB_A,D36N,P69543,Protherm*,1VQB_A
+469,1POH,1271,49,A,K,N,0.8134929855173562,-0.3,'positive to non-charged polar' 'surface',1POH_A,K49N,P0AA04,Protherm*,1POH_A
+470,1LVE,983,27D,A,Y,D,0.2161974051743175,-1.7,'non-charged polar to negative' 'buried',1LVE_A,Y27DD,P06312,Protherm*,1LVE_A
+471,1LZ1,1069,120,A,D,N,0.5932735955043577,-0.0478011472275335,'negative to non-charged polar' 'surface',1LZ1_A,D120N,P61626,Protherm*,1LZ1_A
+472,1A2P,121,32,A,A,R,0.8036365600642267,0.1988,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'surface',1A2P_A,A32R,P00648,Protherm*,1A2P_A
+473,1DYJ,1515,30,A,W,E,0.0135322255886271,2.89,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1DYJ_A,W30E,P0ABQ4,Protherm*,1DYJ_A
+474,1CSP,491,19,A,E,K,0.6170988781066571,0.501912045889101,'negative to positive' 'surface',1CSP_A,E19K,P32081,Protherm*,1CSP_A
+475,1L63,820,11,A,E,H,0.1966965275052211,-0.1,'negative to non-charged polar' 'buried',1L63_A,E11H,P404,Protherm*,1L63_A
+476,1QLP,1313,330,A,S,R,0.0268554485845567,-2.02,'small to large' 'non-charged polar to positive' 'buried',1QLP_A,S330R,P01009,Protherm*,1QLP_A
+477,1L63,869,40,A,N,D,0.6719107215223361,-0.44,'non-charged polar to negative' 'surface',1L63_A,N40D,P404,Protherm*,1L63_A
+478,3D2A,2831,134,A,M,E,0.7133372991682965,-0.66,'hydrophobic to polar' 'hydrophobic to negative' 'surface',3D2A_A,M134E,P37957,Protherm*,3D2A_A
+479,2RN2,2776,91,A,K,R,0.4191632967300153,0.0,'charge to charge' 'buried',2RN2_A,K91R,P0A7Y4,Protherm*,2RN2_A
+480,1CSP,480,13,A,K,E,0.8621110985997377,0.310707456978968,'positive to negative' 'surface',1CSP_A,K13E,P32081,Protherm*,1CSP_A
+481,4LYZ,2919,101,A,D,Q,0.5286268150721317,0.08,'negative to non-charged polar' 'surface',4LYZ_A,D101Q,P404,Protherm*,4LYZ_A
+482,4LYZ,2906,91,A,S,D,0.0,2.31,'non-charged polar to negative' 'buried',4LYZ_A,S91D,P404,Protherm*,4LYZ_A
+483,1DYJ,1574,67,A,G,D,0.4344851323381586,0.14,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1DYJ_A,G67D,P0ABQ4,Protherm*,1DYJ_A
+484,2HMB,2605,126,A,R,Q,0.050853296883788,0.621414913957935,'positive to non-charged polar' 'buried',2HMB_A,R126Q,P05413,Protherm*,2HMB_A
+485,1C9O,428,66,A,L,E,0.7380090534164514,0.836520076481836,'hydrophobic to polar' 'hydrophobic to negative' 'surface',1C9O_A,L66E,P41016,Protherm*,1C9O_A
+486,451C,2889,43,A,E,Y,0.4585638262790328,-1.12810707456979,'negative to non-charged polar' 'buried',451C_A,E43Y,P00099,Protherm*,451C_A
+487,1AYF,49,76,A,D,E,0.7016080351693135,-0.454110898661568,'charge to charge' 'surface',1AYF_A,D76E,P00257,Protherm*,1AYF_A
+488,1FTG,607,65,A,D,K,0.1509041941286726,0.26,'negative to positive' 'buried',1FTG_A,D65K,P0A3E0,Protherm*,1FTG_A
+489,1LZ1,1055,2,A,V,D,0.4329120045928795,1.434034416826,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1LZ1_A,V2D,P61626,Protherm*,1LZ1_A
+490,1ROP,1439,30,A,D,E,0.8978610684043312,-1.0,'charge to charge' 'surface',1ROP_A,D30E,P03051,Protherm*,1ROP_A
+491,2LZM,2681,51,A,G,D,0.7393705548386118,2.63,'hydrophobic to polar' 'hydrophobic to negative' 'surface',2LZM_A,G51D,P404,Protherm*,2LZM_A
+492,1L63,941,96,A,R,Q,0.5050987075960601,0.3,'positive to non-charged polar' 'surface',1L63_A,R96Q,P404,Protherm*,1L63_A
+493,1L63,843,92,A,D,N,0.4061913376579173,1.4,'negative to non-charged polar' 'buried',1L63_A,D92N,P404,Protherm*,1L63_A
+494,1RGG,1338,94,A,Q,K,0.2087554353708831,-0.3,'non-charged polar to positive' 'buried',1RGG_A,Q94K,P05798,Protherm*,1RGG_A
+495,1A2P,206,54,A,D,N,0.158249318407951,1.78,'negative to non-charged polar' 'buried',1A2P_A,D54N,P00648,Protherm*,1A2P_A
+496,1AAR,4,6,A,K,E,0.6232923707019209,-0.525812619502868,'positive to negative' 'surface',1AAR_A,K6E,P0CH28,Protherm*,1AAR_A
+497,1A2P,106,41,A,N,D,0.1166000011478095,2.62,'non-charged polar to negative' 'buried',1A2P_A,N41D,P00648,Protherm*,1A2P_A
+498,1POH,1264,46,A,S,D,0.3646599366809392,-1.5,'non-charged polar to negative' 'buried',1POH_A,S46D,P0AA04,Protherm*,1POH_A
+499,4LYZ,2925,21,A,R,Q,0.9757912839779594,0.15,'positive to non-charged polar' 'surface',4LYZ_A,R21Q,P404,Protherm*,4LYZ_A
+500,1AAR,6,27,A,K,Q,0.0573986220291786,1.91204588910134,'positive to non-charged polar' 'buried',1AAR_A,K27Q,P0CH28,Protherm*,1AAR_A
+501,1A2P,132,93,A,D,N,0.5223040023917156,4.11,'negative to non-charged polar' 'surface',1A2P_A,D93N,P00648,Protherm*,1A2P_A
+502,2LZM,2703,157,A,T,E,0.424571060794664,0.8,'small to large' 'non-charged polar to negative' 'buried',2LZM_A,T157E,P404,Protherm*,2LZM_A
+503,4LYZ,2914,101,A,D,E,0.5286268150721317,0.0,'charge to charge' 'surface',4LYZ_A,D101E,P404,Protherm*,4LYZ_A
+504,1RGG,1324,25,A,D,H,0.8047411867175763,-0.9,'negative to non-charged polar' 'surface',1RGG_A,D25H,P05798,Protherm*,1RGG_A
+505,2CI2,2541,72,I,K,N,1.192287891780677,1.21,'positive to non-charged polar' 'surface',2CI2_I,K72N,P01053,Protherm*,2CI2_I
+506,1A2P,164,69,A,R,K,0.2915647564275244,3.13,'charge to charge' 'buried',1A2P_A,R69K,P00648,Protherm*,1A2P_A
+507,1FTG,612,72,A,E,K,0.4649559289261179,-1.28,'negative to positive' 'buried',1FTG_A,E72K,P0A3E0,Protherm*,1FTG_A
+508,1A2P,208,19,A,K,R,0.7911364894282448,-0.88,'charge to charge' 'surface',1A2P_A,K19R,P00648,Protherm*,1A2P_A
+509,1L63,831,120,A,M,K,0.0733553520583778,1.6,'hydrophobic to polar' 'hydrophobic to positive' 'buried',1L63_A,M120K,P404,Protherm*,1L63_A
+510,1VQB,2315,69,A,K,H,0.6630653370651997,1.2,'positive to non-charged polar' 'surface',1VQB_A,K69H,P69543,Protherm*,1VQB_A
+511,1LZ1,1112,74,A,V,R,0.61989054908828,0.0717017208413002,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'surface',1LZ1_A,V74R,P61626,Protherm*,1LZ1_A
+512,1DYJ,1581,155,A,I,E,0.1006773385573334,3.26,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1DYJ_A,I155E,P0ABQ4,Protherm*,1DYJ_A
+513,1CYO,530,61,A,V,E,0.4219801146735971,1.05162523900574,'small to large' 'hydrophobic to polar' 'hydrophobic to negative' 'buried',1CYO_A,V61E,P00171,Protherm*,1CYO_A
+514,2RN2,2777,10,A,D,H,0.1533823769631778,-2.37,'negative to non-charged polar' 'buried',2RN2_A,D10H,P0A7Y4,Protherm*,2RN2_A
+515,1DYJ,1547,40,A,V,R,0.0,1.72,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1DYJ_A,V40R,P0ABQ4,Protherm*,1DYJ_A
+516,1PGA,1184,53,A,T,K,0.3158169288339977,-0.35,'small to large' 'non-charged polar to positive' 'buried',1PGA_A,T53K,P06654,Protherm*,1PGA_A
+517,1SUP,2208,76,A,N,D,0.4527994334263983,-0.45,'non-charged polar to negative' 'buried',1SUP_A,N76D,P00782,Protherm*,1SUP_A
+518,1CSP,495,19,A,E,Q,0.6170988781066571,0.1434034416826,'negative to non-charged polar' 'surface',1CSP_A,E19Q,P32081,Protherm*,1CSP_A
+519,2LZM,2728,38,A,S,D,0.4312292325998193,1.2,'non-charged polar to negative' 'buried',2LZM_A,S38D,P404,Protherm*,2LZM_A
+520,1CLW,467,244,A,G,R,0.504654672786892,4.0,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'surface',1CLW_A,G244R,P12528,Protherm*,1CLW_A
+521,1CSP,503,1,A,M,R,0.6224680278966018,-1.74474187380497,'hydrophobic to polar' 'hydrophobic to positive' 'surface',1CSP_A,M1R,P32081,Protherm*,1CSP_A
+522,2LZM,2695,128,A,E,K,0.3678941713190691,1.16,'negative to positive' 'buried',2LZM_A,E128K,P404,Protherm*,2LZM_A
+523,1RN1,1433,21,B,A,E,0.4420946054762797,0.69,'small to large' 'hydrophobic to polar' 'hydrophobic to negative' 'buried',1RN1_B,A21E,P404,Protherm*,1RN1_B
+524,1L63,811,96,A,R,E,0.5050987075960601,2.5,'positive to negative' 'surface',1L63_A,R96E,P404,Protherm*,1L63_A
+525,1EL1,540,109,A,V,K,0.5076291677535216,0.430210325047801,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'surface',1EL1_A,V109K,P81708,Protherm*,1EL1_A
+526,2RN2,2742,52,A,A,K,0.0,5.93,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',2RN2_A,A52K,P0A7Y4,Protherm*,2RN2_A
+527,2RN2,2763,10,A,D,E,0.1533823769631778,-0.96,'charge to charge' 'buried',2RN2_A,D10E,P0A7Y4,Protherm*,2RN2_A
+528,2RN2,2757,134,A,D,T,0.3291658789789445,-1.07552581262,'negative to non-charged polar' 'buried',2RN2_A,D134T,P0A7Y4,Protherm*,2RN2_A
+529,1CSP,473,21,A,E,K,0.8595025005002975,0.0717017208413002,'negative to positive' 'surface',1CSP_A,E21K,P32081,Protherm*,1CSP_A
+530,1C2R,397,12,A,K,D,0.60622664440898,1.1,'positive to negative' 'surface',1C2R_A,K12D,P00094,Protherm*,1C2R_A
+531,2LZM,2646,105,A,Q,E,0.3025031934138276,1.1,'non-charged polar to negative' 'buried',2LZM_A,Q105E,P404,Protherm*,2LZM_A
+532,1RN1,1431,21,B,A,R,0.4420946054762797,0.41,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1RN1_B,A21R,P404,Protherm*,1RN1_B
+533,1A2P,127,62,A,K,R,0.5940194928653024,0.32,'charge to charge' 'surface',1A2P_A,K62R,P00648,Protherm*,1A2P_A
+534,1A2P,180,108,A,K,R,0.798422670222803,-0.78,'charge to charge' 'surface',1A2P_A,K108R,P00648,Protherm*,1A2P_A
+535,1FRD,584,42,A,H,R,0.5263113470419103,-4.0,'non-charged polar to positive' 'surface',1FRD_A,H42R,P11053,Protherm*,1FRD_A
+536,1IOB,751,97,A,K,R,0.6545588848004046,3.1,'charge to charge' 'surface',1IOB_A,K97R,P01584,Protherm*,1IOB_A
+537,1CLW,463,323,A,G,D,0.084438995018516,0.4,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1CLW_A,G323D,P12528,Protherm*,1CLW_A
+538,1AAR,8,29,A,K,N,0.396018023663683,1.67304015296367,'positive to non-charged polar' 'buried',1AAR_A,K29N,P0CH28,Protherm*,1AAR_A
+539,1BPI,262,37,A,G,D,0.4634983322821122,1.7,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1BPI_A,G37D,P00974,Protherm*,1BPI_A
+540,4LYZ,2936,68,A,R,K,1.2216840999714933,0.04,'charge to charge' 'surface',4LYZ_A,R68K,P404,Protherm*,4LYZ_A
+541,1A2P,105,12,A,D,S,0.4941557649666274,0.9,'negative to non-charged polar' 'buried',1A2P_A,D12S,P00648,Protherm*,1A2P_A
+542,1AMQ,36,265,A,E,Q,0.3860873717577795,6.3,'negative to non-charged polar' 'buried',1AMQ_A,E265Q,P00509,Protherm*,1AMQ_A
+543,1HFZ,675,110,A,L,R,0.5318139789576911,-0.430210325047801,'hydrophobic to polar' 'hydrophobic to positive' 'surface',1HFZ_A,L110R,P00711,Protherm*,1HFZ_A
+544,1IGV,711,26,A,E,Q,0.5861886958103298,-0.0956022944551,'negative to non-charged polar' 'surface',1IGV_A,E26Q,P02633,Protherm*,1IGV_A
+545,1RN1,1403,21,B,A,K,0.4420946054762797,0.51,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1RN1_B,A21K,P404,Protherm*,1RN1_B
+546,1RGG,1333,74,A,E,K,0.7805770149531718,-1.1,'negative to positive' 'surface',1RGG_A,E74K,P05798,Protherm*,1RGG_A
+547,1IOB,757,4,A,R,Q,0.7881360984978222,1.0,'positive to non-charged polar' 'surface',1IOB_A,R4Q,P01584,Protherm*,1IOB_A
+548,2LZM,2675,119,A,R,E,0.4511670911175597,0.0,'positive to negative' 'buried',2LZM_A,R119E,P404,Protherm*,2LZM_A
+549,1CSP,485,13,A,K,Q,0.8621110985997377,0.167304015296367,'positive to non-charged polar' 'surface',1CSP_A,K13Q,P32081,Protherm*,1CSP_A
+550,1LVE,984,30,A,K,R,0.4741516397467937,1.0,'charge to charge' 'buried',1LVE_A,K30R,P06312,Protherm*,1LVE_A
+551,1PIN,1220,26,A,N,D,0.0,1.87858508604206,'non-charged polar to negative' 'buried',1PIN_A,N26D,Q13526,Protherm*,1PIN_A
+552,1CSP,518,66,A,E,K,0.4854965435636311,-2.17495219885277,'negative to positive' 'buried',1CSP_A,E66K,P32081,Protherm*,1CSP_A
+553,2CI2,2549,75,I,N,D,0.2570800410175295,1.51,'non-charged polar to negative' 'buried',2CI2_I,N75D,P01053,Protherm*,2CI2_I
+554,4LYZ,2924,103,A,N,D,0.519990584259125,-0.239005736137667,'non-charged polar to negative' 'surface',4LYZ_A,N103D,P404,Protherm*,4LYZ_A
+555,2RN2,2775,53,A,I,D,0.0122477453830425,4.1,'hydrophobic to polar' 'hydrophobic to negative' 'buried',2RN2_A,I53D,P0A7Y4,Protherm*,2RN2_A
+556,1FTG,603,61,A,E,K,0.5427398382961388,-0.88,'negative to positive' 'surface',1FTG_A,E61K,P0A3E0,Protherm*,1FTG_A
+557,2LZM,2635,115,A,T,E,0.3904416629876258,-0.3,'small to large' 'non-charged polar to negative' 'buried',2LZM_A,T115E,P404,Protherm*,2LZM_A
+558,2LZM,2680,3,A,I,E,0.0653005094701614,2.0,'hydrophobic to polar' 'hydrophobic to negative' 'buried',2LZM_A,I3E,P404,Protherm*,2LZM_A
+559,1L63,930,83,A,K,H,0.5471426765333922,0.4,'positive to non-charged polar' 'surface',1L63_A,K83H,P404,Protherm*,1L63_A
+560,1DYJ,1606,155,A,I,R,0.1006773385573334,3.28,'hydrophobic to polar' 'hydrophobic to positive' 'buried',1DYJ_A,I155R,P0ABQ4,Protherm*,1DYJ_A
+561,1L63,810,106,A,M,K,0.2650305682495932,3.4,'hydrophobic to polar' 'hydrophobic to positive' 'buried',1L63_A,M106K,P404,Protherm*,1L63_A
+562,1LZ1,1021,110,A,V,D,0.429976845773619,-0.167304015296367,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1LZ1_A,V110D,P61626,Protherm*,1LZ1_A
+563,1A2P,100,32,A,A,D,0.8036365600642267,0.4143,'hydrophobic to polar' 'hydrophobic to negative' 'surface',1A2P_A,A32D,P00648,Protherm*,1A2P_A
+564,1AMQ,18,265,A,E,K,0.3860873717577795,7.6,'negative to positive' 'buried',1AMQ_A,E265K,P00509,Protherm*,1AMQ_A
+565,1DYJ,1553,30,A,W,R,0.0135322255886271,2.49,'hydrophobic to polar' 'hydrophobic to positive' 'buried',1DYJ_A,W30R,P0ABQ4,Protherm*,1DYJ_A
+566,1DYJ,1573,155,A,I,D,0.1006773385573334,4.1,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1DYJ_A,I155D,P0ABQ4,Protherm*,1DYJ_A
+567,1UBQ,2269,33,A,K,S,0.7363888100246834,1.31453154875717,'large to small' 'positive to non-charged polar' 'surface',1UBQ_A,K33S,P0CG48,Protherm*,1UBQ_A
+568,2TRX,2810,78,A,L,R,0.0027408150597805,4.0,'hydrophobic to polar' 'hydrophobic to positive' 'buried',2TRX_A,L78R,P0AA25,Protherm*,2TRX_A
+569,1C9O,419,3,A,R,K,0.8506248043218346,0.191204588910134,'charge to charge' 'surface',1C9O_A,R3K,P41016,Protherm*,1C9O_A
+570,1FTG,615,75,A,D,K,0.6203743866997118,-1.0,'negative to positive' 'surface',1FTG_A,D75K,P0A3E0,Protherm*,1FTG_A
+571,3SSI,2873,73,A,M,E,0.9474906223928226,-1.05,'hydrophobic to polar' 'hydrophobic to negative' 'surface',3SSI_A,M73E,P01006,Protherm*,3SSI_A
+572,1LZ1,1048,110,A,V,R,0.429976845773619,-0.884321223709369,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1LZ1_A,V110R,P61626,Protherm*,1LZ1_A
+573,1KFW,765,197,A,N,K,0.6537481165278465,-0.812619502868069,'non-charged polar to positive' 'surface',1KFW_A,N197K,P404,Protherm*,1KFW_A
+574,1BPI,294,35,A,Y,D,0.0517339949228197,3.8,'non-charged polar to negative' 'buried',1BPI_A,Y35D,P00974,Protherm*,1BPI_A
+575,2RN2,2744,70,A,D,E,0.2381539923888462,-0.11,'charge to charge' 'buried',2RN2_A,D70E,P0A7Y4,Protherm*,2RN2_A
+576,1RGG,1358,79,A,D,K,0.050088272007893,-2.3,'negative to positive' 'buried',1RGG_A,D79K,P05798,Protherm*,1RGG_A
+577,1FTG,618,126,A,D,K,0.6715572642346134,-1.01,'negative to positive' 'surface',1FTG_A,D126K,P0A3E0,Protherm*,1FTG_A
+578,1C9O,408,12,A,E,K,0.9491042430069878,0.430210325047801,'negative to positive' 'surface',1C9O_A,E12K,P41016,Protherm*,1C9O_A
+579,1A2P,122,18,A,H,D,0.6413483160750959,2.2,'non-charged polar to negative' 'surface',1A2P_A,H18D,P00648,Protherm*,1A2P_A
+580,1C9O,411,24,A,S,D,0.6792210843585192,-0.0956022944550669,'non-charged polar to negative' 'surface',1C9O_A,S24D,P41016,Protherm*,1C9O_A
+581,1FKJ,567,56,A,I,D,0.1591462245838443,3.16,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1FKJ_A,I56D,P62942,Protherm*,1FKJ_A
+582,1A2P,156,26,A,T,E,0.2923354168666857,0.05,'small to large' 'non-charged polar to negative' 'buried',1A2P_A,T26E,P00648,Protherm*,1A2P_A
+583,1CSP,482,46,A,A,E,0.2148533443894391,0.597514340344168,'small to large' 'hydrophobic to polar' 'hydrophobic to negative' 'buried',1CSP_A,A46E,P32081,Protherm*,1CSP_A
+584,1C9O,417,46,A,E,K,0.626097557753746,0.645315487571702,'negative to positive' 'surface',1C9O_A,E46K,P41016,Protherm*,1C9O_A
+585,1VQB,2366,26,A,Y,R,0.3439904705546157,0.4,'non-charged polar to positive' 'buried',1VQB_A,Y26R,P69543,Protherm*,1VQB_A
+586,3MBP,2843,283,A,Y,D,0.1525796873010484,3.2,'non-charged polar to negative' 'buried',3MBP_A,Y283D,P0AEX9,Protherm*,3MBP_A
+587,1SUP,2206,217,A,Y,K,0.3536470069439357,-0.72,'non-charged polar to positive' 'buried',1SUP_A,Y217K,P00782,Protherm*,1SUP_A
+588,1RGG,1319,17,A,D,K,0.5776872693145616,1.1,'negative to positive' 'surface',1RGG_A,D17K,P05798,Protherm*,1RGG_A
+589,1AMQ,31,297,A,N,R,0.442190016907975,4.4,'non-charged polar to positive' 'buried',1AMQ_A,N297R,P00509,Protherm*,1AMQ_A
+590,2CI2,2573,33,I,E,D,0.7110463572348376,0.77,'charge to charge' 'surface',2CI2_I,E33D,P01053,Protherm*,2CI2_I
+591,1CLW,465,177,A,G,R,0.272648711331856,2.1,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1CLW_A,G177R,P12528,Protherm*,1CLW_A
+592,1AMQ,34,68,A,K,E,1.1990390362171883,5.2,'positive to negative' 'surface',1AMQ_A,K68E,P00509,Protherm*,1AMQ_A
+593,1CSP,514,39,A,K,E,0.3937350586450009,0.310707456978968,'positive to negative' 'buried',1CSP_A,K39E,P32081,Protherm*,1CSP_A
+594,1A2P,214,34,A,G,R,0.3823274500010729,2.8,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1A2P_A,G34R,P00648,Protherm*,1A2P_A
+595,2LZM,2685,16,A,K,E,0.8348223761956647,-0.5,'positive to negative' 'surface',2LZM_A,K16E,P404,Protherm*,2LZM_A
+596,1CSP,508,3,A,E,K,0.7691753560009822,-2.74856596558317,'negative to positive' 'surface',1CSP_A,E3K,P32081,Protherm*,1CSP_A
+597,1CSP,510,5,A,K,Q,0.7491968499921237,2.19885277246654,'positive to non-charged polar' 'surface',1CSP_A,K5Q,P32081,Protherm*,1CSP_A
+598,1DYJ,1589,155,A,I,K,0.1006773385573334,3.35,'hydrophobic to polar' 'hydrophobic to positive' 'buried',1DYJ_A,I155K,P0ABQ4,Protherm*,1DYJ_A
+599,1UBQ,2272,33,A,K,E,0.7363888100246834,0.908221797323136,'positive to negative' 'surface',1UBQ_A,K33E,P0CG48,Protherm*,1UBQ_A
+600,2LZM,2645,116,A,N,D,0.4803462608160221,-0.6,'non-charged polar to negative' 'buried',2LZM_A,N116D,P404,Protherm*,2LZM_A
+601,1RN1,1430,21,B,A,D,0.4420946054762797,0.71,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1RN1_B,A21D,P404,Protherm*,1RN1_B
+602,1SHG,1658,59,A,K,Y,0.7163745458133991,-0.84,'positive to non-charged polar' 'surface',1SHG_A,K59Y,P07751,Protherm*,1SHG_A
+603,1CSP,502,50,A,E,K,0.3135401680952587,0.645315487571702,'negative to positive' 'buried',1CSP_A,E50K,P32081,Protherm*,1CSP_A
+604,1SHF,1641,124,A,S,D,0.0038364926549366,2.02,'non-charged polar to negative' 'buried',1SHF_A,S124D,P06241,Protherm*,1SHF_A
+605,1AAR,7,29,A,K,Q,0.396018023663683,1.48183556405354,'positive to non-charged polar' 'buried',1AAR_A,K29Q,P0CH28,Protherm*,1AAR_A
+606,2RN2,2737,134,A,D,E,0.3291658789789445,-0.860420650096,'charge to charge' 'buried',2RN2_A,D134E,P0A7Y4,Protherm*,2RN2_A
+607,1A2P,219,6,A,T,D,0.3859742714235835,-0.11,'non-charged polar to negative' 'buried',1A2P_A,T6D,P00648,Protherm*,1A2P_A
+608,2RN2,2760,52,A,A,E,0.0,1.52,'small to large' 'hydrophobic to polar' 'hydrophobic to negative' 'buried',2RN2_A,A52E,P0A7Y4,Protherm*,2RN2_A
+609,1CSP,506,5,A,K,E,0.7491968499921237,3.48948374760994,'positive to negative' 'surface',1CSP_A,K5E,P32081,Protherm*,1CSP_A
+610,2IMM,2619,24,A,K,R,0.8204584060372053,0.167304015296367,'charge to charge' 'surface',2IMM_A,K24R,P404,Protherm*,2IMM_A
+611,1CSP,490,46,A,A,K,0.2148533443894391,-1.41013384321224,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1CSP_A,A46K,P32081,Protherm*,1CSP_A
+612,1CSP,496,48,A,S,E,0.1241082052522699,0.0,'small to large' 'non-charged polar to negative' 'buried',1CSP_A,S48E,P32081,Protherm*,1CSP_A
+613,1FTG,599,40,A,E,K,0.707966865709151,-2.21,'negative to positive' 'surface',1FTG_A,E40K,P0A3E0,Protherm*,1FTG_A
+614,1CSP,475,12,A,E,K,0.9963156855829184,0.717017208413002,'negative to positive' 'surface',1CSP_A,E12K,P32081,Protherm*,1CSP_A
+615,1A2P,114,69,A,R,S,0.2915647564275244,2.72,'large to small' 'positive to non-charged polar' 'buried',1A2P_A,R69S,P00648,Protherm*,1A2P_A
+616,1A2P,223,32,A,A,E,0.8036365600642267,-0.1328,'small to large' 'hydrophobic to polar' 'hydrophobic to negative' 'surface',1A2P_A,A32E,P00648,Protherm*,1A2P_A
+617,4LYZ,2901,101,A,D,K,0.5286268150721317,-0.19,'negative to positive' 'surface',4LYZ_A,D101K,P404,Protherm*,4LYZ_A
+618,1POH,1270,49,A,K,R,0.8134929855173562,0.1,'charge to charge' 'surface',1POH_A,K49R,P0AA04,Protherm*,1POH_A
+619,1HFZ,672,114,A,K,N,0.965619150229065,-2.65296367112811,'positive to non-charged polar' 'surface',1HFZ_A,K114N,P00711,Protherm*,1HFZ_A
+620,1UBQ,2271,33,A,K,T,0.7363888100246834,1.0755258126195,'large to small' 'positive to non-charged polar' 'surface',1UBQ_A,K33T,P0CG48,Protherm*,1UBQ_A
+621,1UBQ,2267,33,A,K,N,0.7363888100246834,1.55353728489484,'positive to non-charged polar' 'surface',1UBQ_A,K33N,P0CG48,Protherm*,1UBQ_A
+622,1BPI,317,36,A,G,D,0.0511020570975103,2.8,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1BPI_A,G36D,P00974,Protherm*,1BPI_A
+623,1FXA,624,94,A,E,D,0.3399676283895948,1.1,'charge to charge' 'buried',1FXA_A,E94D,P0A3C7,Protherm*,1FXA_A
+624,2RN2,2746,62,A,H,R,0.5369728576016223,-0.36,'non-charged polar to positive' 'surface',2RN2_A,H62R,P0A7Y4,Protherm*,2RN2_A
+625,1CSP,511,53,A,E,K,0.7188671224415664,0.286806883365201,'negative to positive' 'surface',1CSP_A,E53K,P32081,Protherm*,1CSP_A
+626,2LZM,2682,157,A,T,R,0.424571060794664,-0.3,'small to large' 'non-charged polar to positive' 'buried',2LZM_A,T157R,P404,Protherm*,2LZM_A
+627,1CSP,497,48,A,S,R,0.1241082052522699,-1.5774378585086,'small to large' 'non-charged polar to positive' 'buried',1CSP_A,S48R,P32081,Protherm*,1CSP_A
+628,1RTP,1510,80,1,K,S,0.9728956166763398,0.29,'large to small' 'positive to non-charged polar' 'surface',1RTP_1,K80S,P02625,Protherm*,1RTP_1
+629,1LVE,988,39,A,K,T,0.4930710316342583,2.6,'large to small' 'positive to non-charged polar' 'buried',1LVE_A,K39T,P06312,Protherm*,1LVE_A
+630,1CSP,494,48,A,S,K,0.1241082052522699,-0.717017208413002,'small to large' 'non-charged polar to positive' 'buried',1CSP_A,S48K,P32081,Protherm*,1CSP_A
+631,1POH,1274,49,A,K,Q,0.8134929855173562,-1.6,'positive to non-charged polar' 'surface',1POH_A,K49Q,P0AA04,Protherm*,1POH_A
+632,1CLW,469,285,A,R,K,0.5060784992509073,10.3,'charge to charge' 'surface',1CLW_A,R285K,P12528,Protherm*,1CLW_A
+633,1A2P,155,18,A,H,R,0.6413483160750959,1.0,'non-charged polar to positive' 'surface',1A2P_A,H18R,P00648,Protherm*,1A2P_A
+634,1CSP,470,10,A,N,K,0.2811281320158701,1.5057361376673,'non-charged polar to positive' 'buried',1CSP_A,N10K,P32081,Protherm*,1CSP_A
+635,2RN2,2783,94,A,D,E,0.6641143545151483,0.4,'charge to charge' 'surface',2RN2_A,D94E,P0A7Y4,Protherm*,2RN2_A
+636,1L63,889,41,A,A,D,0.2880185611917032,-0.29,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1L63_A,A41D,P404,Protherm*,1L63_A
+637,1L63,871,44,A,S,K,0.5008821743281026,-0.2,'small to large' 'non-charged polar to positive' 'surface',1L63_A,S44K,P404,Protherm*,1L63_A
+638,1L63,850,44,A,S,R,0.5008821743281026,-0.24,'small to large' 'non-charged polar to positive' 'surface',1L63_A,S44R,P404,Protherm*,1L63_A
+639,1L63,909,80,A,R,K,1.0251800589328353,0.17,'charge to charge' 'surface',1L63_A,R80K,P404,Protherm*,1L63_A
+640,1L63,777,96,A,R,D,0.5050987075960601,3.5,'positive to negative' 'surface',1L63_A,R96D,P404,Protherm*,1L63_A
+641,1L63,929,96,A,R,N,0.5050987075960601,3.0,'positive to non-charged polar' 'surface',1L63_A,R96N,P404,Protherm*,1L63_A
+642,1L63,793,96,A,R,S,0.5050987075960601,2.6,'large to small' 'positive to non-charged polar' 'surface',1L63_A,R96S,P404,Protherm*,1L63_A
+643,1L63,874,96,A,R,T,0.5050987075960601,2.8,'large to small' 'positive to non-charged polar' 'surface',1L63_A,R96T,P404,Protherm*,1L63_A
+644,1STN,1725,10,A,E,K,0.3995613929316577,2.2,'negative to positive' 'buried',1STN_A,E10K,P00644,Protherm*,1STN_A
+645,1STN,1878,127,A,K,E,0.8433660045202542,0.0,'positive to negative' 'surface',1STN_A,K127E,P00644,Protherm*,1STN_A
+646,1STN,1931,127,A,K,Q,0.8433660045202542,0.0,'positive to non-charged polar' 'surface',1STN_A,K127Q,P00644,Protherm*,1STN_A
+647,1STN,1982,133,A,K,Q,0.6581800478609079,0.5,'positive to non-charged polar' 'surface',1STN_A,K133Q,P00644,Protherm*,1STN_A
+648,1STN,2033,135,A,E,K,0.4684022347702835,1.1,'negative to positive' 'buried',1STN_A,E135K,P00644,Protherm*,1STN_A
+649,1STN,1930,21,A,D,K,0.1089825868500913,-1.0,'negative to positive' 'buried',1STN_A,D21K,P00644,Protherm*,1STN_A
+650,1STN,1821,27,A,Y,K,0.1344799970216233,3.9,'non-charged polar to positive' 'buried',1STN_A,Y27K,P00644,Protherm*,1STN_A
+651,1STN,2129,27,A,Y,R,0.1344799970216233,2.9,'non-charged polar to positive' 'buried',1STN_A,Y27R,P00644,Protherm*,1STN_A
+652,1STN,2032,28,A,K,E,0.8368059244815051,0.8,'positive to negative' 'surface',1STN_A,K28E,P00644,Protherm*,1STN_A
+653,1STN,2082,28,A,K,Q,0.8368059244815051,0.3,'positive to non-charged polar' 'surface',1STN_A,K28Q,P00644,Protherm*,1STN_A
+654,1STN,1789,43,A,E,D,0.3892569332865684,-0.2,'charge to charge' 'buried',1STN_A,E43D,P00644,Protherm*,1STN_A
+655,1STN,2187,48,A,K,Q,1.2537807375608834,0.1,'positive to non-charged polar' 'surface',1STN_A,K48Q,P00644,Protherm*,1STN_A
+656,1STN,1692,57,A,E,K,0.456770370804946,0.1,'negative to positive' 'buried',1STN_A,E57K,P00644,Protherm*,1STN_A
+657,1STN,1795,63,A,K,E,0.5057192519074567,1.5,'positive to negative' 'surface',1STN_A,K63E,P00644,Protherm*,1STN_A
+658,1STN,1896,64,A,K,E,0.8278315956249757,1.6,'positive to negative' 'surface',1STN_A,K64E,P00644,Protherm*,1STN_A
+659,1STN,1951,66,A,V,K,0.0075545854936734,5.2,'small to large' 'hydrophobic to polar' 'hydrophobic to positive' 'buried',1STN_A,V66K,P00644,Protherm*,1STN_A
+660,1STN,2049,70,A,K,E,1.2334607516317415,0.4,'positive to negative' 'surface',1STN_A,K70E,P00644,Protherm*,1STN_A
+661,1STN,2152,73,A,E,K,0.079738325016666,2.1,'negative to positive' 'buried',1STN_A,E73K,P00644,Protherm*,1STN_A
+662,1STN,1708,75,A,E,K,0.0810818065504115,2.3,'negative to positive' 'buried',1STN_A,E75K,P00644,Protherm*,1STN_A
+663,1STN,1812,77,A,D,K,0.0199853454395583,3.5,'negative to positive' 'buried',1STN_A,D77K,P00644,Protherm*,1STN_A
+664,1STN,1915,78,A,K,E,0.7927684997717831,0.8,'positive to negative' 'surface',1STN_A,K78E,P00644,Protherm*,1STN_A
+665,1STN,1887,79,A,G,D,0.2431613888911096,2.28,'hydrophobic to polar' 'hydrophobic to negative' 'buried',1STN_A,G79D,P00644,Protherm*,1STN_A
+666,1STN,2018,84,A,K,E,1.0909544995385454,0.0,'positive to negative' 'surface',1STN_A,K84E,P00644,Protherm*,1STN_A
+667,1STN,2120,97,A,K,E,0.7537559146013598,0.6,'positive to negative' 'surface',1STN_A,K97E,P00644,Protherm*,1STN_A
+668,1A2P,59,32,A,A,C,0.8036365600642267,1.8381,'involves cysteine' 'surface',1A2P_A,A32C,P00648,Protherm*,1A2P_A
+669,1A2P,77,32,A,A,P,0.8036365600642267,4.1259,'involves proline' 'surface',1A2P_A,A32P,P00648,Protherm*,1A2P_A
+670,1A2P,213,6,A,T,P,0.3859742714235835,3.3,'involves proline' 'buried',1A2P_A,T6P,P00648,Protherm*,1A2P_A
+671,1AMQ,33,191,A,C,A,0.0390020261520607,2.2,'involves cysteine' 'buried',1AMQ_A,C191A,P00509,Protherm*,1AMQ_A
+672,1AMQ,35,191,A,C,S,0.0390020261520607,1.8,'involves cysteine' 'buried',1AMQ_A,C191S,P00509,Protherm*,1AMQ_A
+673,1AMQ,37,192,A,C,A,0.0161232532221185,1.6,'involves cysteine' 'buried',1AMQ_A,C192A,P00509,Protherm*,1AMQ_A
+674,1AMQ,19,270,A,C,A,0.0,2.5,'involves cysteine' 'buried',1AMQ_A,C270A,P00509,Protherm*,1AMQ_A
+675,1AMQ,20,401,A,C,A,0.0,-3.2,'involves cysteine' 'buried',1AMQ_A,C401A,P00509,Protherm*,1AMQ_A
+676,1AMQ,30,82,A,C,A,0.0,1.3,'involves cysteine' 'buried',1AMQ_A,C82A,P00509,Protherm*,1AMQ_A
+677,1AXB,42,77,A,C,S,0.0,2.48565965583,'involves cysteine' 'buried',1AXB_A,C77S,P62593,Protherm*,1AXB_A
+678,1AYF,48,95,A,C,S,0.3272140720216879,-0.963193116634799,'involves cysteine' 'buried',1AYF_A,C95S,P00257,Protherm*,1AYF_A
+679,1BPI,286,13,A,P,A,0.7593134769156537,1.6,'involves proline' 'surface',1BPI_A,P13A,P00974,Protherm*,1BPI_A
+680,1BPI,265,13,A,P,S,0.7593134769156537,1.4,'involves proline' 'surface',1BPI_A,P13S,P00974,Protherm*,1BPI_A
+681,1BPI,290,2,A,P,A,0.3207683977994081,1.3,'involves proline' 'buried',1BPI_A,P2A,P00974,Protherm*,1BPI_A
+682,1BPI,319,8,A,P,A,0.7123526968504285,0.3,'involves proline' 'surface',1BPI_A,P8A,P00974,Protherm*,1BPI_A
+683,1BPI,264,9,A,P,A,0.2052486689783577,0.8,'involves proline' 'buried',1BPI_A,P9A,P00974,Protherm*,1BPI_A
+684,1BVC,361,88,A,P,A,0.5315020239334278,-0.59,'involves proline' 'surface',1BVC_A,P88A,P02185,Protherm*,1BVC_A
+685,1C2R,401,35,A,P,A,0.0971423676815351,2.0,'involves proline' 'buried',1C2R_A,P35A,P00094,Protherm*,1C2R_A
+686,1C2R,400,75,A,Y,C,0.0165374705116059,0.0,'large to small' 'involves cysteine' 'buried',1C2R_A,Y75C,P00094,Protherm*,1C2R_A
+687,1CAH,431,206,A,C,S,0.0101874179088109,-0.1,'involves cysteine' 'buried',1CAH_A,C206S,P00918,Protherm*,1CAH_A
+688,1DYJ,1540,121,A,G,C,0.5075920610990236,-0.09,'involves cysteine' 'surface',1DYJ_A,G121C,P0ABQ4,Protherm*,1DYJ_A
+689,1DYJ,1565,59,A,N,C,0.0399882034799733,0.02,'involves cysteine' 'buried',1DYJ_A,N59C,P0ABQ4,Protherm*,1DYJ_A
+690,1DYJ,1539,59,A,N,P,0.0399882034799733,1.34,'involves proline' 'buried',1DYJ_A,N59P,P0ABQ4,Protherm*,1DYJ_A
+691,1DYJ,1566,66,A,P,A,0.642783061148309,-1.3,'involves proline' 'surface',1DYJ_A,P66A,P0ABQ4,Protherm*,1DYJ_A
+692,1DYJ,1564,67,A,G,C,0.4344851323381586,0.36,'involves cysteine' 'buried',1DYJ_A,G67C,P0ABQ4,Protherm*,1DYJ_A
+693,1DYJ,1560,75,A,V,C,0.0896973569453958,-0.1,'involves cysteine' 'buried',1DYJ_A,V75C,P0ABQ4,Protherm*,1DYJ_A
+694,1FNF,583,1408,A,L,P,0.4685202769024511,0.02,'involves proline' 'buried',1FNF_A,L1408P,P02751,Protherm*,1FNF_A
+695,1HFZ,688,103,A,Y,P,0.1707971186585609,0.215105162523901,'involves proline' 'buried',1HFZ_A,Y103P,P00711,Protherm*,1HFZ_A
+696,1IGV,709,20,A,P,G,0.5007960154372916,1.19502868069,'involves proline' 'surface',1IGV_A,P20G,P02633,Protherm*,1IGV_A
+697,1IOB,744,4,A,R,P,0.7881360984978222,0.4,'involves proline' 'surface',1IOB_A,R4P,P01584,Protherm*,1IOB_A
+698,1IOB,752,8,A,C,A,0.0,2.52,'involves cysteine' 'buried',1IOB_A,C8A,P01584,Protherm*,1IOB_A
+699,1IOB,754,8,A,C,S,0.0,4.8,'involves cysteine' 'buried',1IOB_A,C8S,P01584,Protherm*,1IOB_A
+700,1JIW,761,8,I,A,P,0.0369620038290289,-3.2,'involves proline' 'buried',1JIW_I,A8P,Q03026,Protherm*,1JIW_I
+701,1KFW,766,253,A,G,P,0.0694911766846855,0.645315487571702,'involves proline' 'buried',1KFW_A,G253P,P404,Protherm*,1KFW_A
+702,1KFW,768,92,A,G,P,0.3661165673160957,-0.501912045889101,'involves proline' 'buried',1KFW_A,G92P,P404,Protherm*,1KFW_A
+703,1L63,888,149,A,V,C,0.0,2.0,'involves cysteine' 'buried',1L63_A,V149C,P404,Protherm*,1L63_A
+704,1L63,795,152,A,T,C,0.0032403196254536,0.5,'involves cysteine' 'buried',1L63_A,T152C,P404,Protherm*,1L63_A
+705,1L63,837,44,A,S,C,0.5008821743281026,0.11,'involves cysteine' 'surface',1L63_A,S44C,P404,Protherm*,1L63_A
+706,1L63,898,44,A,S,P,0.5008821743281026,3.03,'involves proline' 'surface',1L63_A,S44P,P404,Protherm*,1L63_A
+707,1L63,789,69,A,Q,P,0.5023444232983114,2.9,'involves proline' 'surface',1L63_A,Q69P,P404,Protherm*,1L63_A
+708,1L63,807,72,A,D,P,0.4028045353682493,2.7,'involves proline' 'buried',1L63_A,D72P,P404,Protherm*,1L63_A
+709,1L63,828,74,A,A,P,0.0397897313963371,4.6,'involves proline' 'buried',1L63_A,A74P,P404,Protherm*,1L63_A
+710,1L63,893,96,A,R,C,0.5050987075960601,2.9,'large to small' 'involves cysteine' 'surface',1L63_A,R96C,P404,Protherm*,1L63_A
+711,1L63,853,96,A,R,P,0.5050987075960601,5.5,'involves proline' 'surface',1L63_A,R96P,P404,Protherm*,1L63_A
+712,1LMB,975,78,4,P,A,0.3732978647648053,1.6,'involves proline' 'buried',1LMB_4,P78A,P404,Protherm*,1LMB_4
+713,1LVE,996,15,A,L,P,0.4662621928694905,1.5,'involves proline' 'buried',1LVE_A,L15P,P06312,Protherm*,1LVE_A
+714,1LVE,985,40,A,P,L,0.7248111962684513,1.7,'involves proline' 'surface',1LVE_A,P40L,P06312,Protherm*,1LVE_A
+715,1LVE,992,96,A,Y,P,0.5249745554492308,1.6,'involves proline' 'surface',1LVE_A,Y96P,P06312,Protherm*,1LVE_A
+716,1LZ1,1096,103,A,P,G,0.9155133933379608,0.0,'involves proline' 'surface',1LZ1_A,P103G,P61626,Protherm*,1LZ1_A
+717,1LZ1,1028,110,A,V,P,0.429976845773619,-2.4,'involves proline' 'buried',1LZ1_A,V110P,P61626,Protherm*,1LZ1_A
+718,1LZ1,1014,47,A,A,P,0.4133590833142452,-1.1,'involves proline' 'buried',1LZ1_A,A47P,P61626,Protherm*,1LZ1_A
+719,1LZ1,1085,71,A,P,G,0.6212866656580578,1.2,'involves proline' 'surface',1LZ1_A,P71G,P61626,Protherm*,1LZ1_A
+720,1LZ1,1041,77,A,C,A,0.0685238261940037,4.6,'involves cysteine' 'buried',1LZ1_A,C77A,P61626,Protherm*,1LZ1_A
+721,1LZ1,1002,91,A,D,P,0.3922124042513316,0.8,'involves proline' 'buried',1LZ1_A,D91P,P61626,Protherm*,1LZ1_A
+722,1PGA,1204,10,A,K,P,0.9770109504512714,0.2,'involves proline' 'surface',1PGA_A,K10P,P06654,Protherm*,1PGA_A
+723,1PGA,1207,21,A,V,P,0.830759506612334,-0.5,'involves proline' 'surface',1PGA_A,V21P,P06654,Protherm*,1PGA_A
+724,1PGA,1173,23,A,A,P,0.0,0.3,'involves proline' 'buried',1PGA_A,A23P,P06654,Protherm*,1PGA_A
+725,1PGA,1177,24,A,A,P,0.4289453543404696,0.5,'involves proline' 'buried',1PGA_A,A24P,P06654,Protherm*,1PGA_A
+726,1PGA,1181,25,A,T,P,0.2720244621588961,2.8,'involves proline' 'buried',1PGA_A,T25P,P06654,Protherm*,1PGA_A
+727,1PGA,1205,26,A,A,P,0.0,3.4,'involves proline' 'buried',1PGA_A,A26P,P06654,Protherm*,1PGA_A
+728,1PGA,1185,29,A,V,P,0.3014247813337756,3.5,'involves proline' 'buried',1PGA_A,V29P,P06654,Protherm*,1PGA_A
+729,1PGA,1197,2,A,T,P,0.6209535436117567,2.7,'involves proline' 'surface',1PGA_A,T2P,P06654,Protherm*,1PGA_A
+730,1PGA,1189,36,A,D,P,0.6586343931888312,3.1,'involves proline' 'surface',1PGA_A,D36P,P06654,Protherm*,1PGA_A
+731,1PGA,1192,48,A,A,P,0.7701986230114706,0.7,'involves proline' 'surface',1PGA_A,A48P,P06654,Protherm*,1PGA_A
+732,1PGA,1199,53,A,T,C,0.3158169288339977,-0.78,'involves cysteine' 'buried',1PGA_A,T53C,P06654,Protherm*,1PGA_A
+733,1PGA,1200,9,A,G,P,0.0791718929681507,2.4,'involves proline' 'buried',1PGA_A,G9P,P06654,Protherm*,1PGA_A
+734,1PIN,1229,8,A,P,A,0.0214658331198275,0.965583173996176,'involves proline' 'buried',1PIN_A,P8A,Q13526,Protherm*,1PIN_A
+735,1PIN,1234,8,A,P,G,0.0214658331198275,0.915391969407266,'involves proline' 'buried',1PIN_A,P8G,Q13526,Protherm*,1PIN_A
+736,1PIN,1239,9,A,P,A,0.246057644279857,0.188814531548757,'involves proline' 'buried',1PIN_A,P9A,Q13526,Protherm*,1PIN_A
+737,1PIN,1244,9,A,P,G,0.246057644279857,0.492351816443595,'involves proline' 'buried',1PIN_A,P9G,Q13526,Protherm*,1PIN_A
+738,1QLP,1302,31,A,A,P,0.0,-2.5,'involves proline' 'buried',1QLP_A,A31P,P01009,Protherm*,1QLP_A
+739,1QLP,1277,51,A,F,C,0.0,-3.01,'large to small' 'involves cysteine' 'buried',1QLP_A,F51C,P01009,Protherm*,1QLP_A
+740,1RN1,1398,16,B,V,C,0.0,5.3,'involves cysteine' 'buried',1RN1_B,V16C,P404,Protherm*,1RN1_B
+741,1RN1,1426,21,B,A,C,0.4420946054762797,0.74,'involves cysteine' 'buried',1RN1_B,A21C,P404,Protherm*,1RN1_B
+742,1RN1,1425,39,B,P,A,0.0437097649307696,4.33,'involves proline' 'buried',1RN1_B,P39A,P404,Protherm*,1RN1_B
+743,1RN1,1420,73,B,P,V,0.2076291380524574,2.43785850860421,'involves proline' 'buried',1RN1_B,P73V,P404,Protherm*,1RN1_B
+744,1RN1,1399,78,B,V,C,0.0,3.67,'involves cysteine' 'buried',1RN1_B,V78C,P404,Protherm*,1RN1_B
+745,1RN1,1417,89,B,V,C,0.0138757692740939,3.54,'involves cysteine' 'buried',1RN1_B,V89C,P404,Protherm*,1RN1_B
+746,1ROP,1447,30,A,D,C,0.8978610684043312,-0.8,'involves cysteine' 'surface',1ROP_A,D30C,P03051,Protherm*,1ROP_A
+747,1STN,2064,105,A,R,C,0.314271522146741,2.7,'large to small' 'involves cysteine' 'buried',1STN_A,R105C,P00644,Protherm*,1STN_A
+748,1STN,2115,112,A,A,C,0.0525263197211055,0.8,'involves cysteine' 'buried',1STN_A,A112C,P00644,Protherm*,1STN_A
+749,1STN,2097,120,A,T,C,0.2695914628525459,1.7,'involves cysteine' 'buried',1STN_A,T120C,P00644,Protherm*,1STN_A
+750,1STN,2167,134,A,K,C,0.9998642793595948,0.7,'large to small' 'involves cysteine' 'surface',1STN_A,K134C,P00644,Protherm*,1STN_A
+751,1STN,1740,13,A,T,C,0.4724027782690527,1.4,'involves cysteine' 'buried',1STN_A,T13C,P00644,Protherm*,1STN_A
+752,1STN,1792,22,A,T,C,0.0346367203289055,0.9,'involves cysteine' 'buried',1STN_A,T22C,P00644,Protherm*,1STN_A
+753,1STN,2059,27,A,Y,C,0.1344799970216233,2.9,'large to small' 'involves cysteine' 'buried',1STN_A,Y27C,P00644,Protherm*,1STN_A
+754,1STN,1757,29,A,G,C,0.4777732568487516,1.1,'involves cysteine' 'buried',1STN_A,G29C,P00644,Protherm*,1STN_A
+755,1STN,1841,33,A,T,C,0.3200882302597649,1.2,'involves cysteine' 'buried',1STN_A,T33C,P00644,Protherm*,1STN_A
+756,1STN,1892,41,A,T,C,0.1001227317235234,-0.6,'involves cysteine' 'buried',1STN_A,T41C,P00644,Protherm*,1STN_A
+757,1STN,1945,44,A,T,C,0.1451972658450963,0.2,'involves cysteine' 'buried',1STN_A,T44C,P00644,Protherm*,1STN_A
+758,1STN,1809,50,A,G,C,0.3917634470405426,0.8,'involves cysteine' 'buried',1STN_A,G50C,P00644,Protherm*,1STN_A
+759,1STN,1859,57,A,E,C,0.456770370804946,0.7,'large to small' 'involves cysteine' 'buried',1STN_A,E57C,P00644,Protherm*,1STN_A
+760,1STN,1912,60,A,A,C,0.3641152569574014,1.2,'involves cysteine' 'buried',1STN_A,A60C,P00644,Protherm*,1STN_A
+761,1STN,1996,62,A,T,C,0.0,1.1,'involves cysteine' 'buried',1STN_A,T62C,P00644,Protherm*,1STN_A
+762,1STN,1963,70,A,K,C,1.2334607516317415,0.5,'large to small' 'involves cysteine' 'surface',1STN_A,K70C,P00644,Protherm*,1STN_A
+763,1STN,2014,78,A,K,C,0.7927684997717831,0.4,'large to small' 'involves cysteine' 'surface',1STN_A,K78C,P00644,Protherm*,1STN_A
+764,1STN,2046,82,A,T,C,0.5247417725420136,0.1,'involves cysteine' 'surface',1STN_A,T82C,P00644,Protherm*,1STN_A
+765,1SUP,2207,206,A,Q,C,0.3284247361117656,-1.25,'large to small' 'involves cysteine' 'buried',1SUP_A,Q206C,P00782,Protherm*,1SUP_A
+766,1TUP,2253,242,A,C,S,0.1193786542420274,2.94,'involves cysteine' 'buried',1TUP_A,C242S,P04637,Protherm*,1TUP_A
+767,1VQB,2338,19,A,V,C,0.570471033223506,0.3,'involves cysteine' 'surface',1VQB_A,V19C,P69543,Protherm*,1VQB_A
